@@ -15,7 +15,7 @@ install: [
 ]
 remove: ["ocamlfind" "remove" "z3"]
 depends: [
-  "ocamlfind"
+  "ocamlfind" {build}
   "base-num"
   "conf-gmp"
   # "conf-python"
