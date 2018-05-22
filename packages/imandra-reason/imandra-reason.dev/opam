@@ -16,5 +16,5 @@ depends: [
 ]
 homepage: "https://github.com/aestheticintegration/imandra-reason"
 bug-reports: "https://github.com/aestheticintegration/imandra-reason/issues"
-dev-repo: "https://github.com/aestheticintegration/imandra-reason.git"
+dev-repo: "git@github.com:aestheticintegration/imandra-reason.git"
 
