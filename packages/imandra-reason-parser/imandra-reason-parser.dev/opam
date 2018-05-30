@@ -12,9 +12,10 @@ depends: [
   "menhir" {>= "20170418" & <= "20171013"}
   "ocaml-migrate-parsetree"
   "ocaml-compiler-libs"
+  "uchar"
   "easy-format"
 ]
 homepage: "https://github.com/aestheticintegration/imandra-reason-parser"
 bug-reports: "https://github.com/aestheticintegration/imandra-reason-parser/issues"
-dev-repo: "git@github.com:aestheticintegration/imandra-reason-parser.git"
+dev-repo: "https://github.com/aestheticintegration/imandra-reason-parser.git"
 
