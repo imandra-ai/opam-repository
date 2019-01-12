@@ -1,10 +1,11 @@
-opam-version: "1.2"
+opam-version: "2.0"
 maintainer: "simon@aestheticintegration.com"
 authors: "MSR"
 homepage: "https://github.com/Z3prover/z3"
+synopsis: "OCaml bindings for the Z3 SMT solver"
 bug-reports: "https://github.com/Z3prover/z3/issues"
 license: "MIT"
-dev-repo: "https://github.com/Z3prover/z3.git"
+dev-repo: "git+https://github.com/Z3prover/z3.git"
 build: [
   [ "python" "scripts/mk_make.py" "--ml" ]
   [ make "-C" "build" "-j" jobs]
