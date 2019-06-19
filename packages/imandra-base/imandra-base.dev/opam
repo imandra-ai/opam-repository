@@ -12,20 +12,21 @@ build: [
 ]
 depends: [
   "ocamlfind"
-  "dune" {build}
+  "dune" {build & = "1.6.3" }
   "zarith"
   "containers" { = "2.3" }
   "ocaml-compiler-libs"
   "base-bytes"
   "camlzip"
   "num"
-  "curly"
+  "curly" { = "0.1.0" }
   "octavius" { = "1.2.0" }
   "linenoise"
-  "yojson"
+  "yojson" { = "1.4.1" }
   "uuidm" { = "0.9.6" }
   "sha"
   "imandra-reason-parser"
   "result" { = "1.3" }
+  "ocaml-migrate-parsetree" { = "1.1.0" }
   "ocaml" { >= "4.06" & < "4.07" }
 ]
