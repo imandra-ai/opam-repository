@@ -1,6 +1,6 @@
 opam-version: "2.0"
-name: "imandra-client"
-synopsis: "Imandra client"
+name: "imandra-base"
+synopsis: "Imandra base libraries"
 version: "1.0.3"
 maintainer: "Grant Passmore <grant@aestheticintegration.com>"
 authors: "Grant Passmore <grant@aestheticintegration.com>"
@@ -8,10 +8,23 @@ homepage: "http://www.imandra.ai/"
 bug-reports: "Grant Passmore <grant@aestheticintegration.com>"
 license: "Commercial/Restricted/Confidential"
 dev-repo: "git://github.com/AestheticIntegration/imandra.git"
-build: []
+build: [
+]
 depends: [
+  "ocamlfind"
   "dune" {build}
-  "imandra-base"
+  "zarith"
+  "containers"
+  "ocaml-compiler-libs"
+  "base-bytes"
+  "camlzip"
+  "num"
+  "curly"
+  "octavius"
+  "linenoise"
+  "yojson"
+  "uuidm"
+  "sha"
   "imandra-reason-parser"
   "ocaml" { >= "4.06" & < "4.07" }
 ]
