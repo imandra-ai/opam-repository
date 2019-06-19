@@ -1,8 +1,8 @@
 lib: [
-  "META" {"META"}
-  "opam" {"opam"}
-  "lib/imandra_client_lib.cmi" {"lib/imandra_client_lib.cmi"}
-  "lib/imandra_client_lib.cma" {"lib/imandra_client_lib.cma"}
-  "lib/imandra_client_lib__.cmi" {"lib/imandra_client_lib__.cmi"}
-  "lib/imandra_client_lib__Backend_dummy.cmi" {"lib/imandra_client_lib__Backend_dummy.cmi"}
+  "lib/imandra-client/META" {"META"}
+  "lib/imandra-client/opam" {"opam"}
+  "lib/imandra-client/lib/imandra_client_lib.cmi" {"lib/imandra_client_lib.cmi"}
+  "lib/imandra-client/lib/imandra_client_lib.cma" {"lib/imandra_client_lib.cma"}
+  "lib/imandra-client/lib/imandra_client_lib__.cmi" {"lib/imandra_client_lib__.cmi"}
+  "lib/imandra-client/lib/imandra_client_lib__Backend_dummy.cmi" {"lib/imandra_client_lib__Backend_dummy.cmi"}
 ]
