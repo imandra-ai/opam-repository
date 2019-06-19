@@ -14,17 +14,18 @@ depends: [
   "ocamlfind"
   "dune" {build}
   "zarith"
-  "containers"
+  "containers" { = "2.3" }
   "ocaml-compiler-libs"
   "base-bytes"
   "camlzip"
   "num"
   "curly"
-  "octavius"
+  "octavius" { = "1.2.0" }
   "linenoise"
   "yojson"
-  "uuidm"
+  "uuidm" { = "0.9.6" }
   "sha"
   "imandra-reason-parser"
+  "result" { = "1.3" }
   "ocaml" { >= "4.06" & < "4.07" }
 ]
