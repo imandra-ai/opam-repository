@@ -11,9 +11,6 @@ dev-repo: "git://github.com/AestheticIntegration/imandra.git"
 build: [
   "ls" "-al"
 ]
-extra-files: [
-  ["imandra_client_lib.cma" "0f0e2add06f3461905d4e4993d4f1efb"]
-]
 depends: [
   "dune" {build}
   "imandra-base"
