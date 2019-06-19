@@ -1,0 +1,7 @@
+lib: [
+  "lib/imandra-network/META" {"META"}
+  "lib/imandra-network/opam" {"opam"}
+]
+bin: [
+  "bin/imandra_network_client" {"imandra_network_client"}
+]
