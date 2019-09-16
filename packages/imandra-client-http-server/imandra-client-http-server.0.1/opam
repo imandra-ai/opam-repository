@@ -1,0 +1,16 @@
+opam-version: "2.0"
+name: "imandra-client-http-server"
+version: "0.1"
+maintainer: "Imandra Tech <tech@imandra.ai>"
+author: "Dave Aitken <dave@imandra.ai>"
+synopsis: "Http server for imandra"
+depends: [
+  "base64"
+  "cohttp"
+  "cohttp-lwt"
+  "cohttp-lwt-unix"
+  "containers"
+  "dune" {build}
+  "imandra-client"
+  "decoders-yojson"
+]

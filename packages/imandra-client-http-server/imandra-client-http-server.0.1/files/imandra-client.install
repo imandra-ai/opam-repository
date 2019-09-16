@@ -1,0 +1,3 @@
+bin: [
+  "bin/imandra_client_http_server"
+]
