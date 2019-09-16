@@ -22,7 +22,7 @@ build-test: [[ "ocaml" "pkg/pkg.ml" "build" "--pinned" "%{pinned}%" "--tests" "t
 depends: [
   "ocamlfind" {build}
   "ocamlbuild" {build}
-  "topkg" {build}
+  "topkg" {build & = "1.0.0"}
   "cpuid" {build}
   "ocb-stubblr" {build}
   "ounit" {test}

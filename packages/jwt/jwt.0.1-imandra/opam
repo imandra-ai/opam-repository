@@ -8,6 +8,6 @@ depends: [
   "base64" {= "3.2.0"}
   "yojson"
   "cryptokit"
-  "nocrypto"
+  "nocrypto" {= "0.5.4-1.1"}
   "re"
 ]
