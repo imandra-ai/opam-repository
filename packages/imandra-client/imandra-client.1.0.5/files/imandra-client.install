@@ -4,3 +4,7 @@ lib: [
   "lib/imandra-client/lib/imandra_client_lib.cmi" {"lib/imandra_client_lib.cmi"}
   "lib/imandra-client/lib/imandra_client_lib.cma" {"lib/imandra_client_lib.cma"}
 ]
+
+bin: [
+  "bin/imandra_client"
+]
