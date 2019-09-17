@@ -56,7 +56,7 @@ depends: [
   "menhir" {= "20171013"}
   "mirage-no-solo5" {= "1"}
   "mirage-no-xen" {= "1"}
-  "nocrypto" {= "0.5.4-1.1"}
+  "nocrypto" {= "0.5.4-1-imandra"}
   "num" {= "1.2"}
   "ocaml" {= "4.06.1"}
   "ocaml-base-compiler" {= "4.06.1"}
