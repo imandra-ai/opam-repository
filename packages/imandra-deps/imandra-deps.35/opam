@@ -54,6 +54,7 @@ depends: [
   "macaddr" {= "3.1.0"}
   "magic-mime" {= "1.1.2"}
   "menhir" {= "20171013"}
+  "merlin-extend" {= "0.5"}
   "mirage-no-solo5" {= "1"}
   "mirage-no-xen" {= "1"}
   "nocrypto" {= "0.5.4-1-imandra"}
