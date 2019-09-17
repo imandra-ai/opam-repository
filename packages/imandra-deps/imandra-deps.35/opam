@@ -4,6 +4,9 @@ version: "35"
 maintainer: "Imandra Tech <tech@imandra.ai>"
 synopsis: "deps meta package"
 depends: [
+  "atd" {= "2.0.0"}
+  "atdgen" {= "2.0.0"}
+  "atdgen-runtime" {= "2.0.0"}
   "astring" {= "0.8.3"}
   "base" {= "v0.12.2"}
   "base-bigarray" {= "base"}
