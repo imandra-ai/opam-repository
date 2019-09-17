@@ -65,7 +65,7 @@ depends: [
   "magic-mime" {= "1.1.2"}
   "menhir" {= "20171013"}
   "merlin" {= "3.3.2"}
-  "merlin-extend" {= "0.5"}
+  "merlin-extend" {= "0.3"}
   "mirage-no-solo5" {= "1"}
   "mirage-no-xen" {= "1"}
   "nocrypto" {= "0.5.4-1-imandra"}
