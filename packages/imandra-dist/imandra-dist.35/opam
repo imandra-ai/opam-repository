@@ -11,6 +11,7 @@ depends: [
   "imandra-cmd" {= "0.1"}
   "imandra-deps" {= "35"}
   "imandra-network" {= "0.1"}
+  "imandra-stdlib" {= "0.1"}
   "imandra-reason-parser" {= "0.1"}
   "imandra-tools" {= "2.0.0"}
 ]
