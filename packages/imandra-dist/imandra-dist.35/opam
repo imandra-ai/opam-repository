@@ -16,5 +16,6 @@ depends: [
   "imandra-reason-parser" {= "0.1"}
   "imandra-tools" {= "2.0.0"}
   "imandra-vscode-server" {= "1.0.4"}
+  "jupyter-imandra" {= "0.0.1"}
 ]
 authors: "Imandra Tech <tech@imandra.ai>"

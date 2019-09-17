@@ -4,10 +4,11 @@ version: "35"
 maintainer: "Imandra Tech <tech@imandra.ai>"
 synopsis: "deps meta package"
 depends: [
+  "ISO8601" {= "0.2.6"}
+  "astring" {= "0.8.3"}
   "atd" {= "2.0.0"}
   "atdgen" {= "2.0.0"}
   "atdgen-runtime" {= "2.0.0"}
-  "astring" {= "0.8.3"}
   "base" {= "v0.12.2"}
   "base-bigarray" {= "base"}
   "base-bytes" {= "base"}
@@ -32,6 +33,7 @@ depends: [
   "conf-pkg-config" {= "1.1"}
   "conf-which" {= "1"}
   "conf-zlib" {= "1"}
+  "conf-zmq" {= "0.1"}
   "containers" {= "2.6.1"}
   "cppo" {= "1.6.6"}
   "cpuid" {= "0.1.1"}
@@ -41,18 +43,23 @@ depends: [
   "curly" {= "0.1.0"}
   "decoders" {= "0.2.0"}
   "decoders-yojson" {= "0.2.0"}
+  "digestif" {= "0.7.1"}
   "dune" {= "1.6.3"}
   "easy-format" {= "1.3.1"}
+  "eqaf" {= "0.5"}
   "fieldslib" {= "v0.12.0"}
   "fmt" {= "0.8.8"}
   "gsl" {= "1.24.0"}
   "ipaddr" {= "3.1.0"}
   "jbuilder" {= "transition"}
   "jsonm" {= "1.0.1"}
+  "jupyter-kernel" {= "0.4"}
   "jwt" {= "0.1-imandra"}
   "linenoise" {= "1.3.0"}
   "logs" {= "0.7.0"}
   "lwt" {= "3.3.0"}
+  "lwt-zmq" {= "2.1.0"}
+  "lwt_ppx" {= "1.2.2"}
   "lwt_ssl" {= "1.1.3"}
   "macaddr" {= "3.1.0"}
   "magic-mime" {= "1.1.2"}
@@ -87,6 +94,7 @@ depends: [
   "sexplib0" {= "v0.12.0"}
   "sha" {= "1.12"}
   "ssl" {= "0.5.9"}
+  "stdint" {= "0.5.1"}
   "stdio" {= "v0.12.0"}
   "stdlib-shims" {= "0.1.0"}
   "stringext" {= "1.6.0"}
@@ -101,5 +109,6 @@ depends: [
   "websocket-lwt" {= "2.11-imandra"}
   "yojson" {= "1.7.0"}
   "zarith" {= "1.9.1"}
+  "zmq" {= "4.0-8"}
 ]
 authors: "Imandra Tech <tech@imandra.ai>"

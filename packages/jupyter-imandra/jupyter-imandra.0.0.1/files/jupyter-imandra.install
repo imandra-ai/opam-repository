@@ -1,0 +1,28 @@
+lib: [
+  "lib/jupyter-imandra/META" {"META"}
+  "lib/jupyter-imandra/jupyter_imandra.cma" {"jupyter_imandra.cma"}
+  "lib/jupyter-imandra/jupyter_imandra.cmi" {"jupyter_imandra.cmi"}
+  "lib/jupyter-imandra/jupyter_imandra__Decompose_render.cmi" {"jupyter_imandra__Decompose_render.cmi"}
+  "lib/jupyter-imandra/jupyter_imandra__Doc_render.cmi" {"jupyter_imandra__Doc_render.cmi"}
+  "lib/jupyter-imandra/opam" {"opam"}
+]
+bin: [
+  "bin/jymandra" {"jymandra"}
+]
+share: [
+  "share/jupyter/kernelspec/imandra-reason/kernel.json" {"kernelspec/imandra-reason/kernel.json"}
+  "share/jupyter/kernelspec/imandra/kernel.json" {"kernelspec/imandra/kernel.json"}
+  "share/jupyter/nbextensions/nbimandra/setup.py" {"nbextensions/nbimandra/setup.py"}
+  "share/jupyter/nbextensions/nbimandra/nbimandra/__init__.py" {"nbextensions/nbimandra/nbimandra/__init__.py"}
+  "share/jupyter/nbextensions/nbimandra/nbimandra/static/regions.js" {"nbextensions/nbimandra/nbimandra/static/regions.js"}
+  "share/jupyter/nbextensions/nbimandra/nbimandra/static/styles.css" {"nbextensions/nbimandra/nbimandra/static/styles.css"}
+  "share/jupyter/nbextensions/nbimandra/nbimandra/static/graphviz.js" {"nbextensions/nbimandra/nbimandra/static/graphviz.js"}
+  "share/jupyter/nbextensions/nbimandra/nbimandra/static/regions-styles.js" {"nbextensions/nbimandra/nbimandra/static/regions-styles.js"}
+  "share/jupyter/nbextensions/nbimandra/nbimandra/static/main.js" {"nbextensions/nbimandra/nbimandra/static/main.js"}
+  "share/jupyter/nbextensions/nbimandra/nbimandra/static/fold.js" {"nbextensions/nbimandra/nbimandra/static/fold.js"}
+  "share/jupyter/nbextensions/nbimandra/nbimandra/static/lib/svg-pan-zoom.js" {"nbextensions/nbimandra/nbimandra/static/lib/svg-pan-zoom.js"}
+  "share/jupyter/nbextensions/nbimandra/nbimandra/static/lib/carrotsearch.foamtree.js" {"nbextensions/nbimandra/nbimandra/static/lib/carrotsearch.foamtree.js"}
+  "share/jupyter/nbextensions/nbimandra/nbimandra/static/lib/viz-js/viz.js" {"nbextensions/nbimandra/nbimandra/static/lib/viz-js/viz.js"}
+  "share/jupyter/nbextensions/nbimandra/nbimandra/static/lib/viz-js/full.render.js" {"nbextensions/nbimandra/nbimandra/static/lib/viz-js/full.render.js"}
+  "share/jupyter/nbextensions/nbimandra/nbimandra/static/alternatives.js" {"share/jupyter/nbextensions/nbimandra/nbimandra/static/alternatives.js"}
+]
