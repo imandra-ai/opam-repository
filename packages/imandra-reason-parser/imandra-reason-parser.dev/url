@@ -1,1 +1,1 @@
-src: "https://github.com/AestheticIntegration/imandra-reason-parser.git"
+src: "git+https://github.com/AestheticIntegration/imandra-reason-parser.git"
