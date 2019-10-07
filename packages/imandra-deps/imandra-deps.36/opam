@@ -1,6 +1,6 @@
 opam-version: "2.0"
 name: "imandra-deps"
-version: "35"
+version: "36"
 maintainer: "Imandra Tech <tech@imandra.ai>"
 synopsis: "deps meta package"
 depends: [
@@ -44,7 +44,7 @@ depends: [
   "decoders" {= "0.2.0"}
   "decoders-yojson" {= "0.2.0"}
   "digestif" {= "0.7.1"}
-  "dune" {= "1.8.0"}
+  "dune" {= "1.11.0"}
   "dune-configurator" {= "1.0.0"}
   "easy-format" {= "1.3.1"}
   "eqaf" {= "0.5"}
@@ -83,7 +83,6 @@ depends: [
   "ocb-stubblr" {= "0.1.1-1"}
   "ocplib-endian" {= "1.0"}
   "octavius" {= "1.2.1"}
-  "opam-depext" {= "1.1.3-imandra"}
   "parsexp" {= "v0.12.0"}
   "ppx_derivers" {= "1.2.1"}
   "ppx_fields_conv" {= "v0.12.0"}
