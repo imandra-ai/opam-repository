@@ -1,0 +1,17 @@
+opam-version: "2.0"
+name: "imandra-merlin"
+version: "0.2-487.3e17ec159278a6354f5c5d127d439e9c2038562a"
+author: "Simon Cruanes"
+maintainer: "simon@aestheticintegration.com"
+synopsis: "A reader using merlin-extend for Imandra's syntax"
+license: "MIT"
+depends: [
+  "dune" {build}
+  "merlin-extend"
+  "ocaml-migrate-parsetree"
+  "imandra-base"
+  "imandra-reason-parser"
+]
+homepage: "https://github.com/aestheticintegration/imandra-merlin"
+bug-reports: "https://github.com/aestheticintegration/imandra-merlin/issues"
+dev-repo: "git+https://github.com/aestheticintegration/imandra-merlin.git"

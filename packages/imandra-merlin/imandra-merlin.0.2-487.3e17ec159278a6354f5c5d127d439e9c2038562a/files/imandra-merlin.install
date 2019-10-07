@@ -1,0 +1,4 @@
+bin: [
+"bin/ocamlmerlin-imandra" {"ocamlmerlin-imandra"}
+"bin/ocamlmerlin-imandra-reason" {"ocamlmerlin-imandra-reason"}
+]
