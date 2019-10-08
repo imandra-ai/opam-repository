@@ -1,0 +1,18 @@
+opam-version: "2.0"
+name: "imandra-base-bin"
+synopsis: "Imandra base binaries"
+version: "1.0.5-489.f1968d805538ff80fe550519749be3565d1b0735"
+maintainer: "Grant Passmore <grant@aestheticintegration.com>"
+authors: "Grant Passmore <grant@aestheticintegration.com>"
+homepage: "http://www.imandra.ai/"
+bug-reports: "Grant Passmore <grant@aestheticintegration.com>"
+license: "Commercial/Restricted/Confidential"
+dev-repo: "git://github.com/AestheticIntegration/imandra.git"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+depends: [
+  "imandra-base"
+  "dune" {build}
+  "ocaml" { >= "4.06" & < "4.07" }
+]
