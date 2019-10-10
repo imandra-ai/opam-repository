@@ -1,0 +1,26 @@
+opam-version: "2.0"
+name: "jupyter-imandra"
+version: "0.0.2"
+synopsis: "A very simple Jupyter kernel for Imandra"
+maintainer: "Simon Cruanes <simon@aestheticintegration.com>"
+authors: ["Simon Cruanes <simon@aestheticintegration.com>" "Kostya"]
+homepage: "http://www.imandra.ai/"
+bug-reports: "Simon <simon@aestheticintegration.com>"
+license: "Commercial/Restricted/Confidential"
+dev-repo: "git+https://github.com/AestheticIntegration/jupyter_imandra.git"
+build: [
+  ["dune" "build" "@install" "-p" name "-j" jobs]
+]
+depends: [
+  "dune" {build}
+  "base-bytes" {build}
+  "ocaml-compiler-libs" {build}
+  "containers"
+  "imandra-client" {build}
+  "jupyter-kernel" {build}
+  "tyxml"
+  "curly" {build}
+  "octavius" {build}
+  "uuidm"
+  "imandra-tools"
+]
