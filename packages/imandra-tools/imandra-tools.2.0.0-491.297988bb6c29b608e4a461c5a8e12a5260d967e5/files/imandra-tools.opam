@@ -1,0 +1,23 @@
+opam-version: "2.0"
+name: "imandra-tools"
+version: "2.0.0-491.297988bb6c29b608e4a461c5a8e12a5260d967e5"
+maintainer: "Nicola Mometto <nicola@imandra.ai>"
+authors: ["Nicola Mometto <nicola@imandra.ai>" "Kostya" "Dave Aitken <dave@imandra.ai>"]
+homepage: "http://www.imandra.ai/"
+synopsis: "Tooling libraries on top of imandra"
+bug-reports: "Imandra-tech <tech@imandra.ai>"
+license: "Commercial/Restricted/Confidential"
+dev-repo: "git+https://github.com/AestheticIntegration/imandra-tools.git"
+depends: [
+  "ocamlfind" {build}
+  "dune" {build}
+  "imandra-base"
+  "containers"
+  "ocamlgraph"
+  "zarith"
+  "uuidm"
+  "yojson"
+  "gsl"
+  "nocrypto"
+  "csv"
+]
