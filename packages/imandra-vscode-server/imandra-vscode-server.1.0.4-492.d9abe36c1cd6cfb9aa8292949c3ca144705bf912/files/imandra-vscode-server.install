@@ -1,0 +1,3 @@
+bin: [
+"bin/imandra-vscode-server" {"imandra-vscode-server"}
+]
