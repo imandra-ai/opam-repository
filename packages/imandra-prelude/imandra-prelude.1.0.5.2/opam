@@ -1,0 +1,18 @@
+opam-version: "2.0"
+name: "imandra-prelude"
+synopsis: "Standalone version of Imandra's prelude"
+version: "1.0.5.2"
+maintainer: "Grant Passmore <grant@aestheticintegration.com>"
+authors: "Grant Passmore <grant@aestheticintegration.com>"
+homepage: "http://www.imandra.ai/"
+bug-reports: "Grant Passmore <grant@aestheticintegration.com>"
+license: "Apache 2"
+dev-repo: "git+https://github.com/AestheticIntegration/imandra-prelude"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+depends: [
+  "dune" {build}
+  "zarith"
+  "containers"
+]
