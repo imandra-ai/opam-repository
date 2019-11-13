@@ -1,0 +1,14 @@
+opam-version: "2.0"
+name: "imandra_voronoi"
+version: "0.0.1-502.22b3c3702a5479c4e445dc5aac7850c834875232"
+synopsis: "A voronoi viewer for Imandra regions"
+maintainer: "Nicola Mometto <nicola@imandra.ai>"
+authors: ["Nicola Mometto <nicola@imandra.ai>"]
+homepage: "http://www.imandra.ai/"
+bug-reports: "Simon <simon@aestheticintegration.com>"
+license: "Commercial/Restricted/Confidential"
+dev-repo: "git+https://github.com/AestheticIntegration/imandra_voronoi.git"
+depends: [
+  "dune" {build}
+  "jupyter-imandra"
+]
