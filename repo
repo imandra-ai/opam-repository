@@ -1,2 +1,3 @@
 upstream: "https://github.com/aestheticintegration/opam-repository/tree/master/"
 browse: "https://github.com/aestheticintegration/opam-repository"
+opam-version: "2.0"
