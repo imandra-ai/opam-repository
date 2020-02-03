@@ -9,7 +9,7 @@ patches: [
   "fix-build.patch"
 ]
 build: [
-  [ "python2.7" "scripts/mk_make.py" "--ml" "--staticlib" ]
+  [ "python2.7" "scripts/mk_make.py" "--ml" ]
   [ make "-C" "build" "-j" jobs ]
 ]
 install: [
