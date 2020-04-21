@@ -1,0 +1,25 @@
+opam-version: "2.0"
+name: "imandra-dist"
+version: "524.915a4b534432b2f24e86663f10eff36d4ddac730"
+maintainer: "Imandra Tech <tech@imandra.ai>"
+synopsis: "dist meta package"
+depends: [
+  "imandra-auth-lib" {= "0.1-524.915a4b534432b2f24e86663f10eff36d4ddac730"}
+  "imandra-base" {= "1.0.5-524.915a4b534432b2f24e86663f10eff36d4ddac730"}
+  "imandra-base-bin" {= "1.0.5-524.915a4b534432b2f24e86663f10eff36d4ddac730"}
+  "imandra-client" {= "1.0.5-524.915a4b534432b2f24e86663f10eff36d4ddac730"}
+  "imandra-client-bin" {= "1.0.5-524.915a4b534432b2f24e86663f10eff36d4ddac730"}
+  "imandra-client-http-server" {= "0.1"}
+  "imandra-cmd" {= "0.1-524.915a4b534432b2f24e86663f10eff36d4ddac730"}
+  "imandra-deps" {= "41"}
+  "imandra-merlin" {= "0.2-524.915a4b534432b2f24e86663f10eff36d4ddac730"}
+  "imandra-network" {= "0.1-524.915a4b534432b2f24e86663f10eff36d4ddac730"}
+  "imandra-prelude" {= "1.0.5.4"}
+  "imandra-stdlib" {= "0.1"}
+  "imandra-reason-parser" {= "0.2"}
+  "imandra-tools" {= "2.0.0-524.915a4b534432b2f24e86663f10eff36d4ddac730"}
+  "imandra-voronoi" {= "0.0.1-524.915a4b534432b2f24e86663f10eff36d4ddac730"}
+  "imandra-vscode-server" {= "1.0.4-524.915a4b534432b2f24e86663f10eff36d4ddac730"}
+  "jupyter-imandra" {= "0.0.4"}
+]
+authors: "Imandra Tech <tech@imandra.ai>"
