@@ -1,6 +1,6 @@
 opam-version: "2.0"
 name: "jupyter-imandra"
-version: "0.0.3"
+version: "0.0.4"
 synopsis: "A very simple Jupyter kernel for Imandra"
 maintainer: "Simon Cruanes <simon@aestheticintegration.com>"
 authors: ["Simon Cruanes <simon@aestheticintegration.com>" "Kostya"]
