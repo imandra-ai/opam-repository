@@ -1,0 +1,19 @@
+opam-version: "2.0"
+name: "imandra-vscode-server"
+synopsis: "Imandra vscode server"
+version: "1.0.4-526.4a65450264504d108efc23c50f8ce978af3a2c02"
+maintainer: "Grant Passmore <grant@aestheticintegration.com>"
+authors: "Grant Passmore <grant@aestheticintegration.com>"
+homepage: "http://www.imandra.ai/"
+bug-reports: "Grant Passmore <grant@aestheticintegration.com>"
+license: "Commercial/Restricted/Confidential"
+dev-repo: "git://github.com/AestheticIntegration/imandra.git"
+depends: [
+  "dune" {build}
+  "imandra-base"
+  "imandra-client"
+  "yojson"
+  "atdgen"
+  "imandra-reason-parser"
+  "ocaml" { >= "4.06" & < "4.07" }
+]
