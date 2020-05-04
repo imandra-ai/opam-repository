@@ -1,0 +1,21 @@
+opam-version: "2.0"
+name: "imandra-cmd"
+version: "0.1-528.a98b31073de31fe48d1dc29375b88334f11f60d3"
+maintainer: "Nicola Mometto <nicola@imandra.ai>"
+synopsis: "Imandra commander"
+author: "Nicola Mometto <nicola@imandra.ai>"
+depends: [
+  "containers"
+  "dune" {build}
+  "lwt"
+  "base64"
+  "sha"
+  "cohttp-lwt-unix"
+  "tyxml"
+  "decoders-yojson"
+  "uuidm"
+  "lwt_ssl"
+  "imandra-auth-lib"
+]
+homepage: "https://github.com/AestheticIntegration/imandra-auth-lib"
+bug-reports: "https://github.com/AestheticIntegration/imandra-auth-lib/issues"
