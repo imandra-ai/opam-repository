@@ -1,4 +1,4 @@
-OBopam-version: "2.0"
+opam-version: "2.0"
 name: "imandra-deps"
 version: "43"
 maintainer: "Imandra Tech <tech@imandra.ai>"
