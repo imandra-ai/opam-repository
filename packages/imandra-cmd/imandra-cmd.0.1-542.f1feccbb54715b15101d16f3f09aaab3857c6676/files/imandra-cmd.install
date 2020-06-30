@@ -1,0 +1,3 @@
+bin: [
+"bin/imandra_cmd" {"imandra_cmd"}
+]
