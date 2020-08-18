@@ -24,7 +24,6 @@ depends: [
   "topkg" {build & = "1.0.0"}
   "cpuid" {build}
   "ocb-stubblr" {build}
-  "ounit" {test}
   "cstruct" {>="3.0.0" & <"3.4.0"}
   "ocplib-endian"
   "zarith"
