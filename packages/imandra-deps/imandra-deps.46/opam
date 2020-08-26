@@ -80,7 +80,7 @@ depends: [
   "ocaml-migrate-parsetree" {= "1.7.3"}
   "ocamlbuild" {= "0.14.0"}
   "ocamlfind" {= "1.8.1"}
-  "ocamlgraph" {= "1.8.8-imandra"}
+  "ocamlgraph" {= "1.8.8"}
   "ocb-stubblr" {= "0.1.1-1"}
   "ocplib-endian" {= "1.0"}
   "octavius" {= "1.2.1"}
