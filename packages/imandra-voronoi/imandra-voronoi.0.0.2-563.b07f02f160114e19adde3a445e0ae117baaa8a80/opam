@@ -67,7 +67,7 @@ depends: [
   "ocaml-migrate-parsetree" {= "1.7.3"}
   "ocamlbuild" {= "0.14.0"}
   "ocamlfind" {= "1.8.1"}
-  "ocamlgraph" {= "1.8.8"}
+  "ocamlgraph" {= "1.8.8-imandra"}
   "ocplib-endian" {= "1.0"}
   "octavius" {= "1.2.1"}
   "ppx_derivers" {= "1.2.1"}
