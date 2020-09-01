@@ -22,7 +22,7 @@ tags: [
   "imperative"
 ]
 build: [
-  ["./configure"]
+  ["/bin/sh" "./configure"]
   [make]
 ]
 install: [make "install-findlib"]
