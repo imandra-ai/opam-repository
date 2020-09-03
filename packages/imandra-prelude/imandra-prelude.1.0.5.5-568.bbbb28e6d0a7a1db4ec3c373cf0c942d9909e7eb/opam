@@ -1,0 +1,28 @@
+opam-version: "2.0"
+name: "imandra-prelude"
+synopsis: "Standalone version of Imandra's prelude"
+version: "1.0.5.5-568.bbbb28e6d0a7a1db4ec3c373cf0c942d9909e7eb"
+maintainer: "Grant Passmore <grant@aestheticintegration.com>"
+authors: "Grant Passmore <grant@aestheticintegration.com>"
+homepage: "http://www.imandra.ai/"
+bug-reports: "Grant Passmore <grant@aestheticintegration.com>"
+license: "Apache 2"
+dev-repo: "git+https://github.com/AestheticIntegration/imandra-prelude"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+depends: [
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "conf-gmp" {= "1"}
+  "conf-m4" {= "1"}
+  "conf-perl" {= "1"}
+  "containers" {= "2.8"}
+  "dune" {= "2.6.0"}
+  "dune-configurator" {= "2.6.0"}
+  "dune-private-libs" {= "2.6.0"}
+  "ocaml" {= "4.08.1"}
+  "ocamlfind" {= "1.8.1"}
+  "seq" {= "0.2.2"}
+  "zarith" {= "1.9.1"}
+]
