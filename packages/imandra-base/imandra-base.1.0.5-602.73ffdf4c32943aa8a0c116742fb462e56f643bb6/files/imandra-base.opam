@@ -1,0 +1,33 @@
+opam-version: "2.0"
+name: "imandra-base"
+synopsis: "Imandra base libraries"
+version: "1.0.5-602.73ffdf4c32943aa8a0c116742fb462e56f643bb6"
+maintainer: "Grant Passmore <grant@aestheticintegration.com>"
+authors: "Grant Passmore <grant@aestheticintegration.com>"
+homepage: "http://www.imandra.ai/"
+bug-reports: "Grant Passmore <grant@aestheticintegration.com>"
+license: "Commercial/Restricted/Confidential"
+dev-repo: "git://github.com/AestheticIntegration/imandra.git"
+depends: [
+  "ocamlfind"
+  "dune" { >= "1.1" }
+  "zarith"
+  "containers" { >= "3.0" & < "4.0" }
+  "ocaml-compiler-libs"
+  "base-bytes"
+  "camlzip"
+  "curly"
+  "octavius"
+  "linenoise"
+  "tyxml"
+  "yojson" { >= "1.6" }
+  "uuidm"
+  "sha"
+  "zmq" { >= "5.1" & < "6.0" }
+  "ptime" { >= "0.8" }
+  "ocplib-endian"
+  "msgpck" { >= "1.4" }
+  "base64" { >= "3.2.0" & < "4.0.0" }
+  "imandra-reason-parser"
+  "ocaml" { >= "4.08" & < "4.09" }
+]
