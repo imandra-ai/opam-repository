@@ -1,0 +1,16 @@
+opam-version: "2.0"
+name: "imandra-client"
+synopsis: "Imandra client"
+version: "1.0.5-612.5c48df6bbdc9197c32b8f56ecebdfd8c6b19153e"
+maintainer: "Grant Passmore <grant@aestheticintegration.com>"
+authors: "Grant Passmore <grant@aestheticintegration.com>"
+homepage: "http://www.imandra.ai/"
+bug-reports: "Grant Passmore <grant@aestheticintegration.com>"
+license: "Commercial/Restricted/Confidential"
+dev-repo: "git://github.com/AestheticIntegration/imandra.git"
+depends: [
+  "dune" {build}
+  "imandra-base"
+  "imandra-reason-parser"
+  "ocaml" { >= "4.08" & < "4.09" }
+]
