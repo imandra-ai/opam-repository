@@ -1,0 +1,28 @@
+opam-version: "2.0"
+name: "imandra-network"
+version: "0.1-615.e44cbaca9ba7a7d4ea8ec07b3b2014c6c385602b"
+maintainer: "Nicola Mometto <nicola@imandra.ai>"
+synopsis: "Network client for imandra"
+author: "Nicola Mometto <nicola@imandra.ai>"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+depends: [
+  "base64" {>= "3.1.0"}
+  "containers"
+  "dune" {build}
+  "imandra-base"
+  "logs"
+  "decoders-yojson"
+  "sha"
+  "tyxml"
+  "uri"
+  "websocket-lwt-unix"
+  "yojson"
+  "ptime"
+  "imandra-auth-lib"
+  "odoc" {with-doc}
+  "ocaml" { >= "4.03.0" }
+]
+homepage: "https://github.com/AestheticIntegration/imandra-network"
+bug-reports: "https://github.com/AestheticIntegration/imandra-network/issues"

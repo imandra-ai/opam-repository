@@ -1,0 +1,20 @@
+opam-version: "2.0"
+name: "imandra-stdlib"
+synopsis: "This library contains source files for basic data structures and algorithms for Imandra"
+version: "0.1-615.e44cbaca9ba7a7d4ea8ec07b3b2014c6c385602b"
+authors: ["Grant Passmore" "Simon Cruanes"]
+maintainer: "simon@aestheticintegration.com"
+license: "BSD-2-clauses"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+depends: [
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "dune" {= "2.6.0"}
+  "ocaml" {= "4.08.1"}
+]
+homepage: "https://github.com/AestheticIntegration/imandra-stdlib"
+doc: "https://AestheticIntegration.github.io/imandra-stdlib/"
+bug-reports: "https://github.com/AestheticIntegration/imandra-stdlib/issues"
+dev-repo: "git+https://github.com/AestheticIntegration/imandra-stdlib.git"
