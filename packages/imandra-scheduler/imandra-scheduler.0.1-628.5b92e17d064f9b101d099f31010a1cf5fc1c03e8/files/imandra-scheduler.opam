@@ -1,0 +1,13 @@
+opam-version: "2.0"
+name: "imandra-scheduler"
+version: "0.1-628.5b92e17d064f9b101d099f31010a1cf5fc1c03e8"
+maintainer: "Ewen Maclean <ewen@imandra.ai>"
+synopsis: "Imandra Scheduler"
+author: "Ewen Maclean <ewen@imandra.ai>"
+depends: [
+  "containers"
+  "dune" {build}
+  "imandra-base"
+]
+homepage: "https://github.com/AestheticIntegration/imandra-scheduler"
+bug-reports: "https://github.com/AestheticIntegration/imandra-scheduler/issues"

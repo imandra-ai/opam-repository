@@ -1,0 +1,14 @@
+opam-version: "2.0"
+name: "imandra-tools-ast"
+version: "3.0.0-628.5b92e17d064f9b101d099f31010a1cf5fc1c03e8"
+maintainer: "Nicola Mometto <nicola@imandra.ai>"
+authors: ["Nicola Mometto <nicola@imandra.ai>" "Kostya" "Dave Aitken <dave@imandra.ai>"]
+homepage: "http://www.imandra.ai/"
+synopsis: "Untyped AST"
+bug-reports: "Imandra-tech <tech@imandra.ai>"
+license: "Commercial/Restricted/Confidential"
+dev-repo: "git+https://github.com/AestheticIntegration/imandra-tools.git"
+depends: [
+  "dune" {build}
+  "zarith"
+]
