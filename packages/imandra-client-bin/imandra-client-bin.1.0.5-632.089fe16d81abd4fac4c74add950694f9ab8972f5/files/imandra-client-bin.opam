@@ -1,0 +1,17 @@
+opam-version: "2.0"
+name: "imandra-client-bin"
+synopsis: "Imandra client binary"
+version: "1.0.5-632.089fe16d81abd4fac4c74add950694f9ab8972f5"
+maintainer: ["The Imandra team <tech@imandra.ai>"]
+authors: ["The Imandra team <tech@imandra.ai>"]
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+depends: [
+  "dune" {build}
+  "imandra-base" {= version}
+  "imandra-client" {= version}
+]
