@@ -1,0 +1,6 @@
+lib: [
+"lib/imandra-tef/imandra_tef.cma" {"imandra_tef.cma"}
+"lib/imandra-tef/META" {"META"}
+"lib/imandra-tef/imandra_tef.cmi" {"imandra_tef.cmi"}
+"lib/imandra-tef/imandra_tef__TEF.cmi" {"imandra_tef__TEF.cmi"}
+]
