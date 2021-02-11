@@ -1,0 +1,21 @@
+opam-version: "2.0"
+version: "1.0.5-634.c97daad2df2c373c9ed77331b3b984781b9bd878"
+synopsis: "Profiling interface for Imandra"
+maintainer: ["The Imandra team <tech@imandra.ai>"]
+authors: ["The Imandra team <tech@imandra.ai>"]
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "ocamlfind"
+  "dune" {>= "2.5"}
+  "containers" {>= "3.0" & < "4.0"}
+  "yojson" {>= "1.6"}
+  "zmq" {>= "5.1" & < "6.0"}
+  "msgpck" {>= "1.4"}
+  "base64" {>= "3.2.0" & < "4.0.0"}
+  "ptime" {>= "0.8"}
+  "imandra-util" {= version}
+  "ocaml" {>= "4.08" & < "4.09"}
+  "qtest" {with-test & >= "2.10"}
+]
