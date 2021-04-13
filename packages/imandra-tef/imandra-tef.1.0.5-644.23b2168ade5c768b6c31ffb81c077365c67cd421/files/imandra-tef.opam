@@ -1,0 +1,19 @@
+opam-version: "2.0"
+version: "1.0.5-644.23b2168ade5c768b6c31ffb81c077365c67cd421"
+synopsis: "Profiler backend for Imandra using ZMQ and a rust logger"
+maintainer: ["The Imandra team <tech@imandra.ai>"]
+authors: ["The Imandra team <tech@imandra.ai>"]
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "ocamlfind"
+  "dune" {>= "2.5"}
+  "containers" {>= "3.0" & < "4.0"}
+  "zmq" {>= "5.1" & < "6.0"}
+  "ptime" {>= "0.8"}
+  "yojson" {>= "1.6"}
+  "imandra-util" {= version}
+  "ocaml" {>= "4.08" & < "4.09"}
+  "qtest" {with-test & >= "2.10"}
+]
