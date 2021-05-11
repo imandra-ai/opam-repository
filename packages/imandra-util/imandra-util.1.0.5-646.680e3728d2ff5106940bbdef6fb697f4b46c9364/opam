@@ -1,0 +1,38 @@
+opam-version: "2.0"
+version: "1.0.5-646.680e3728d2ff5106940bbdef6fb697f4b46c9364"
+synopsis: "Imandra utils"
+maintainer: ["The Imandra team <tech@imandra.ai>"]
+authors: ["The Imandra team <tech@imandra.ai>"]
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "cmdliner" {= "1.0.4"}
+  "conf-gmp" {= "2"}
+  "conf-m4" {= "1"}
+  "conf-perl" {= "1"}
+  "containers" {= "3.1"}
+  "decoders" {= "0.5.0"}
+  "dune" {= "2.6.0"}
+  "dune-configurator" {= "2.6.0"}
+  "dune-private-libs" {= "2.6.0"}
+  "imandra-document" {= "1.0.5-646.680e3728d2ff5106940bbdef6fb697f4b46c9364"}
+  "jbuilder" {= "1.0+beta20.2"}
+  "ocaml" {= "4.08.1"}
+  "ocamlbuild" {= "0.14.0"}
+  "ocamlfind" {= "1.8.1"}
+  "octavius" {= "1.2.1"}
+  "ptime" {= "0.8.5"}
+  "re" {= "1.9.0"}
+  "result" {= "1.5"}
+  "seq" {= "base"}
+  "sha" {= "1.12"}
+  "topkg" {= "1.0.0"}
+  "tyxml" {= "4.4.0"}
+  "uchar" {= "0.0.2"}
+  "uutf" {= "1.0.2"}
+  "zarith" {= "1.9.1"}
+]
+name: "imandra-util"

@@ -1,0 +1,23 @@
+opam-version: "2.0"
+version: "1.0.5-646.680e3728d2ff5106940bbdef6fb697f4b46c9364"
+synopsis: "Imandra semantic server for VSCode"
+maintainer: ["The Imandra team <tech@imandra.ai>"]
+authors: ["The Imandra team <tech@imandra.ai>"]
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "dune" {>= "2.5"}
+  "containers" {>= "3.0" & < "4.0"}
+  "containers-thread" {>= "3.0" & < "4.0"}
+  "yojson" {>= "1.6"}
+  "atdgen"
+  "imandra-base" {= version}
+  "imandra-client" {= version}
+  "imandra-surface" {= version}
+  "imandra-tef" {= version}
+  "imandra-util" {= version}
+  "imandra-syntax-reason" {= version}
+  "ocaml" {>= "4.08" & < "4.09"}
+  "qtest" {with-test & >= "2.10"}
+]
