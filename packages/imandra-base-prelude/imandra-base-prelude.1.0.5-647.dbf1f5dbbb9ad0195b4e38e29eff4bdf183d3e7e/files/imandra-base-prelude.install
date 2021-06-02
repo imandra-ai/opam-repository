@@ -1,0 +1,5 @@
+lib: [
+"lib/imandra-base-prelude/imandra_base_prelude.cma" {"imandra_base_prelude.cma"}
+"lib/imandra-base-prelude/META" {"META"}
+"lib/imandra-base-prelude/imandra_base_prelude.cmi" {"imandra_base_prelude.cmi"}
+]
