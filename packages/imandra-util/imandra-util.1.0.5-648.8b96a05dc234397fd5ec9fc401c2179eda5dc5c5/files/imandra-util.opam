@@ -1,0 +1,19 @@
+opam-version: "2.0"
+version: "1.0.5-648.8b96a05dc234397fd5ec9fc401c2179eda5dc5c5"
+synopsis: "Imandra utils"
+maintainer: ["The Imandra team <tech@imandra.ai>"]
+authors: ["The Imandra team <tech@imandra.ai>"]
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "ocamlfind"
+  "dune" {>= "2.5"}
+  "containers" {>= "3.0" & < "4.0"}
+  "decoders" {>= "0.5"}
+  "imandra-document"
+  "ptime" {>= "0.8"}
+  "ocaml" {>= "4.08" & < "4.09"}
+  "qtest" {with-test & >= "2.10"}
+  "sha"
+]
