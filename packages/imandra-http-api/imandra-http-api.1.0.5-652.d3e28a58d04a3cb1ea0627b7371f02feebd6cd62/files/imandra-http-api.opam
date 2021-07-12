@@ -1,0 +1,39 @@
+opam-version: "2.0"
+version: "1.0.5-652.d3e28a58d04a3cb1ea0627b7371f02feebd6cd62"
+synopsis: "HTTP API for Imandra"
+maintainer: ["The Imandra team <tech@imandra.ai>"]
+authors: ["The Imandra team <tech@imandra.ai>"]
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "dune" {>= "2.5"}
+  "containers" {>= "3.0" & < "4.0"}
+  "containers-thread" {>= "3.0" & < "4.0"}
+  "imandra-base" {= version}
+  "imandra-client" {= version}
+  "imandra-surface" {= version}
+  "imandra-tef" {= version}
+  "imandra-util" {= version}
+  "imandra-syntax-reason" {= version}
+  "ppx_deriving" {>= "5.0"}
+  "tiny_httpd"
+  "base64"
+  "decoders" {>= "0.5"}
+  "decoders-yojson" {>= "0.5"}
+  "ocaml" {>= "4.08" & < "4.09"}
+]
+build: [
+  ["dune" "subst"] {pinned}
+  [
+    "dune"
+    "build"
+    "-p"
+    name
+    "-j"
+    jobs
+    "@install"
+    "@runtest" {with-test}
+    "@doc" {with-doc}
+  ]
+]

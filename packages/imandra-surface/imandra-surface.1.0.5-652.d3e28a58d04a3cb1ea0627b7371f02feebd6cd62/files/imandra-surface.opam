@@ -1,0 +1,23 @@
+opam-version: "2.0"
+version: "1.0.5-652.d3e28a58d04a3cb1ea0627b7371f02feebd6cd62"
+synopsis: "Imandra surface AST and types (term, types, events)"
+maintainer: ["The Imandra team <tech@imandra.ai>"]
+authors: ["The Imandra team <tech@imandra.ai>"]
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "ocamlfind"
+  "dune" {>= "2.5"}
+  "zarith" {= "1.9.1"}
+  "containers" {>= "3.0" & < "4.0"}
+  "uuidm"
+  "sha"
+  "ocamlgraph"
+  "msgpck" {>= "1.4"}
+  "imandra-document"
+  "imandra-util" {= version}
+  "ppx_deriving" {>= "5.0"}
+  "ocaml" {>= "4.08" & < "4.09"}
+  "qtest" {with-test & >= "2.10"}
+]
