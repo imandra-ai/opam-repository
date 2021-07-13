@@ -1,0 +1,16 @@
+opam-version: "2.0"
+version: "1.0.5-654.d3eb941099e0c9caa673d7784c9efb056086484f"
+synopsis: "Imandra prelude"
+maintainer: ["The Imandra team <tech@imandra.ai>"]
+authors: ["The Imandra team <tech@imandra.ai>"]
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "dune" {>= "2.5"}
+  "containers" {>= "3.0" & < "4.0"}
+  "base-unix"
+  "zarith"
+  "imandra-extract" {= version}
+  "imandra-core-stub" {= version}
+]
