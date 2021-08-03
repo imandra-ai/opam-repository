@@ -1,0 +1,31 @@
+opam-version: "2.0"
+name: "imandra-reason-parser"
+version: "0.4-ai-660.51777c3a75237fd0194ecc8d39ad35b8bbe22767"
+maintainer: "simon.cruanes.2007@m4x.org"
+license: "MIT"
+build: [
+  ["dune" "build" "@install" "-p" name]
+]
+depends: [
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "conf-m4" {= "1"}
+  "cppo" {= "1.6.6"}
+  "dune" {= "2.6.0"}
+  "fix" {= "20200131"}
+  "menhir" {= "20200211"}
+  "menhirLib" {= "20200211"}
+  "menhirSdk" {= "20200211"}
+  "merlin-extend" {= "0.6"}
+  "ocaml" {= "4.08.1"}
+  "ocaml-migrate-parsetree" {= "1.8.0"}
+  "ocamlfind" {= "1.8.1"}
+  "ppx_derivers" {= "1.2.1"}
+  "reason" {= "0.4-ai-660.51777c3a75237fd0194ecc8d39ad35b8bbe22767"}
+  "result" {= "1.5"}
+]
+homepage: "https://github.com/aestheticintegration/imandra-reason-parser"
+bug-reports: "https://github.com/aestheticintegration/imandra-reason-parser/issues"
+dev-repo: "git+https://github.com/aestheticintegration/imandra-reason-parser.git"
+synopsis: "Adaptation of Reason's parser for Imandra"
+authors: "Simon Cruanes"
