@@ -1,0 +1,20 @@
+opam-version: "2.0"
+version: "1.0.5-662.2b1a15d85bbb302226ca1df58dcb2fd0b3eddd05"
+synopsis: "parsers and native Imandra syntax"
+maintainer: ["The Imandra team <tech@imandra.ai>"]
+authors: ["The Imandra team <tech@imandra.ai>"]
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "ocamlfind"
+  "dune" {>= "2.5"}
+  "zarith"
+  "containers" {>= "3.0" & < "4.0"}
+  "imandra-util" {= version}
+  "imandra-surface" {= version}
+  "ppx_deriving" {>= "5.0"}
+  "menhir"
+  "ocaml" {>= "4.08" & < "4.09"}
+  "qtest" {with-test & >= "2.10"}
+]
