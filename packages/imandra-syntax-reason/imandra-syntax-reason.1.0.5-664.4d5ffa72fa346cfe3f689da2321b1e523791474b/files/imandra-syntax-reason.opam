@@ -1,0 +1,18 @@
+opam-version: "2.0"
+version: "1.0.5-664.4d5ffa72fa346cfe3f689da2321b1e523791474b"
+synopsis: "Reason for Imandra syntax"
+maintainer: ["The Imandra team <tech@imandra.ai>"]
+authors: ["The Imandra team <tech@imandra.ai>"]
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "ocamlfind"
+  "dune" {>= "2.5"}
+  "containers" {>= "3.0" & < "4.0"}
+  "imandra-syntax" {= version}
+  "imandra-reason-parser" {= "0.4-ai-664.4d5ffa72fa346cfe3f689da2321b1e523791474b"}
+  "menhir"
+  "ocaml" {>= "4.08" & < "4.09"}
+  "qtest" {with-test & >= "2.10"}
+]
