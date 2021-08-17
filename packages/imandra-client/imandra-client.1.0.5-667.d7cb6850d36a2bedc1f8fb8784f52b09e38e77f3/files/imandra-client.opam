@@ -1,0 +1,18 @@
+opam-version: "2.0"
+version: "1.0.5-667.d7cb6850d36a2bedc1f8fb8784f52b09e38e77f3"
+synopsis: "Imandra client library"
+maintainer: ["The Imandra team <tech@imandra.ai>"]
+authors: ["The Imandra team <tech@imandra.ai>"]
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "dune" {>= "2.5"}
+  "imandra-base" {= version}
+  "imandra-surface" {= version}
+  "imandra-tef" {= version}
+  "imandra-util" {= version}
+  "imandra-syntax-reason" {= version}
+  "ocaml" {>= "4.08" & < "4.09"}
+  "ppx_deriving" {>= "5.0"}
+]
