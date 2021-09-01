@@ -1,0 +1,17 @@
+opam-version: "2.0"
+name: "imandra-base-bin"
+synopsis: "Imandra base binaries"
+version: "1.0.5-668.cbe4e39fdf0a1644ea37acb46749930f4a76bcca"
+maintainer: ["The Imandra team <tech@imandra.ai>"]
+authors: ["The Imandra team <tech@imandra.ai>"]
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+depends: [
+  "imandra-base" {= version}
+  "dune" {build}
+  "ocaml" { >= "4.08" & < "4.09" }
+]
