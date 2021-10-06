@@ -1,0 +1,8 @@
+lib: [
+"lib/imandra-voronoi/imandra_voronoi.cmi" {"imandra_voronoi.cmi"}
+"lib/imandra-voronoi/imandra_voronoi.a" {"imandra_voronoi.a"}
+"lib/imandra-voronoi/imandra_voronoi.cma" {"imandra_voronoi.cma"}
+"lib/imandra-voronoi/imandra_voronoi.cmxa" {"imandra_voronoi.cmxa"}
+"lib/imandra-voronoi/imandra_voronoi__Voronoi.cmi" {"imandra_voronoi__Voronoi.cmi"}
+"lib/imandra-voronoi/META" {"META"}
+]
