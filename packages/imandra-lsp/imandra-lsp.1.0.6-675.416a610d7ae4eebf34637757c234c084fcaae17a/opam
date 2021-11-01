@@ -1,0 +1,99 @@
+opam-version: "2.0"
+version: "1.0.6-675.416a610d7ae4eebf34637757c234c084fcaae17a"
+synopsis: "Imandra LSP server"
+maintainer: ["The Imandra team <tech@imandra.ai>"]
+authors: ["The Imandra team <tech@imandra.ai>"]
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "angstrom" {= "0.15.0"}
+  "base-bigarray" {= "base"}
+  "base-bytes" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "bigarray-compat" {= "1.0.0"}
+  "bigstringaf" {= "0.8.0"}
+  "biniou" {= "1.2.1"}
+  "cmdliner" {= "1.0.4"}
+  "conf-gmp" {= "3"}
+  "conf-pkg-config" {= "2"}
+  "conf-zmq" {= "0.1"}
+  "containers" {= "3.4"}
+  "containers-thread" {= "3.4"}
+  "cppo" {= "1.6.7"}
+  "csexp" {= "1.5.1"}
+  "curly" {= "0.2.0"}
+  "decoders" {= "0.6.0"}
+  "dune" {= "2.9.0"}
+  "dune-configurator" {= "2.9.0"}
+  "easy-format" {= "1.3.2"}
+  "fix" {= "20201120"}
+  "fmt" {= "0.8.9"}
+  "imandra-base" {= "1.0.6-675.416a610d7ae4eebf34637757c234c084fcaae17a"}
+  "imandra-base-prelude"
+    {= "1.0.6-675.416a610d7ae4eebf34637757c234c084fcaae17a"}
+  "imandra-client" {= "1.0.6-675.416a610d7ae4eebf34637757c234c084fcaae17a"}
+  "imandra-core-stub"
+    {= "1.0.6-675.416a610d7ae4eebf34637757c234c084fcaae17a"}
+  "imandra-document" {= "1.0.5-675.416a610d7ae4eebf34637757c234c084fcaae17a"}
+  "imandra-extract" {= "1.0.6-675.416a610d7ae4eebf34637757c234c084fcaae17a"}
+  "imandra-reason-parser"
+    {= "0.4-ai-675.416a610d7ae4eebf34637757c234c084fcaae17a"}
+  "imandra-surface" {= "1.0.6-675.416a610d7ae4eebf34637757c234c084fcaae17a"}
+  "imandra-syntax" {= "1.0.6-675.416a610d7ae4eebf34637757c234c084fcaae17a"}
+  "imandra-syntax-reason"
+    {= "1.0.6-675.416a610d7ae4eebf34637757c234c084fcaae17a"}
+  "imandra-tef" {= "1.0.6-675.416a610d7ae4eebf34637757c234c084fcaae17a"}
+  "imandra-util" {= "1.0.6-675.416a610d7ae4eebf34637757c234c084fcaae17a"}
+  "jsonrpc" {= "1.5.0"}
+  "linenoise" {= "1.3.1"}
+  "linol" {= "0.4"}
+  "logs" {= "0.7.0"}
+  "lsp" {= "1.5.0"}
+  "lwt" {= "5.4.1"}
+  "menhir" {= "20210419"}
+  "menhirLib" {= "20210419"}
+  "menhirSdk" {= "20210419"}
+  "merlin-extend" {= "0.6"}
+  "mmap" {= "1.1.0"}
+  "msgpck" {= "1.7"}
+  "mtime" {= "1.2.0"}
+  "ocaml" {= "4.12.1"}
+  "ocaml-base-compiler" {= "4.12.1"}
+  "ocaml-compiler-libs" {= "v0.12.3"}
+  "ocaml-migrate-parsetree" {= "2.1.0"}
+  "ocaml-syntax-shims" {= "1.0.0"}
+  "ocamlbuild" {= "0.14.0"}
+  "ocamlfind" {= "1.9.1"}
+  "ocamlgraph" {= "2.0.0"}
+  "ocplib-endian" {= "1.1"}
+  "octavius" {= "1.2.2"}
+  "ppx_derivers" {= "1.2.1"}
+  "ppx_deriving" {= "5.2.1"}
+  "ppx_yojson_conv_lib" {= "v0.12.0"}
+  "ppxlib" {= "0.22.1"}
+  "ptime" {= "0.8.5"}
+  "re" {= "1.9.0"}
+  "reason" {= "0.4-ai-675.416a610d7ae4eebf34637757c234c084fcaae17a"}
+  "result" {= "1.5"}
+  "seq" {= "base"}
+  "sexplib0" {= "v0.14.0"}
+  "sha" {= "1.14"}
+  "stdint" {= "0.7.0"}
+  "stdlib-shims" {= "0.3.0"}
+  "stringext" {= "1.6.0"}
+  "topkg" {= "1.0.3"}
+  "tyxml" {= "4.5.0"}
+  "uchar" {= "0.0.2"}
+  "uri" {= "4.2.0"}
+  "uuidm" {= "0.9.7"}
+  "uutf" {= "1.0.2"}
+  "yojson" {= "1.7.0"}
+  "zarith" {= "1.12"}
+  "zmq" {= "5.1.3"}
+]
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+name: "imandra-lsp"
