@@ -1,0 +1,20 @@
+opam-version: "2.0"
+version: "1.0.6-678.03df8e6e76c0daacf415d6e1a4123067d8be7ece"
+synopsis: "A reader using merlin-extend for Imandra's syntax"
+maintainer: ["The Imandra team <tech@imandra.ai>"]
+authors: ["The Imandra team <tech@imandra.ai>"]
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "dune" {>= "2.5"}
+  "merlin-extend" {>= "0.6"}
+  "ocaml-migrate-parsetree"
+  "imandra-util" {= version}
+  "imandra-syntax" {= version}
+  "imandra-syntax-reason" {= version}
+  "ocaml" {>= "4.12" & < "4.13"}
+]
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
