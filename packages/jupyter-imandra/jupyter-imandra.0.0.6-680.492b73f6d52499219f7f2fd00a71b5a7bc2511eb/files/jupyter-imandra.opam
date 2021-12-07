@@ -1,0 +1,27 @@
+opam-version: "2.0"
+name: "jupyter_imandra"
+version: "0.0.6-680.492b73f6d52499219f7f2fd00a71b5a7bc2511eb"
+synopsis: "A very simple Jupyter kernel for Imandra"
+maintainer: "Simon Cruanes <simon@aestheticintegration.com>"
+authors: ["Simon Cruanes <simon@aestheticintegration.com>" "Kostya"]
+homepage: "http://www.imandra.ai/"
+bug-reports: "Simon <simon@aestheticintegration.com>"
+license: "Commercial/Restricted/Confidential"
+build: [
+  ["dune" "build" "@install" "-p" name "-j" jobs]
+]
+depends: [
+  "dune" {build}
+  "ocaml-compiler-libs" {build}
+  "containers"
+  "imandra-client"
+  "imandra-document"
+  "tyxml"
+  "jupyter-kernel"
+  "digestif"
+  "uuidm"
+  "logs"
+  "ptime"
+  "yojson" { >= "1.6" }
+  "imandra-tools"
+]
