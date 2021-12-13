@@ -1,0 +1,42 @@
+opam-version: "2.0"
+version: "1.0.6-681.f155cb84d3dd98fb29c84eb2739d2118d253d7fb"
+synopsis: "Imandra base libraries"
+maintainer: ["The Imandra team <tech@imandra.ai>"]
+authors: ["The Imandra team <tech@imandra.ai>"]
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "ocamlfind"
+  "dune" {>= "2.5"}
+  "zarith"
+  "containers" {>= "3.4" & < "4.0"}
+  "containers-thread" {>= "3.4" & < "4.0"}
+  "ocaml-compiler-libs"
+  "curly"
+  "linenoise"
+  "yojson" {>= "1.6"}
+  "ptime" {>= "0.8"}
+  "uuidm"
+  "sha"
+  "result"
+  "ocplib-endian"
+  "ocamlgraph"
+  "ptime"
+  "zmq" {>= "5.1" & < "6.0"}
+  "msgpck" {>= "1.4"}
+  "ppx_deriving" {>= "5.0"}
+  "imandra-document"
+  "octavius"
+  "tyxml"
+  "imandra-util" {= version}
+  "imandra-extract" {= version}
+  "imandra-syntax" {= version}
+  "imandra-syntax-reason" {= version}
+  "imandra-core-stub" {= version}
+  "imandra-base-prelude" {= version}
+  "pp_loc" {>= "1.0" & < "2.0"}
+  "tyxml"
+  "ocaml" {>= "4.12" & < "4.13"}
+  "qtest" {with-test & >= "2.10"}
+]

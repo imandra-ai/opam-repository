@@ -1,0 +1,30 @@
+opam-version: "2.0"
+version: "1.0.6-681.f155cb84d3dd98fb29c84eb2739d2118d253d7fb"
+synopsis: "Imandra LSP server"
+maintainer: ["The Imandra team <tech@imandra.ai>"]
+authors: ["The Imandra team <tech@imandra.ai>"]
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "dune" {>= "2.5"}
+  "containers" {>= "3.0" & < "4.0"}
+  "containers-thread" {>= "3.0" & < "4.0"}
+  "imandra-base" {= version}
+  "imandra-client" {= version}
+  "imandra-surface" {= version}
+  "imandra-tef" {= version}
+  "imandra-util" {= version}
+  "imandra-syntax-reason" {= version}
+  "ocaml" {>= "4.12" & < "4.13"}
+  "ppx_deriving" {>= "5.0"}
+  "sha"
+  "uri"
+  "lsp"
+  "linol" {= "0.4"}
+  "logs"
+  "ptime"
+]
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
