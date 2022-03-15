@@ -1,0 +1,20 @@
+opam-version: "2.0"
+version: "1.0.6-686.cf4210b0037e2c59daab50ac5d992ec77de8479d"
+synopsis: "Extraction tool from imandra to OCaml"
+maintainer: ["The Imandra team <tech@imandra.ai>"]
+authors: ["The Imandra team <tech@imandra.ai>"]
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "dune" {>= "2.5"}
+  "zarith"
+  "containers" {>= "3.0" & < "4.0"}
+  "ocaml-compiler-libs"
+  "imandra-syntax" {= version}
+  "imandra-syntax-reason" {= version}
+  "ocaml" {>= "4.12" & < "4.13"}
+]
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
