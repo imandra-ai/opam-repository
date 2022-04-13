@@ -1,0 +1,76 @@
+opam-version: "2.0"
+name: "imandra-tef"
+version: "1.0.7-688.aa4ec1ca143bde23cb378a308f4a64960b59543f"
+synopsis: "Profiler backend for Imandra using ZMQ and a rust logger"
+maintainer: "The Imandra team <tech@imandra.ai>"
+authors: "The Imandra team <tech@imandra.ai>"
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "astring" {= "0.8.5" & with-doc}
+  "base-bigarray" {= "base"}
+  "base-bytes" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "bigarray-compat" {= "1.1.0"}
+  "camlzip" {= "1.11"}
+  "catapult" {= "0.1-56.e40fda27743e0aff2b0856fc9db2460a3bace512"}
+  "catapult-client" {= "0.1-56.e40fda27743e0aff2b0856fc9db2460a3bace512"}
+  "cbor" {= "0.5"}
+  "cbor-pack" {= "1.0.7-688.aa4ec1ca143bde23cb378a308f4a64960b59543f"}
+  "cmdliner" {= "1.1.1"}
+  "conf-gmp" {= "4"}
+  "conf-pkg-config" {= "2"}
+  "conf-zlib" {= "1"}
+  "conf-zmq" {= "0.1"}
+  "containers" {= "3.7"}
+  "containers-thread" {= "3.7"}
+  "cppo" {= "1.6.8"}
+  "csexp" {= "1.5.1"}
+  "dune" {= "2.9.3"}
+  "dune-configurator" {= "2.9.3"}
+  "either" {= "1.0.0"}
+  "fmt" {= "0.9.0"}
+  "fpath" {= "0.7.3" & with-doc}
+  "imandra-document" {= "1.0.7-32.aa9c1bece52d12dbd8ba4cd9241e0000c1d7247c"}
+  "imandra-util" {= "1.0.7-688.aa4ec1ca143bde23cb378a308f4a64960b59543f"}
+  "logs" {= "0.7.0"}
+  "lwt" {= "5.5.0"}
+  "mmap" {= "1.2.0"}
+  "mtime" {= "1.4.0"}
+  "ocaml" {= "4.12.1"}
+  "ocaml-base-compiler" {= "4.12.1"}
+  "ocaml-compiler-libs" {= "v0.12.4"}
+  "ocaml-config" {= "2"}
+  "ocaml-options-vanilla" {= "1"}
+  "ocaml-syntax-shims" {= "1.0.0"}
+  "ocamlbuild" {= "0.14.1"}
+  "ocamlfind" {= "1.9.3"}
+  "ocplib-endian" {= "1.2"}
+  "octavius" {= "1.2.2"}
+  "odoc" {= "2.1.0" & with-doc}
+  "odoc-parser" {= "1.0.0" & with-doc}
+  "pp_loc" {= "1.0.0"}
+  "ppx_derivers" {= "1.2.1"}
+  "ppx_deriving" {= "5.2.1"}
+  "ppxlib" {= "0.26.0"}
+  "ptime" {= "1.0.0"}
+  "re" {= "1.10.3"}
+  "result" {= "1.5"}
+  "seq" {= "base"}
+  "sexplib0" {= "v0.15.0"}
+  "sha" {= "1.15.2"}
+  "stdint" {= "0.7.0"}
+  "stdlib-shims" {= "0.3.0"}
+  "topkg" {= "1.0.5"}
+  "tyxml" {= "4.5.0"}
+  "uuidm" {= "0.9.8"}
+  "uutf" {= "1.0.3"}
+  "zarith" {= "1.12"}
+  "zmq" {= "5.1.5"}
+]
+extra-files: [
+  ["imandra-tef.opam" "md5=d0b8aa89ee3c51f589be53281cd9df9f"]
+  ["imandra-tef.install" "md5=a8d61d88c59b44218b729e42dd853fd2"]
+]
