@@ -1,0 +1,38 @@
+opam-version: "2.0"
+name: "imandra-discover"
+version: "1.0.3-695.ab9efcec7684acdf97b2fdbdb07c8c4183afa79a"
+synopsis:
+  "Automatic theory exploration and lemma generation based on QuickSpec"
+maintainer: "John Hester"
+authors: "John Hester"
+license: "Commercial/Restricted/Confidential"
+homepage: "https://github.com/aestheticintegration/imandra-discover"
+bug-reports:
+  "https://github.com/aestheticintegration/imandra-discover/issues"
+depends: [
+  "base-bigarray" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "conf-gmp" {= "4"}
+  "containers" {= "3.7"}
+  "containers-data" {= "3.7"}
+  "csexp" {= "1.5.1"}
+  "dune" {= "2.9.3"}
+  "dune-configurator" {= "2.9.3"}
+  "either" {= "1.0.0"}
+  "ocaml" {= "4.12.1"}
+  "ocaml-base-compiler" {= "4.12.1"}
+  "ocaml-config" {= "2"}
+  "ocaml-options-vanilla" {= "1"}
+  "ocamlfind" {= "1.9.3"}
+  "ocamlgraph" {= "2.0.0"}
+  "result" {= "1.5"}
+  "seq" {= "base"}
+  "stdlib-shims" {= "0.3.0"}
+  "zarith" {= "1.12"}
+]
+dev-repo: "git+https://github.com/aestheticintegration/imandra-discover.git"
+extra-files: [
+  ["imandra-discover.opam" "md5=858406bab21dbbbd17224d8457b976a8"]
+  ["imandra-discover.install" "md5=3f1d92308a69a46b18b700fa7c86e01d"]
+]
