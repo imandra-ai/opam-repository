@@ -1,50 +1,40 @@
 opam-version: "2.0"
-name: "catapult"
-version: "0.1-56.e40fda27743e0aff2b0856fc9db2460a3bace512"
-synopsis: "Tracing system based on the Catapult/TEF format"
-maintainer: "simon@imandra.ai"
-authors: "simon@imandra.ai"
-license: "MIT"
-homepage: "https://github.com/AestheticIntegration/catapult"
-bug-reports: "https://github.com/AestheticIntegration/catapult/issues"
+name: "imandra-core-stub"
+version: "1.0.7-696.5c95be2e93117d036413b440db349586a8058a59"
+synopsis: "Tiny stub for loading Imandra from OCaml libraries"
+maintainer: "The Imandra team <tech@imandra.ai>"
+authors: "The Imandra team <tech@imandra.ai>"
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
 depends: [
   "astring" {= "0.8.5" & with-doc}
   "base-bigarray" {= "base"}
   "base-threads" {= "base"}
   "base-unix" {= "base"}
   "cmdliner" {= "1.1.1" & with-doc}
+  "conf-gmp" {= "4"}
   "cppo" {= "1.6.9" & with-doc}
   "dune" {= "2.9.3"}
   "fmt" {= "0.9.0" & with-doc}
   "fpath" {= "0.7.3" & with-doc}
-  "mtime" {= "1.4.0"}
   "ocaml" {= "4.12.1"}
   "ocaml-base-compiler" {= "4.12.1"}
   "ocaml-config" {= "2"}
   "ocaml-options-vanilla" {= "1"}
-  "ocamlbuild" {= "0.14.1"}
+  "ocamlbuild" {= "0.14.1" & with-doc}
   "ocamlfind" {= "1.9.3"}
   "odoc" {= "2.1.0" & with-doc}
   "odoc-parser" {= "1.0.0" & with-doc}
   "re" {= "1.10.4" & with-doc}
   "result" {= "1.5" & with-doc}
   "seq" {= "base" & with-doc}
-  "topkg" {= "1.0.5"}
+  "topkg" {= "1.0.5" & with-doc}
   "tyxml" {= "4.5.0" & with-doc}
   "uutf" {= "1.0.3" & with-doc}
+  "zarith" {= "1.12"}
 ]
-build: [
-  ["dune" "subst"] {pinned}
-  [
-    "dune"
-    "build"
-    "-p"
-    name
-    "-j"
-    jobs
-    "@install"
-    "@runtest" {with-test}
-    "@doc" {with-doc}
-  ]
+extra-files: [
+  ["imandra-core-stub.opam" "md5=5fa4a9b86e0318674c9a58ff596e7609"]
+  ["imandra-core-stub.install" "md5=03c97025f60c5edaee739b900e3b7eb8"]
 ]
-dev-repo: "git+https://github.com/AestheticIntegration/catapult.git"

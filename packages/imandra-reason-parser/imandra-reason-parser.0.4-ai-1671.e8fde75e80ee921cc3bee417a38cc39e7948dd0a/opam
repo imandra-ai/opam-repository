@@ -12,7 +12,7 @@ depends: [
   "base-bigarray" {= "base"}
   "base-threads" {= "base"}
   "base-unix" {= "base"}
-  "cppo" {= "1.6.8"}
+  "cppo" {= "1.6.9"}
   "dune" {= "2.9.3"}
   "fix" {= "20220121"}
   "menhir" {= "20220210"}
