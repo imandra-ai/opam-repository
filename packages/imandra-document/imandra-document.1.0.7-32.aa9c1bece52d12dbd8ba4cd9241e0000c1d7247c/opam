@@ -12,7 +12,7 @@ depends: [
   "base-unix" {= "base"}
   "cmdliner" {= "1.1.1"}
   "conf-gmp" {= "4"}
-  "containers" {= "3.7"}
+  "containers" {= "3.8"}
   "csexp" {= "1.5.1"}
   "dune" {= "2.9.3"}
   "dune-configurator" {= "2.9.3"}
@@ -22,7 +22,7 @@ depends: [
   "ocaml-config" {= "2"}
   "ocaml-options-vanilla" {= "1"}
   "ocamlbuild" {= "0.14.1"}
-  "ocamlfind" {= "1.9.3"}
+  "ocamlfind" {= "1.9.5"}
   "octavius" {= "1.2.2"}
   "re" {= "1.10.4"}
   "result" {= "1.5"}

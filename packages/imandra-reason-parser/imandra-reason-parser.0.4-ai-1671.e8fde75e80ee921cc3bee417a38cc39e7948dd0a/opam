@@ -22,9 +22,9 @@ depends: [
   "ocaml" {= "4.12.1"}
   "ocaml-base-compiler" {= "4.12.1"}
   "ocaml-config" {= "2"}
-  "ocaml-migrate-parsetree" {= "2.3.0"}
+  "ocaml-migrate-parsetree" {= "2.4.0"}
   "ocaml-options-vanilla" {= "1"}
-  "ocamlfind" {= "1.9.3"}
+  "ocamlfind" {= "1.9.5"}
   "ppx_derivers" {= "1.2.1"}
   "reason" {= "0.4-ai-1671.e8fde75e80ee921cc3bee417a38cc39e7948dd0a"}
   "result" {= "1.5"}

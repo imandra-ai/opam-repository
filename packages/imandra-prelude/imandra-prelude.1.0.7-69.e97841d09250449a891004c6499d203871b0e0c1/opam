@@ -12,7 +12,7 @@ depends: [
   "base-threads" {= "base"}
   "base-unix" {= "base"}
   "conf-gmp" {= "4"}
-  "containers" {= "3.7"}
+  "containers" {= "3.8"}
   "csexp" {= "1.5.1"}
   "dune" {= "2.9.3"}
   "dune-configurator" {= "2.9.3"}
@@ -21,7 +21,7 @@ depends: [
   "ocaml-base-compiler" {= "4.12.1"}
   "ocaml-config" {= "2"}
   "ocaml-options-vanilla" {= "1"}
-  "ocamlfind" {= "1.9.3"}
+  "ocamlfind" {= "1.9.5"}
   "result" {= "1.5"}
   "seq" {= "base"}
   "zarith" {= "1.12"}

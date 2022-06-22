@@ -32,7 +32,7 @@ depends: [
   "ocaml-options-vanilla" {= "1"}
   "ocaml-syntax-shims" {= "1.0.0"}
   "ocamlbuild" {= "0.14.1"}
-  "ocamlfind" {= "1.9.3"}
+  "ocamlfind" {= "1.9.5"}
   "ocplib-endian" {= "1.2"}
   "ocurl" {= "0.9.2"}
   "odoc" {= "2.1.0" & with-doc}
