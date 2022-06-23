@@ -1,0 +1,74 @@
+opam-version: "2.0"
+name: "imandra-fol-redis"
+version: "1.0.7-705.d93588115d1ff9256a4fb5e2b01abf7ebbb3e806"
+synopsis: "Redis storage backend for imandra-fol"
+maintainer: "The Imandra team <tech@imandra.ai>"
+authors: "The Imandra team <tech@imandra.ai>"
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "astring" {= "0.8.5" & with-doc}
+  "base-bigarray" {= "base"}
+  "base-bytes" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "bigarray-compat" {= "1.1.0"}
+  "camlzip" {= "1.11"}
+  "cbor" {= "0.5"}
+  "cbor-pack" {= "1.0.7-705.d93588115d1ff9256a4fb5e2b01abf7ebbb3e806"}
+  "cmdliner" {= "1.1.1"}
+  "conf-gmp" {= "4"}
+  "conf-pkg-config" {= "2"}
+  "conf-zlib" {= "1"}
+  "containers" {= "3.8"}
+  "containers-thread" {= "3.8"}
+  "cppo" {= "1.6.9"}
+  "csexp" {= "1.5.1"}
+  "dune" {= "2.9.3"}
+  "dune-configurator" {= "2.9.3"}
+  "either" {= "1.0.0"}
+  "fmt" {= "0.9.0"}
+  "fpath" {= "0.7.3" & with-doc}
+  "imandra-document" {= "1.0.7-32.aa9c1bece52d12dbd8ba4cd9241e0000c1d7247c"}
+  "imandra-fol" {= "1.0.7-705.d93588115d1ff9256a4fb5e2b01abf7ebbb3e806"}
+  "imandra-util" {= "1.0.7-705.d93588115d1ff9256a4fb5e2b01abf7ebbb3e806"}
+  "logs" {= "0.7.0"}
+  "lwt" {= "5.5.0"}
+  "mmap" {= "1.2.0"}
+  "mtime" {= "1.4.0"}
+  "ocaml" {= "4.12.1"}
+  "ocaml-base-compiler" {= "4.12.1"}
+  "ocaml-compiler-libs" {= "v0.12.4"}
+  "ocaml-config" {= "2"}
+  "ocaml-options-vanilla" {= "1"}
+  "ocaml-syntax-shims" {= "1.0.0"}
+  "ocamlbuild" {= "0.14.1"}
+  "ocamlfind" {= "1.9.5"}
+  "ocplib-endian" {= "1.2"}
+  "octavius" {= "1.2.2"}
+  "odoc" {= "2.1.0" & with-doc}
+  "odoc-parser" {= "1.0.0" & with-doc}
+  "pp_loc" {= "1.0.0"}
+  "ppx_derivers" {= "1.2.1"}
+  "ppx_deriving" {= "5.2.1"}
+  "ppxlib" {= "0.27.0"}
+  "ptime" {= "1.0.0"}
+  "re" {= "1.10.4"}
+  "redis" {= "0.5"}
+  "redis-sync" {= "0.5"}
+  "result" {= "1.5"}
+  "seq" {= "base"}
+  "sexplib0" {= "v0.15.1"}
+  "sha" {= "1.15.2"}
+  "stdlib-shims" {= "0.3.0"}
+  "topkg" {= "1.0.5"}
+  "tyxml" {= "4.5.0"}
+  "uuidm" {= "0.9.8"}
+  "uutf" {= "1.0.3"}
+  "zarith" {= "1.12"}
+]
+extra-files: [
+  ["imandra-fol-redis.opam" "md5=35894040e4d4cf75781ae263e9067bc6"]
+  ["imandra-fol-redis.install" "md5=9ff905f3fc05da2e9efdcd76cf127221"]
+]
