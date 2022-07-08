@@ -1,48 +1,54 @@
 opam-version: "2.0"
-name: "catapult-client"
-version: "0.1-56.e40fda27743e0aff2b0856fc9db2460a3bace512"
-synopsis: "Network client for catapult, to be paired with catapult-daemon"
-maintainer: "simon@imandra.ai"
-authors: "simon@imandra.ai"
+name: "opentelemetry-client-ocurl"
+version: "0.2-109.586e16e1c5bed18f1b075621d188e82cf96f5e1d"
+synopsis: "Collector client for opentelemetry, using http + ocurl"
+maintainer: "the Imandra team and contributors"
+authors: "the Imandra team and contributors"
 license: "MIT"
-homepage: "https://github.com/AestheticIntegration/catapult"
-bug-reports: "https://github.com/AestheticIntegration/catapult/issues"
+homepage: "https://github.com/aestheticintegration/ocaml-opentelemetry"
+bug-reports:
+  "https://github.com/aestheticintegration/ocaml-opentelemetry/issues"
 depends: [
   "astring" {= "0.8.5" & with-doc}
   "base-bigarray" {= "base"}
+  "base-bytes" {= "base"}
   "base-threads" {= "base"}
   "base-unix" {= "base"}
   "camlp-streams" {= "5.0.1" & with-doc}
-  "catapult" {= "0.1-56.e40fda27743e0aff2b0856fc9db2460a3bace512"}
   "cmdliner" {= "1.1.1" & with-doc}
-  "conf-pkg-config" {= "2"}
-  "conf-zmq" {= "0.1"}
-  "cppo" {= "1.6.9" & with-doc}
+  "conf-libcurl" {= "2"}
+  "cppo" {= "1.6.9"}
   "csexp" {= "1.5.1"}
   "dune" {= "2.9.3"}
   "dune-configurator" {= "2.9.3"}
   "fmt" {= "0.9.0" & with-doc}
   "fpath" {= "0.7.3" & with-doc}
+  "lwt" {= "5.6.1"}
   "mtime" {= "1.4.0"}
   "ocaml" {= "4.12.1"}
   "ocaml-base-compiler" {= "4.12.1"}
   "ocaml-config" {= "2"}
   "ocaml-options-vanilla" {= "1"}
+  "ocaml-protoc" {= "2.2"}
   "ocamlbuild" {= "0.14.1"}
   "ocamlfind" {= "1.9.5"}
+  "ocplib-endian" {= "1.2"}
+  "ocurl" {= "0.9.2"}
   "odoc" {= "2.1.1" & with-doc}
   "odoc-parser" {= "1.0.1" & with-doc}
+  "opentelemetry" {= "0.2-109.586e16e1c5bed18f1b075621d188e82cf96f5e1d"}
+  "pbrt" {= "2.2"}
+  "ptime" {= "1.0.0"}
   "re" {= "1.10.4" & with-doc}
   "result" {= "1.5"}
   "seq" {= "base" & with-doc}
-  "stdint" {= "0.7.0"}
+  "stdlib-shims" {= "0.3.0"}
   "topkg" {= "1.0.5"}
   "tyxml" {= "4.5.0" & with-doc}
   "uutf" {= "1.0.3" & with-doc}
-  "zmq" {= "5.1.5"}
 ]
 build: [
-  ["dune" "subst"] {pinned}
+  ["dune" "subst"] {dev}
   [
     "dune"
     "build"
@@ -55,4 +61,5 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/AestheticIntegration/catapult.git"
+dev-repo:
+  "git+https://github.com/aestheticintegration/ocaml-opentelemetry.git"
