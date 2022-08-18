@@ -1,0 +1,12 @@
+lib: [
+"lib/imandra-discover-bridge/imandra_discover_bridge__Top.cmi" {"imandra_discover_bridge__Top.cmi"}
+"lib/imandra-discover-bridge/imandra_discover_bridge.cmi" {"imandra_discover_bridge.cmi"}
+"lib/imandra-discover-bridge/imandra_discover_bridge.cma" {"imandra_discover_bridge.cma"}
+"lib/imandra-discover-bridge/imandra_discover_bridge.cmxa" {"imandra_discover_bridge.cmxa"}
+"lib/imandra-discover-bridge/imandra_discover_bridge.a" {"imandra_discover_bridge.a"}
+"lib/imandra-discover-bridge/imandra_discover_bridge__User_level.cmi" {"imandra_discover_bridge__User_level.cmi"}
+"lib/imandra-discover-bridge/imandra_discover_bridge__Postprocess.cmi" {"imandra_discover_bridge__Postprocess.cmi"}
+"lib/imandra-discover-bridge/opam" {"opam"}
+"lib/imandra-discover-bridge/imandra_discover_bridge__Code_generation.cmi" {"imandra_discover_bridge__Code_generation.cmi"}
+"lib/imandra-discover-bridge/META" {"META"}
+]
