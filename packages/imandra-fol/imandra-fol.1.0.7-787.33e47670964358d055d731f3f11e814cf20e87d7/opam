@@ -1,0 +1,74 @@
+opam-version: "2.0"
+name: "imandra-fol"
+version: "1.0.7-787.33e47670964358d055d731f3f11e814cf20e87d7"
+synopsis: "Imandra FOL library (first-order logic), including resolved terms"
+maintainer: "The Imandra team <tech@imandra.ai>"
+authors: "The Imandra team <tech@imandra.ai>"
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "astring" {= "0.8.5" & with-doc}
+  "base-bigarray" {= "base"}
+  "base-bytes" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "camlp-streams" {= "5.0.1"}
+  "camlzip" {= "1.11"}
+  "cbor" {= "0.5"}
+  "cbor-pack" {= "1.0.7-787.33e47670964358d055d731f3f11e814cf20e87d7"}
+  "cmdliner" {= "1.1.1"}
+  "conf-gmp" {= "4"}
+  "conf-pkg-config" {= "2"}
+  "conf-zlib" {= "1"}
+  "containers" {= "3.9"}
+  "containers-thread" {= "3.9"}
+  "cppo" {= "1.6.9"}
+  "csexp" {= "1.5.1"}
+  "dune" {= "2.9.3"}
+  "dune-configurator" {= "2.9.3"}
+  "either" {= "1.0.0"}
+  "fmt" {= "0.9.0"}
+  "fpath" {= "0.7.3" & with-doc}
+  "imandra-document" {= "1.0.7-32.aa9c1bece52d12dbd8ba4cd9241e0000c1d7247c"}
+  "imandra-util" {= "1.0.7-787.33e47670964358d055d731f3f11e814cf20e87d7"}
+  "logs" {= "0.7.0"}
+  "lwt" {= "5.6.1"}
+  "mtime" {= "1.4.0"}
+  "ocaml" {= "4.12.1"}
+  "ocaml-base-compiler" {= "4.12.1"}
+  "ocaml-compiler-libs" {= "v0.12.4"}
+  "ocaml-config" {= "2"}
+  "ocaml-options-vanilla" {= "1"}
+  "ocaml-protoc" {= "2.3"}
+  "ocamlbuild" {= "0.14.1"}
+  "ocamlfind" {= "1.9.5"}
+  "ocplib-endian" {= "1.2"}
+  "octavius" {= "1.2.2"}
+  "odoc" {= "2.1.1" & with-doc}
+  "odoc-parser" {= "1.0.1" & with-doc}
+  "opentelemetry" {= "0.3-111.2b1b688256091b90ce9f9e164a3a90696cc914fd"}
+  "pbrt" {= "2.3"}
+  "pp_loc" {= "1.0.0"}
+  "ppx_derivers" {= "1.2.1"}
+  "ppx_deriving" {= "5.2.1"}
+  "ppxlib" {= "0.27.0"}
+  "ptime" {= "1.0.0"}
+  "re" {= "1.10.4"}
+  "redis" {= "0.6"}
+  "redis-sync" {= "0.6"}
+  "result" {= "1.5"}
+  "seq" {= "base"}
+  "sexplib0" {= "v0.15.1"}
+  "sha" {= "1.15.2"}
+  "stdlib-shims" {= "0.3.0"}
+  "topkg" {= "1.0.5"}
+  "tyxml" {= "4.5.0"}
+  "uuidm" {= "0.9.8"}
+  "uutf" {= "1.0.3"}
+  "zarith" {= "1.12"}
+]
+extra-files: [
+  ["imandra-fol.opam" "md5=4bb98e156641e2b3cc2cbbf68ce4f253"]
+  ["imandra-fol.install" "md5=d638c6e123434fcd5ea2b16d322bf0de"]
+]
