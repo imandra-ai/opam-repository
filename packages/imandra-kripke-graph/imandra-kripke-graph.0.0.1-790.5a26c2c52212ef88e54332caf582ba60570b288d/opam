@@ -42,5 +42,5 @@ depends: [
 dev-repo: "git+https://github.com/imandra-ai/imandra-kripke-graph.git"
 extra-files: [
   ["imandra-kripke-graph.opam" "md5=b5019d7528f3dc5dc46d6a40cbe56577"]
-  ["imandra-kripke-graph.install" "md5=32c0f8d5edd95e64f0d479ca52e16dcc"]
+  ["imandra-kripke-graph.install" "md5=655cac008128c2851b05ef78d45efe85"]
 ]

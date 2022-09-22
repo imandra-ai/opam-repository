@@ -32,5 +32,5 @@ depends: [
 ]
 extra-files: [
   ["imandra-scheduler.opam" "md5=42f7e77f0907253cf5355cbdb0727204"]
-  ["imandra-scheduler.install" "md5=573e49ad58df979c658fa425c8b21e43"]
+  ["imandra-scheduler.install" "md5=834d6423b704ab07feeb08db353dea18"]
 ]

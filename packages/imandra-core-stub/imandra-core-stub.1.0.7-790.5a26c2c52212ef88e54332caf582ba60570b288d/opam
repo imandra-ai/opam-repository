@@ -37,5 +37,5 @@ depends: [
 ]
 extra-files: [
   ["imandra-core-stub.opam" "md5=074aa7f63ac2f4584a8b5f67bb3c6df1"]
-  ["imandra-core-stub.install" "md5=3594b423c106e2df9ba0599c29b9a2cd"]
+  ["imandra-core-stub.install" "md5=787fcf066b69b3382f5a81f8160382fa"]
 ]

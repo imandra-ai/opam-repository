@@ -58,7 +58,7 @@ depends: [
     {= "1.0.7-790.5a26c2c52212ef88e54332caf582ba60570b288d"}
   "imandra-tef" {= "1.0.7-790.5a26c2c52212ef88e54332caf582ba60570b288d"}
   "imandra-util" {= "1.0.7-790.5a26c2c52212ef88e54332caf582ba60570b288d"}
-  "linenoise" {= "1.3.1"}
+  "linenoise" {= "1.4.0"}
   "logs" {= "0.7.0"}
   "lwt" {= "5.6.1"}
   "menhir" {= "20220210"}
@@ -110,5 +110,5 @@ depends: [
 ]
 extra-files: [
   ["imandra-client.opam" "md5=e1ac05a50e33fed10980f0367f2e8eea"]
-  ["imandra-client.install" "md5=45d87d2789270ab10a68d69adb2ac82c"]
+  ["imandra-client.install" "md5=da7d8d5041a2370ac9593a69417dec3e"]
 ]

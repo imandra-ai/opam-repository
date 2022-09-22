@@ -37,5 +37,5 @@ depends: [
 ]
 extra-files: [
   ["imandra-tools-ast.opam" "md5=cf0574fc44712c066c38ff737a795a93"]
-  ["imandra-tools-ast.install" "md5=ab23e5918ed3777d6030976093ac9dc1"]
+  ["imandra-tools-ast.install" "md5=4fa2a9e2d81e12b8d61c962674e6ffa3"]
 ]

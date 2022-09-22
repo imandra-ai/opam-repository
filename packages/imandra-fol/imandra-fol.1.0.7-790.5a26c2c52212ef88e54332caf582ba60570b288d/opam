@@ -70,5 +70,5 @@ depends: [
 ]
 extra-files: [
   ["imandra-fol.opam" "md5=c041cdb21ab694b736fe9cbbe2c34676"]
-  ["imandra-fol.install" "md5=d638c6e123434fcd5ea2b16d322bf0de"]
+  ["imandra-fol.install" "md5=e0589519836c06f7f22e631c9b05d00d"]
 ]

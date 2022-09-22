@@ -47,5 +47,5 @@ depends: [
 ]
 extra-files: [
   ["cbor-pack.opam" "md5=bdbac724af7623c345f1b64601811e4b"]
-  ["cbor-pack.install" "md5=4db92779b633618852bd66489bc8450f"]
+  ["cbor-pack.install" "md5=430690d44965fa896914f296bef59b30"]
 ]

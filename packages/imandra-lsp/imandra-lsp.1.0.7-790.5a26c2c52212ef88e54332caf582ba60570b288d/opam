@@ -62,7 +62,7 @@ depends: [
   "imandra-tef" {= "1.0.7-790.5a26c2c52212ef88e54332caf582ba60570b288d"}
   "imandra-util" {= "1.0.7-790.5a26c2c52212ef88e54332caf582ba60570b288d"}
   "jsonrpc" {= "1.5.0"}
-  "linenoise" {= "1.3.1"}
+  "linenoise" {= "1.4.0"}
   "linol" {= "0.4"}
   "logs" {= "0.7.0"}
   "lsp" {= "1.5.0"}

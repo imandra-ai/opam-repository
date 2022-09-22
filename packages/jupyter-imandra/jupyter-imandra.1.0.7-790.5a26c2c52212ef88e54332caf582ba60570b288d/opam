@@ -74,7 +74,7 @@ depends: [
     {= "1.0.7-790.5a26c2c52212ef88e54332caf582ba60570b288d"}
   "imandra-util" {= "1.0.7-790.5a26c2c52212ef88e54332caf582ba60570b288d"}
   "jupyter-kernel" {= "0.8"}
-  "linenoise" {= "1.3.1"}
+  "linenoise" {= "1.4.0"}
   "logs" {= "0.7.0"}
   "lwt" {= "5.6.1"}
   "menhir" {= "20220210"}
@@ -141,5 +141,5 @@ build: [
 ]
 extra-files: [
   ["jupyter-imandra.opam" "md5=3b4722fb24bacfbca62001616e3e6fbf"]
-  ["jupyter-imandra.install" "md5=ca33e77839f5c2b969e12bbefc1335c4"]
+  ["jupyter-imandra.install" "md5=b3e4825faa221e0c238f32a11e659763"]
 ]

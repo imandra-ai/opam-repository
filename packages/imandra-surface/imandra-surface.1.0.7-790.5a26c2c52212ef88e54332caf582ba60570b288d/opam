@@ -78,5 +78,5 @@ depends: [
 ]
 extra-files: [
   ["imandra-surface.opam" "md5=053aa304ee66a45d94f9fb5489d79fe1"]
-  ["imandra-surface.install" "md5=969fb4443bf0491cc38aa42d2d0b4c13"]
+  ["imandra-surface.install" "md5=5e6219d5a7883097423fcc0d53f5fdb4"]
 ]

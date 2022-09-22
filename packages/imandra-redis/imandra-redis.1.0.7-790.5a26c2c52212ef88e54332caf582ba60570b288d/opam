@@ -70,5 +70,5 @@ depends: [
 ]
 extra-files: [
   ["imandra-redis.opam" "md5=38ea549b332e395c98561270f899bf29"]
-  ["imandra-redis.install" "md5=4f10d3b705bd23b05ff174f047ae8a1e"]
+  ["imandra-redis.install" "md5=9542a9eb63e1248b1072df5ac18966ed"]
 ]

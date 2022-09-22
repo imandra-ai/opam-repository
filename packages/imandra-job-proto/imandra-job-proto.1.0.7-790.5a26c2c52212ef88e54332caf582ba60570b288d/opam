@@ -53,5 +53,5 @@ depends: [
 ]
 extra-files: [
   ["imandra-job-proto.opam" "md5=26cf8ac8d67dc1a0094b46139236d03f"]
-  ["imandra-job-proto.install" "md5=0d81c66cc1fee4d81af5e9220dce0039"]
+  ["imandra-job-proto.install" "md5=981532052af7095ecc3cfec53de2813d"]
 ]

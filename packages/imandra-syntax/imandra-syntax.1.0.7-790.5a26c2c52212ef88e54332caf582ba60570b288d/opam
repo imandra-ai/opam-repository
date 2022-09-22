@@ -82,5 +82,5 @@ depends: [
 ]
 extra-files: [
   ["imandra-syntax.opam" "md5=1826f2c6f651c88662d3558f08689ec7"]
-  ["imandra-syntax.install" "md5=f41e1c28133f4d757531cbd62749a579"]
+  ["imandra-syntax.install" "md5=93dde87af68edf3954e9c6a82df2db57"]
 ]

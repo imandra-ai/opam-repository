@@ -71,5 +71,5 @@ depends: [
 ]
 extra-files: [
   ["imandra-fol-redis.opam" "md5=a9a8ae2c8c303680fc86af5a1c9669af"]
-  ["imandra-fol-redis.install" "md5=57baf6c51ae9e0f1ad0c9a1f565dd535"]
+  ["imandra-fol-redis.install" "md5=8086274b1de6742ac9bdc72278f175ff"]
 ]

@@ -20,7 +20,7 @@ depends: [
   "bigstringaf" {= "0.9.0"}
   "biniou" {= "1.2.1"}
   "bos" {= "0.2.1"}
-  "ca-certs" {= "0.2.2"}
+  "ca-certs" {= "0.2.3"}
   "cmdliner" {= "1.1.1"}
   "cohttp" {= "4.0.0"}
   "cohttp-lwt" {= "4.0.0"}
@@ -56,10 +56,10 @@ depends: [
   "lwt_ssl" {= "1.1.3"}
   "macaddr" {= "5.3.1"}
   "magic-mime" {= "1.2.0"}
-  "mirage-crypto" {= "0.10.6"}
-  "mirage-crypto-ec" {= "0.10.6"}
-  "mirage-crypto-pk" {= "0.10.6"}
-  "mirage-crypto-rng" {= "0.10.6"}
+  "mirage-crypto" {= "0.10.7"}
+  "mirage-crypto-ec" {= "0.10.7"}
+  "mirage-crypto-pk" {= "0.10.7"}
+  "mirage-crypto-rng" {= "0.10.7"}
   "mirage-no-solo5" {= "1"}
   "mirage-no-xen" {= "1"}
   "mtime" {= "1.4.0"}
@@ -96,11 +96,11 @@ depends: [
   "uri-sexp" {= "4.2.0"}
   "uuidm" {= "0.9.8"}
   "uutf" {= "1.0.3"}
-  "x509" {= "0.16.0"}
+  "x509" {= "0.16.1"}
   "yojson" {= "1.7.0"}
   "zarith" {= "1.12"}
 ]
 extra-files: [
   ["imandra-auth-lib.opam" "md5=221ca9de8a4b553d37af31f61255d8b6"]
-  ["imandra-auth-lib.install" "md5=cee7149d075110cda1b03cb09a4b8080"]
+  ["imandra-auth-lib.install" "md5=094a1366a4afcf9827f4db4aef64b76d"]
 ]

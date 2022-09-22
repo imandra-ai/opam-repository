@@ -94,5 +94,5 @@ depends: [
 ]
 extra-files: [
   ["imandra-base-prelude.opam" "md5=5f8c9ebaf3d8866b46790530d8701f9a"]
-  ["imandra-base-prelude.install" "md5=48e134fffa6c1d502d28e58c19567170"]
+  ["imandra-base-prelude.install" "md5=0db9b225c7b02d0fe4c355ea44ab96e1"]
 ]

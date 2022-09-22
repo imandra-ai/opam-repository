@@ -67,5 +67,5 @@ depends: [
 ]
 extra-files: [
   ["imandra-util.opam" "md5=eed9ffd608a1a54371b7f26322b46c0b"]
-  ["imandra-util.install" "md5=9157e2e978079562f986c8f09f4692d1"]
+  ["imandra-util.install" "md5=46525cdd588b83e678135f62213d88f4"]
 ]

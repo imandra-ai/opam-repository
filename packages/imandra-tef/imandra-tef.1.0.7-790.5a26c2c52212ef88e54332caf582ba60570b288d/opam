@@ -73,5 +73,5 @@ depends: [
 ]
 extra-files: [
   ["imandra-tef.opam" "md5=c4d788ed953c463ecc62e72bf92ff7db"]
-  ["imandra-tef.install" "md5=ba65dfe6faf2fd18753c5bfb8e7742d0"]
+  ["imandra-tef.install" "md5=9de6e81662e00458c37a33b3e345b6c6"]
 ]
