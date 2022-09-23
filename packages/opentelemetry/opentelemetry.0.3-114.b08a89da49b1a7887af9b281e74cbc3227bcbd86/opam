@@ -1,0 +1,57 @@
+opam-version: "2.0"
+name: "opentelemetry"
+version: "0.3-114.b08a89da49b1a7887af9b281e74cbc3227bcbd86"
+synopsis: "Instrumentation for https://opentelemetry.io"
+maintainer: "the Imandra team and contributors"
+authors: "the Imandra team and contributors"
+license: "MIT"
+tags: ["instrumentation" "tracing" "opentelemetry" "datadog" "jaeger"]
+homepage: "https://github.com/aestheticintegration/ocaml-opentelemetry"
+bug-reports:
+  "https://github.com/aestheticintegration/ocaml-opentelemetry/issues"
+depends: [
+  "astring" {= "0.8.5" & with-doc}
+  "base-bigarray" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "camlp-streams" {= "5.0.1" & with-doc}
+  "cmdliner" {= "1.1.1" & with-doc}
+  "cppo" {= "1.6.9" & with-doc}
+  "dune" {= "2.9.3"}
+  "fmt" {= "0.9.0" & with-doc}
+  "fpath" {= "0.7.3" & with-doc}
+  "ocaml" {= "4.12.1"}
+  "ocaml-base-compiler" {= "4.12.1"}
+  "ocaml-config" {= "2"}
+  "ocaml-options-vanilla" {= "1"}
+  "ocaml-protoc" {= "2.3"}
+  "ocamlbuild" {= "0.14.1"}
+  "ocamlfind" {= "1.9.5"}
+  "odoc" {= "2.1.1" & with-doc}
+  "odoc-parser" {= "1.0.1" & with-doc}
+  "pbrt" {= "2.3"}
+  "ptime" {= "1.0.0"}
+  "re" {= "1.10.4" & with-doc}
+  "result" {= "1.5" & with-doc}
+  "seq" {= "base" & with-doc}
+  "stdlib-shims" {= "0.3.0"}
+  "topkg" {= "1.0.5"}
+  "tyxml" {= "4.5.0" & with-doc}
+  "uutf" {= "1.0.3" & with-doc}
+]
+build: [
+  ["dune" "subst"] {dev}
+  [
+    "dune"
+    "build"
+    "-p"
+    name
+    "-j"
+    jobs
+    "@install"
+    "@runtest" {with-test}
+    "@doc" {with-doc}
+  ]
+]
+dev-repo:
+  "git+https://github.com/aestheticintegration/ocaml-opentelemetry.git"
