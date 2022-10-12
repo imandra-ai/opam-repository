@@ -25,7 +25,7 @@ depends: [
   "ocaml-config" {= "2"}
   "ocaml-options-vanilla" {= "1"}
   "ocaml-protoc" {= "2.3"}
-  "ocamlbuild" {= "0.14.1"}
+  "ocamlbuild" {= "0.14.2"}
   "ocamlfind" {= "1.9.5"}
   "odoc" {= "2.1.1" & with-doc}
   "odoc-parser" {= "1.0.1" & with-doc}
