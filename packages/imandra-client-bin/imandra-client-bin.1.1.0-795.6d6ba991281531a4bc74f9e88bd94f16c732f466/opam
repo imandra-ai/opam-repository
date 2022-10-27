@@ -62,7 +62,7 @@ depends: [
     {= "1.1.0-795.6d6ba991281531a4bc74f9e88bd94f16c732f466"}
   "imandra-tef" {= "1.1.0-795.6d6ba991281531a4bc74f9e88bd94f16c732f466"}
   "imandra-util" {= "1.1.0-795.6d6ba991281531a4bc74f9e88bd94f16c732f466"}
-  "iter" {= "1.5"}
+  "iter" {= "1.6"}
   "linenoise" {= "1.4.0"}
   "logs" {= "0.7.0"}
   "lwt" {= "5.6.1"}
@@ -103,7 +103,7 @@ depends: [
   "seq" {= "base"}
   "sexplib0" {= "v0.15.1"}
   "sha" {= "1.15.2"}
-  "stdint" {= "0.7.0"}
+  "stdint" {= "0.7.1"}
   "stdlib-shims" {= "0.3.0"}
   "topkg" {= "1.0.5"}
   "tyxml" {= "4.5.0"}

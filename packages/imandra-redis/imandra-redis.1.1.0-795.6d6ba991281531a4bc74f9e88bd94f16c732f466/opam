@@ -32,7 +32,7 @@ depends: [
   "fpath" {= "0.7.3" & with-doc}
   "imandra-document" {= "1.0.7-32.aa9c1bece52d12dbd8ba4cd9241e0000c1d7247c"}
   "imandra-util" {= "1.1.0-795.6d6ba991281531a4bc74f9e88bd94f16c732f466"}
-  "iter" {= "1.5"}
+  "iter" {= "1.6"}
   "logs" {= "0.7.0"}
   "lwt" {= "5.6.1"}
   "mtime" {= "1.4.0"}

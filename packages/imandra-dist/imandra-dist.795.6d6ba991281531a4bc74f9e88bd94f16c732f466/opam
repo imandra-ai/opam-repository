@@ -53,7 +53,7 @@ depends: [
   "curly" {= "0.2.0"}
   "decoders" {= "0.7.0"}
   "decoders-yojson" {= "0.7.0"}
-  "digestif" {= "1.1.2"}
+  "digestif" {= "1.1.3"}
   "domain-name" {= "0.4.0"}
   "dot-merlin-reader" {= "4.5"}
   "dune" {= "2.9.3"}
@@ -116,7 +116,7 @@ depends: [
     {= "1.1.0-795.6d6ba991281531a4bc74f9e88bd94f16c732f466"}
   "ipaddr" {= "5.3.1"}
   "ipaddr-sexp" {= "5.3.1"}
-  "iter" {= "1.5"}
+  "iter" {= "1.6"}
   "jsonm" {= "1.0.1"}
   "jsonrpc" {= "1.5.0"}
   "jupyter-imandra" {= "1.1.0-795.6d6ba991281531a4bc74f9e88bd94f16c732f466"}
@@ -180,8 +180,8 @@ depends: [
   "sexplib" {= "v0.15.1"}
   "sexplib0" {= "v0.15.1"}
   "sha" {= "1.15.2"}
-  "ssl" {= "0.5.12"}
-  "stdint" {= "0.7.0"}
+  "ssl" {= "0.5.13"}
+  "stdint" {= "0.7.1"}
   "stdlib-shims" {= "0.3.0"}
   "stringext" {= "1.6.0"}
   "tiny_httpd" {= "0.12"}

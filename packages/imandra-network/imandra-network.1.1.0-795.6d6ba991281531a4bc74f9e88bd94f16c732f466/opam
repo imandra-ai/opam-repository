@@ -83,7 +83,7 @@ depends: [
   "imandra-util" {= "1.1.0-795.6d6ba991281531a4bc74f9e88bd94f16c732f466"}
   "ipaddr" {= "5.3.1"}
   "ipaddr-sexp" {= "5.3.1"}
-  "iter" {= "1.5"}
+  "iter" {= "1.6"}
   "jsonm" {= "1.0.1"}
   "linenoise" {= "1.4.0"}
   "logs" {= "0.7.0"}
@@ -139,8 +139,8 @@ depends: [
   "sexplib" {= "v0.15.1"}
   "sexplib0" {= "v0.15.1"}
   "sha" {= "1.15.2"}
-  "ssl" {= "0.5.12"}
-  "stdint" {= "0.7.0"}
+  "ssl" {= "0.5.13"}
+  "stdint" {= "0.7.1"}
   "stdlib-shims" {= "0.3.0"}
   "stringext" {= "1.6.0"}
   "topkg" {= "1.0.5"}
