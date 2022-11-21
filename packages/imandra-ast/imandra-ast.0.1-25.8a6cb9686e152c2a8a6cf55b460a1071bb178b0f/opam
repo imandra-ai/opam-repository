@@ -12,7 +12,7 @@ depends: [
   "base-unix" {= "base"}
   "biniou" {= "1.2.1"}
   "conf-gmp" {= "4"}
-  "containers" {= "3.9"}
+  "containers" {= "3.10"}
   "cppo" {= "1.6.9"}
   "csexp" {= "1.5.1"}
   "dune" {= "2.9.3"}
