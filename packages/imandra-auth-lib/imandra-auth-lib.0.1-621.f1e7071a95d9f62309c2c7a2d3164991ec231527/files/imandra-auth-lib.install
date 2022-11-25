@@ -1,9 +1,0 @@
-lib: [
-"lib/imandra-auth-lib/imandra_auth_lib__Config.cmi" {"imandra_auth_lib__Config.cmi"}
-"lib/imandra-auth-lib/imandra_auth_lib.cmi" {"imandra_auth_lib.cmi"}
-"lib/imandra-auth-lib/META" {"META"}
-"lib/imandra-auth-lib/imandra_auth_lib__Auth0_code_server.cmi" {"imandra_auth_lib__Auth0_code_server.cmi"}
-"lib/imandra-auth-lib/imandra_auth_lib__Auth.cmi" {"imandra_auth_lib__Auth.cmi"}
-"lib/imandra-auth-lib/imandra_auth_lib.cma" {"imandra_auth_lib.cma"}
-"lib/imandra-auth-lib/imandra_auth_lib__Util.cmi" {"imandra_auth_lib__Util.cmi"}
-]

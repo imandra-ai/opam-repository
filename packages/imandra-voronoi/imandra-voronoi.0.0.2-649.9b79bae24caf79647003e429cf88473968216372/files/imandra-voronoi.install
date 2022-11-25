@@ -1,6 +1,0 @@
-lib: [
-"lib/imandra-voronoi/META" {"META"}
-"lib/imandra-voronoi/imandra_voronoi.cmi" {"imandra_voronoi.cmi"}
-"lib/imandra-voronoi/imandra_voronoi.cma" {"imandra_voronoi.cma"}
-"lib/imandra-voronoi/imandra_voronoi__Voronoi.cmi" {"imandra_voronoi__Voronoi.cmi"}
-]
