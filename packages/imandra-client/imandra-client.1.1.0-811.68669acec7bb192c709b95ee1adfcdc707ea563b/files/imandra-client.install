@@ -1,0 +1,6 @@
+lib: [
+"lib/imandra-client/META" {"META"}
+"lib/imandra-client/opam" {"opam"}
+"lib/imandra-client/lib/imandra_client_lib.cma" {"lib/imandra_client_lib.cma"}
+"lib/imandra-client/lib/imandra_client_lib.cmi" {"lib/imandra_client_lib.cmi"}
+]
