@@ -1,0 +1,8 @@
+lib: [
+"lib/imandra-fol-redis/opam" {"opam"}
+"lib/imandra-fol-redis/imandra_fol_redis.cmxa" {"imandra_fol_redis.cmxa"}
+"lib/imandra-fol-redis/imandra_fol_redis.cma" {"imandra_fol_redis.cma"}
+"lib/imandra-fol-redis/imandra_fol_redis.cmi" {"imandra_fol_redis.cmi"}
+"lib/imandra-fol-redis/META" {"META"}
+"lib/imandra-fol-redis/imandra_fol_redis.a" {"imandra_fol_redis.a"}
+]
