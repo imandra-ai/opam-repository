@@ -24,12 +24,12 @@ depends: [
   "ocaml-base-compiler" {= "4.12.1"}
   "ocaml-config" {= "2"}
   "ocaml-options-vanilla" {= "1"}
-  "ocaml-protoc" {= "2.3"}
+  "ocaml-protoc" {= "2.4"}
   "ocamlbuild" {= "0.14.2"}
   "ocamlfind" {= "1.9.5"}
   "odoc" {= "2.1.1" & with-doc}
   "odoc-parser" {= "1.0.1" & with-doc}
-  "pbrt" {= "2.3"}
+  "pbrt" {= "2.4"}
   "ptime" {= "1.1.0"}
   "re" {= "1.10.4" & with-doc}
   "result" {= "1.5" & with-doc}
