@@ -30,7 +30,7 @@ depends: [
   "ocaml-compiler-libs" {= "v0.12.4"}
   "ocaml-config" {= "2"}
   "ocaml-options-vanilla" {= "1"}
-  "ocamlfind" {= "1.9.5"}
+  "ocamlfind" {= "1.9.6"}
   "ocplib-endian" {= "1.2" & with-test}
   "ppx_derivers" {= "1.2.1"}
   "ppx_deriving" {= "5.2.1"}

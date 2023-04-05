@@ -28,7 +28,7 @@ depends: [
   "ocaml-base-compiler" {= "4.12.1"}
   "ocaml-config" {= "2"}
   "ocaml-options-vanilla" {= "1"}
-  "ocamlfind" {= "1.9.5"}
+  "ocamlfind" {= "1.9.6"}
   "ppx_derivers" {= "1.2.1"}
   "result" {= "1.5"}
 ]
