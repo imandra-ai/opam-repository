@@ -14,7 +14,7 @@ depends: [
   "base-unix" {= "base"}
   "biniou" {= "1.2.1"}
   "cbor" {= "0.5" & with-test}
-  "cmdliner" {= "1.1.1"}
+  "cmdliner" {= "1.2.0"}
   "conf-gmp" {= "4"}
   "containers" {= "3.11"}
   "cppo" {= "1.6.9"}

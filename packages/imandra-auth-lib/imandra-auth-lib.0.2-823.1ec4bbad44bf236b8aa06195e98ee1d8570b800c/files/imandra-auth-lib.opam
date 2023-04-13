@@ -1,0 +1,21 @@
+opam-version: "2.0"
+name: "imandra-auth-lib"
+version: "0.2-823.1ec4bbad44bf236b8aa06195e98ee1d8570b800c"
+maintainer: "Nicola Mometto <nicola@imandra.ai>"
+synopsis: "Imandra auth library"
+author: "Nicola Mometto <nicola@imandra.ai>"
+
+depends: [
+  "containers"
+  "dune" {build}
+  "lwt"
+  "base64"
+  "sha"
+  "cohttp-lwt-unix"
+  "tyxml"
+  "decoders-yojson" { >= "0.2.0" }
+  "uuidm"
+  "lwt_ssl"
+]
+homepage: "https://github.com/AestheticIntegration/imandra-auth-lib"
+bug-reports: "https://github.com/AestheticIntegration/imandra-auth-lib/issues"
