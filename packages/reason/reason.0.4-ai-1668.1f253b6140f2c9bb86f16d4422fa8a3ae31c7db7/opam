@@ -20,9 +20,9 @@ depends: [
   "cppo" {= "1.6.9"}
   "dune" {= "2.9.3"}
   "fix" {= "20220121"}
-  "menhir" {= "20220210"}
-  "menhirLib" {= "20220210"}
-  "menhirSdk" {= "20220210"}
+  "menhir" {= "20230415"}
+  "menhirLib" {= "20230415"}
+  "menhirSdk" {= "20230415"}
   "merlin-extend" {= "0.6.1"}
   "ocaml" {= "4.12.1"}
   "ocaml-base-compiler" {= "4.12.1"}
