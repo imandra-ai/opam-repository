@@ -14,10 +14,10 @@ depends: [
   "base-unix" {= "base"}
   "cppo" {= "1.6.9"}
   "dune" {= "2.9.3"}
-  "fix" {= "20220121"}
-  "menhir" {= "20230415"}
-  "menhirLib" {= "20230415"}
-  "menhirSdk" {= "20230415"}
+  "fix" {= "20230505"}
+  "menhir" {= "20230608"}
+  "menhirLib" {= "20230608"}
+  "menhirSdk" {= "20230608"}
   "merlin-extend" {= "0.6.1"}
   "ocaml" {= "4.12.1"}
   "ocaml-base-compiler" {= "4.12.1"}

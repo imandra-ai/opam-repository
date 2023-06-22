@@ -16,7 +16,7 @@ depends: [
   "cbor" {= "0.5" & with-test}
   "cmdliner" {= "1.2.0"}
   "conf-gmp" {= "4"}
-  "containers" {= "3.11"}
+  "containers" {= "3.12"}
   "cppo" {= "1.6.9"}
   "csexp" {= "1.5.1"}
   "dune" {= "2.9.3"}
