@@ -1,0 +1,39 @@
+opam-version: "2.0"
+name: "imandra-document"
+version: "1.0.7-33.342a5be75d164d9f1a8f713f14d693a8ee6a205d"
+synopsis: "Imandra document library"
+maintainer: "Grant Passmore <grant@aestheticintegration.com>"
+authors: "Grant Passmore <grant@aestheticintegration.com>"
+homepage: "http://www.imandra.ai/"
+bug-reports: "Grant Passmore <grant@aestheticintegration.com>"
+depends: [
+  "base-bigarray" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "cmdliner" {= "1.2.0"}
+  "conf-gmp" {= "4"}
+  "containers" {= "3.12"}
+  "csexp" {= "1.5.1"}
+  "dune" {= "2.9.3"}
+  "dune-configurator" {= "2.9.3"}
+  "either" {= "1.0.0"}
+  "ocaml" {= "4.12.1"}
+  "ocaml-base-compiler" {= "4.12.1"}
+  "ocaml-config" {= "2"}
+  "ocaml-options-vanilla" {= "1"}
+  "ocamlbuild" {= "0.14.2"}
+  "ocamlfind" {= "1.9.6"}
+  "octavius" {= "1.2.2"}
+  "re" {= "1.10.4"}
+  "result" {= "1.5"}
+  "seq" {= "base"}
+  "topkg" {= "1.0.7"}
+  "tyxml" {= "4.5.0"}
+  "uutf" {= "1.0.3"}
+  "zarith" {= "1.12"}
+]
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+  ["dune" "runtest" "-p" name "-j" jobs] {with-test}
+]
+dev-repo: "git://github.com/AestheticIntegration/imandra-document.git"
