@@ -1,0 +1,8 @@
+lib: [
+"lib/imandra-core-stub/imandra_core_stub.cmi" {"imandra_core_stub.cmi"}
+"lib/imandra-core-stub/imandra_core_stub.cmxa" {"imandra_core_stub.cmxa"}
+"lib/imandra-core-stub/opam" {"opam"}
+"lib/imandra-core-stub/imandra_core_stub.cma" {"imandra_core_stub.cma"}
+"lib/imandra-core-stub/imandra_core_stub.a" {"imandra_core_stub.a"}
+"lib/imandra-core-stub/META" {"META"}
+]
