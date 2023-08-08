@@ -1,0 +1,102 @@
+opam-version: "2.0"
+name: "imandra-auth-lib"
+version: "0.2-838.a68e7b1db4fc0c5037edb8f18fa805b1f8cb45f1"
+synopsis: "Imandra auth library"
+maintainer: "Nicola Mometto <nicola@imandra.ai>"
+authors: "Nicola Mometto <nicola@imandra.ai>"
+homepage: "https://github.com/AestheticIntegration/imandra-auth-lib"
+bug-reports:
+  "https://github.com/AestheticIntegration/imandra-auth-lib/issues"
+depends: [
+  "angstrom" {= "0.15.0"}
+  "asn1-combinators" {= "0.2.6"}
+  "astring" {= "0.8.5"}
+  "base" {= "v0.15.1"}
+  "base-bigarray" {= "base"}
+  "base-bytes" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "base64" {= "3.5.1"}
+  "bigstringaf" {= "0.9.0"}
+  "biniou" {= "1.2.1"}
+  "bos" {= "0.2.1"}
+  "ca-certs" {= "0.2.3"}
+  "cmdliner" {= "1.2.0"}
+  "cohttp" {= "4.0.0"}
+  "cohttp-lwt" {= "4.0.0"}
+  "cohttp-lwt-unix" {= "4.0.0"}
+  "conduit" {= "4.0.2"}
+  "conduit-lwt" {= "4.0.2"}
+  "conduit-lwt-unix" {= "4.0.2"}
+  "conf-gmp" {= "4"}
+  "conf-gmp-powm-sec" {= "3"}
+  "conf-libssl" {= "4"}
+  "conf-pkg-config" {= "3"}
+  "containers" {= "3.12"}
+  "cppo" {= "1.6.9"}
+  "csexp" {= "1.5.1"}
+  "cstruct" {= "6.2.0"}
+  "decoders" {= "0.7.0"}
+  "decoders-yojson" {= "0.7.0"}
+  "domain-name" {= "0.4.0"}
+  "dune" {= "2.9.3"}
+  "dune-configurator" {= "2.9.3"}
+  "duration" {= "0.2.1"}
+  "easy-format" {= "1.3.3"}
+  "either" {= "1.0.0"}
+  "eqaf" {= "0.9"}
+  "fmt" {= "0.9.0"}
+  "fpath" {= "0.7.3"}
+  "gmap" {= "0.3.0"}
+  "ipaddr" {= "5.5.0"}
+  "ipaddr-sexp" {= "5.5.0"}
+  "jsonm" {= "1.0.2"}
+  "logs" {= "0.7.0"}
+  "lwt" {= "5.6.1"}
+  "lwt_ssl" {= "1.2.0"}
+  "macaddr" {= "5.5.0"}
+  "magic-mime" {= "1.3.0"}
+  "mirage-crypto" {= "0.11.1"}
+  "mirage-crypto-ec" {= "0.11.1"}
+  "mirage-crypto-pk" {= "0.11.1"}
+  "mirage-crypto-rng" {= "0.11.1"}
+  "num" {= "1.4"}
+  "ocaml" {= "4.12.1"}
+  "ocaml-base-compiler" {= "4.12.1"}
+  "ocaml-compiler-libs" {= "v0.12.4"}
+  "ocaml-config" {= "2"}
+  "ocaml-options-vanilla" {= "1"}
+  "ocaml-syntax-shims" {= "1.0.0"}
+  "ocamlbuild" {= "0.14.2"}
+  "ocamlfind" {= "1.9.6"}
+  "ocplib-endian" {= "1.2"}
+  "parsexp" {= "v0.15.0"}
+  "pbkdf" {= "1.2.0"}
+  "ppx_derivers" {= "1.2.1"}
+  "ppx_sexp_conv" {= "v0.15.1"}
+  "ppxlib" {= "0.30.0"}
+  "ptime" {= "1.1.0"}
+  "re" {= "1.10.4"}
+  "result" {= "1.5"}
+  "rresult" {= "0.7.0"}
+  "seq" {= "base"}
+  "sexplib" {= "v0.15.1"}
+  "sexplib0" {= "v0.15.1"}
+  "sha" {= "1.15.4"}
+  "ssl" {= "0.7.0"}
+  "stdlib-shims" {= "0.3.0"}
+  "stringext" {= "1.6.0"}
+  "topkg" {= "1.0.7"}
+  "tyxml" {= "4.5.0"}
+  "uri" {= "4.2.0"}
+  "uri-sexp" {= "4.2.0"}
+  "uuidm" {= "0.9.8"}
+  "uutf" {= "1.0.3"}
+  "x509" {= "0.16.5"}
+  "yojson" {= "1.7.0"}
+  "zarith" {= "1.12"}
+]
+extra-files: [
+  ["imandra-auth-lib.opam" "md5=0e230e00ccfd6c0e2eca1b94304c40f7"]
+  ["imandra-auth-lib.install" "md5=1bcde41869b16779442b20340a4b5468"]
+]
