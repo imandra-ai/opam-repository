@@ -1,0 +1,5 @@
+archive: "https://storage.googleapis.com/imandra-client/imandra_dist_imandra_tef_4e537727457274d4aa3220fade1338272b5c5655.tar.gz"
+checksum: [
+  "sha256=30baf779bbfea94fcdd65adcb451244a8958288a5b641de94b01ff14f8c8ce8e"
+  "sha512=9dfc7ec837ed4ba627f92d9d1b8730cfce810469bc2d275cd53e7abbfca64028b19644643f72aec30b4e734bf17d2918a7077d5964364800d0158628577b61b9"
+]
