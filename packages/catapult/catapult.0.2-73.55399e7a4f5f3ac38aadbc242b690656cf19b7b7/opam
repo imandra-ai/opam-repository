@@ -27,7 +27,7 @@ depends: [
   "ocamlfind" {= "1.9.6"}
   "odoc" {= "2.1.1" & with-doc}
   "odoc-parser" {= "1.0.1" & with-doc}
-  "re" {= "1.10.4" & with-doc}
+  "re" {= "1.11.0" & with-doc}
   "result" {= "1.5" & with-doc}
   "seq" {= "base" & with-doc}
   "topkg" {= "1.0.7"}

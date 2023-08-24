@@ -39,7 +39,7 @@ depends: [
   "opentelemetry" {= "0.3-114.b08a89da49b1a7887af9b281e74cbc3227bcbd86"}
   "pbrt" {= "2.4"}
   "ptime" {= "1.1.0"}
-  "re" {= "1.10.4" & with-doc}
+  "re" {= "1.11.0" & with-doc}
   "result" {= "1.5"}
   "seq" {= "base" & with-doc}
   "stdlib-shims" {= "0.3.0"}

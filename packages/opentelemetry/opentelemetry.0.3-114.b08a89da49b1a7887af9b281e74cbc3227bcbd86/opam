@@ -31,7 +31,7 @@ depends: [
   "odoc-parser" {= "1.0.1" & with-doc}
   "pbrt" {= "2.4"}
   "ptime" {= "1.1.0"}
-  "re" {= "1.10.4" & with-doc}
+  "re" {= "1.11.0" & with-doc}
   "result" {= "1.5" & with-doc}
   "seq" {= "base" & with-doc}
   "stdlib-shims" {= "0.3.0"}
