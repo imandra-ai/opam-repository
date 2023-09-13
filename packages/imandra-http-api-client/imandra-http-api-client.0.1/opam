@@ -1,0 +1,36 @@
+opam-version: "2.0"
+version: "0.1"
+synopsis: "Interact with Imandra via http from within OCaml."
+maintainer: ["the Imandra team and contributors"]
+authors: ["the Imandra team and contributors"]
+license: "MIT"
+homepage: "https://github.com/imandra-ai/imandra-http-api-client"
+bug-reports: "https://github.com/imandra-ai/imandra-http-api-client/issues"
+depends: [
+  "dune" {>= "2.7"}
+  "ocaml"
+  "containers"
+  "cohttp"
+  "ppx_deriving"
+  "cohttp-lwt-unix"
+  "decoders"
+  "decoders-yojson"
+  "alcotest"
+  "alcotest-lwt"
+  "odoc" {with-doc}
+]
+build: [
+  ["dune" "subst"] {dev}
+  [
+    "dune"
+    "build"
+    "-p"
+    name
+    "-j"
+    jobs
+    "@install"
+    "@runtest" {with-test}
+    "@doc" {with-doc}
+  ]
+]
+dev-repo: "git+https://github.com/imandra-ai/imandra-http-api-client.git"
