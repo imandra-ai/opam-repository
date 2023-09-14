@@ -1,0 +1,6 @@
+lib: [
+"src/jupyter-imandra/share/nbextensions/nbimandra/nbimandra/static/lib/carrotsearch.foamtree.js" {"./_payload/src/jupyter-imandra/share/nbextensions/nbimandra/nbimandra/static/lib/carrotsearch.foamtree.js"}
+"src/jupyter-imandra/share/nbextensions/nbimandra/nbimandra/static/lib/svg-pan-zoom.js" {"./_payload/src/jupyter-imandra/share/nbextensions/nbimandra/nbimandra/static/lib/svg-pan-zoom.js"}
+"src/jupyter-imandra/share/nbextensions/nbimandra/nbimandra/static/lib/viz-js/full.render.js" {"./_payload/src/jupyter-imandra/share/nbextensions/nbimandra/nbimandra/static/lib/viz-js/full.render.js"}
+"src/jupyter-imandra/share/nbextensions/nbimandra/nbimandra/static/lib/viz-js/viz.js" {"./_payload/src/jupyter-imandra/share/nbextensions/nbimandra/nbimandra/static/lib/viz-js/viz.js"}
+]
