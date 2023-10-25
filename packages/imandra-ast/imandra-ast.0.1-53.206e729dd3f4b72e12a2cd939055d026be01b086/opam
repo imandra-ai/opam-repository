@@ -24,7 +24,7 @@ depends: [
   "easy-format" {= "1.3.3"}
   "either" {= "1.0.0"}
   "imandra-prelude"
-    {= "1.0.7-73.64e9f6d7277ec1f51ce198033b1f4cfaa94a4363" & with-test}
+    {= "1.0.7-74.50a878f2c4e06c25708a3bacfbc77449ee185d68" & with-test}
   "ocaml" {= "4.12.1"}
   "ocaml-base-compiler" {= "4.12.1"}
   "ocaml-compiler-libs" {= "v0.12.4"}
@@ -35,7 +35,7 @@ depends: [
   "ppx_derivers" {= "1.2.1"}
   "ppx_deriving" {= "5.2.1"}
   "ppx_deriving_yojson" {= "3.7.0"}
-  "ppxlib" {= "0.30.0"}
+  "ppxlib" {= "0.31.0"}
   "result" {= "1.5"}
   "seq" {= "base"}
   "sexplib0" {= "v0.15.1"}
