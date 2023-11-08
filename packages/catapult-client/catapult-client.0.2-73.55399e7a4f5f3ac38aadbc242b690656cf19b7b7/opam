@@ -38,7 +38,7 @@ depends: [
   "topkg" {= "1.0.7"}
   "tyxml" {= "4.6.0" & with-doc}
   "uutf" {= "1.0.3" & with-doc}
-  "zmq" {= "5.2.1"}
+  "zmq" {= "5.2.2"}
 ]
 build: [
   ["dune" "subst"] {dev}
