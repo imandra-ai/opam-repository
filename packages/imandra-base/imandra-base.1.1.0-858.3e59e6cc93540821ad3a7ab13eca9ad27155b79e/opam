@@ -1,7 +1,7 @@
 opam-version: "2.0"
-name: "imandra-stdlib"
-version: "1.0.8-45.e6583293586542d78959bd9389cfe3d086b47ba6"
-synopsis: "Imandra standard library"
+name: "imandra-base"
+version: "1.1.0-858.3e59e6cc93540821ad3a7ab13eca9ad27155b79e"
+synopsis: "Imandra base libraries"
 maintainer: "The Imandra team <tech@imandra.ai>"
 authors: "The Imandra team <tech@imandra.ai>"
 license: "proprietary"
@@ -37,7 +37,6 @@ depends: [
   "fmt" {= "0.9.0"}
   "fpath" {= "0.7.3" & with-doc}
   "imandra-ast" {= "0.1-53.206e729dd3f4b72e12a2cd939055d026be01b086"}
-  "imandra-base" {= "1.1.0-858.3e59e6cc93540821ad3a7ab13eca9ad27155b79e"}
   "imandra-base-prelude"
     {= "1.1.0-858.3e59e6cc93540821ad3a7ab13eca9ad27155b79e"}
   "imandra-builtin-data"
@@ -51,7 +50,6 @@ depends: [
     {= "1.1.0-858.3e59e6cc93540821ad3a7ab13eca9ad27155b79e"}
   "imandra-kripke-graph"
     {= "0.0.1-858.3e59e6cc93540821ad3a7ab13eca9ad27155b79e"}
-  "imandra-prelude" {= "1.0.7-74.50a878f2c4e06c25708a3bacfbc77449ee185d68"}
   "imandra-reason-parser"
     {= "0.4-ai-1668.1f253b6140f2c9bb86f16d4422fa8a3ae31c7db7"}
   "imandra-redis" {= "1.1.0-858.3e59e6cc93540821ad3a7ab13eca9ad27155b79e"}
@@ -108,19 +106,7 @@ depends: [
   "zarith" {= "1.12"}
   "zmq" {= "5.2.2"}
 ]
-build: [
-  ["dune" "subst"] {dev}
-  [
-    "dune"
-    "build"
-    "-p"
-    name
-    "-j"
-    jobs
-    "--promote-install-files=false"
-    "@install"
-    "@runtest" {with-test}
-    "@doc" {with-doc}
-  ]
-  ["dune" "install" "-p" name "--create-install-files" name]
+extra-files: [
+  ["imandra-base.opam" "md5=73383be8d6d104fa0275cf57ebfd5b79"]
+  ["imandra-base.install" "md5=b3852d1a6ab4261d7f7cbfa2a1362d76"]
 ]

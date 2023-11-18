@@ -1,0 +1,5 @@
+archive: "https://storage.googleapis.com/imandra-client/imandra_dist_imandra_tools_3e59e6cc93540821ad3a7ab13eca9ad27155b79e.tar.gz"
+checksum: [
+  "sha256=9dda99a5bb0d3beb3b3ea8aa11cb72f209baeb5ee766017fef1b426c99f31346"
+  "sha512=db3675711c4dd217e83f03879fafdb64f251cc9d6b2910fc0bf745309da43af207211180a5a6a1c5bb629f229f3368615b1b03570f06aba1cbb6d0b6a8b5922b"
+]

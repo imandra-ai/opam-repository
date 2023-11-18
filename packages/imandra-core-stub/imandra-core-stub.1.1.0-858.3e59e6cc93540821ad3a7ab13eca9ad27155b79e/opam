@@ -1,0 +1,41 @@
+opam-version: "2.0"
+name: "imandra-core-stub"
+version: "1.1.0-858.3e59e6cc93540821ad3a7ab13eca9ad27155b79e"
+synopsis: "Tiny stub for loading Imandra from OCaml libraries"
+maintainer: "The Imandra team <tech@imandra.ai>"
+authors: "The Imandra team <tech@imandra.ai>"
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "astring" {= "0.8.5" & with-doc}
+  "base-bigarray" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "camlp-streams" {= "5.0.1" & with-doc}
+  "cmdliner" {= "1.2.0" & with-doc}
+  "conf-gmp" {= "4"}
+  "cppo" {= "1.6.9" & with-doc}
+  "dune" {= "2.9.3"}
+  "fmt" {= "0.9.0" & with-doc}
+  "fpath" {= "0.7.3" & with-doc}
+  "ocaml" {= "4.12.1"}
+  "ocaml-base-compiler" {= "4.12.1"}
+  "ocaml-config" {= "2"}
+  "ocaml-options-vanilla" {= "1"}
+  "ocamlbuild" {= "0.14.2" & with-doc}
+  "ocamlfind" {= "1.9.6"}
+  "odoc" {= "2.1.1" & with-doc}
+  "odoc-parser" {= "1.0.1" & with-doc}
+  "re" {= "1.11.0" & with-doc}
+  "result" {= "1.5" & with-doc}
+  "seq" {= "base" & with-doc}
+  "topkg" {= "1.0.7" & with-doc}
+  "tyxml" {= "4.6.0" & with-doc}
+  "uutf" {= "1.0.3" & with-doc}
+  "zarith" {= "1.12"}
+]
+extra-files: [
+  ["imandra-core-stub.opam" "md5=c0f8af80a6b20822b6da22ee04dd50e5"]
+  ["imandra-core-stub.install" "md5=da2cf217611f263b12f0659e4129a8d4"]
+]
