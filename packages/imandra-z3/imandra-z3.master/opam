@@ -1,0 +1,43 @@
+opam-version: "2.0"
+maintainer: "christoph@imandra.ai"
+authors: "MSR"
+homepage: "https://github.com/Z3prover/z3"
+bug-reports: "https://github.com/Z3prover/z3/issues"
+license: "MIT"
+dev-repo: "git+https://github.com/Z3prover/z3.git"
+depexts: [
+  ["python3-distutils"] {os-family = "debian"}
+]
+build: [
+  [ "python3" "scripts/mk_make.py" "--ml" ]
+  [ make "-C" "build" "-j" jobs ]
+]
+
+install: [
+  [ "sh" "-c" "ocamlfind install z3 build/api/ml/* -dll build/libz3.*"]
+  [ "cp" "build/z3" "%{bin}%/z3"]
+]
+
+depends: [
+  "ocaml" {>= "4.08.0"}
+  "ocamlfind" {build}
+  "zarith"
+  "conf-gmp"
+  "conf-python-3" {build}
+  "conf-c++" {build}
+]
+x-ci-accept-failures: [
+  "centos-7" "oraclelinux-7" # C compiler is too old
+]
+conflicts: [
+  "ocaml-option-bytecode-only"
+]
+synopsis: "Imandra's custom Z3"
+url {
+  src:
+    "https://github.com/Z3Prover/z3/archive/refs/heads/master.zip"
+  checksum: [
+    "sha256=fa61ac972f6af286e952bf261e5ceb88948ecc73536dd74ebaaa6bfec4b6917e"
+    "sha512=0a3dcc0e4ac81caf19677c264ba2261116482a24992bcfc7972d0dbb8b27245d2adf9c3a64f1a6d1fb68ecae687a411e604e1af8e406b5ea691d19d8c6e0be4f"
+  ]
+}
