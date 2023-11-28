@@ -35,9 +35,9 @@ conflicts: [
 synopsis: "Imandra's custom Z3"
 url {
   src:
-    "https://github.com/Z3Prover/z3/archive/refs/heads/master.zip"
+    "https://github.com/Z3Prover/z3/archive/3422f44cea4e73572d1e22d1c483a960ec788771.tar.gz"
   checksum: [
-    "sha256=fa61ac972f6af286e952bf261e5ceb88948ecc73536dd74ebaaa6bfec4b6917e"
-    "sha512=0a3dcc0e4ac81caf19677c264ba2261116482a24992bcfc7972d0dbb8b27245d2adf9c3a64f1a6d1fb68ecae687a411e604e1af8e406b5ea691d19d8c6e0be4f"
+    "sha256=b38f753502bc5dae546289b651edb36e5dfa724e59ebddee8899e0d73b50d40c"
+    "sha512=574a135734e1c06a5271ee382336a14a33ab1bdad135d3e1997ef84eaaafce35a7395a67676e2a6b8f69c0a70a944e4e877a6b53b92575d64f5d93c80a4c03a8"
   ]
 }
