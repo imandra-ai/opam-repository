@@ -1,0 +1,5 @@
+archive: "https://storage.googleapis.com/imandra-client/imandra_dist_imandra_kripke_graph_1eef3714e920daec9cbeca9a2ad9fe88d20cc569.tar.gz"
+checksum: [
+  "sha256=ea525c83fad899a1e64f5906aa619e32ea659a243c631ad5469d343d967d9c35"
+  "sha512=75a2a68285ab72447896d1b27ea2958ce4db65c5792786001671d89326f10dfd7494c403feea0cf2d6b0ec08a75f5697163b1b6cdcf5606a97d9dc155948afd4"
+]
