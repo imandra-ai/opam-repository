@@ -1,0 +1,27 @@
+lib: [
+"lib/imandra-syntax/imandra_syntax__Util_err.cmi" {"imandra_syntax__Util_err.cmi"}
+"lib/imandra-syntax/imandra_syntax__Imandra_lexer.cmi" {"imandra_syntax__Imandra_lexer.cmi"}
+"lib/imandra-syntax/imandra_syntax__Util_io.cmi" {"imandra_syntax__Util_io.cmi"}
+"lib/imandra-syntax/META" {"META"}
+"lib/imandra-syntax/imandra_syntax__Syntax.cmi" {"imandra_syntax__Syntax.cmi"}
+"lib/imandra-syntax/imandra_syntax.cmi" {"imandra_syntax.cmi"}
+"lib/imandra-syntax/imandra_syntax__Input_buf.cmi" {"imandra_syntax__Input_buf.cmi"}
+"lib/imandra-syntax/imandra_syntax__Lstring_preprocessor.cmi" {"imandra_syntax__Lstring_preprocessor.cmi"}
+"lib/imandra-syntax/imandra_syntax__Imandra_parser.cmi" {"imandra_syntax__Imandra_parser.cmi"}
+"lib/imandra-syntax/imandra_syntax.cmxa" {"imandra_syntax.cmxa"}
+"lib/imandra-syntax/imandra_syntax__Imandra_parse.cmi" {"imandra_syntax__Imandra_parse.cmi"}
+"lib/imandra-syntax/imandra_syntax__Readline_state.cmi" {"imandra_syntax__Readline_state.cmi"}
+"lib/imandra-syntax/opam" {"opam"}
+"lib/imandra-syntax/imandra_syntax__Util_iloc.cmi" {"imandra_syntax__Util_iloc.cmi"}
+"lib/imandra-syntax/imandra_syntax.cma" {"imandra_syntax.cma"}
+"lib/imandra-syntax/imandra_syntax__Syntax_st_.cmi" {"imandra_syntax__Syntax_st_.cmi"}
+"lib/imandra-syntax/imandra_syntax__Rewrite_parsetree.cmi" {"imandra_syntax__Rewrite_parsetree.cmi"}
+"lib/imandra-syntax/imandra_syntax__Util_warnings.cmi" {"imandra_syntax__Util_warnings.cmi"}
+"lib/imandra-syntax/imandra_syntax__Logic_ast.cmi" {"imandra_syntax__Logic_ast.cmi"}
+"lib/imandra-syntax/imandra_syntax__.cmi" {"imandra_syntax__.cmi"}
+"lib/imandra-syntax/imandra_syntax.a" {"imandra_syntax.a"}
+"lib/imandra-syntax/imandra_syntax__Qid.cmi" {"imandra_syntax__Qid.cmi"}
+"lib/imandra-syntax/imandra_syntax__Simple_expr.cmi" {"imandra_syntax__Simple_expr.cmi"}
+"lib/imandra-syntax/imandra_syntax__Pre_conv.cmi" {"imandra_syntax__Pre_conv.cmi"}
+"lib/imandra-syntax/imandra_syntax__Attributes.cmi" {"imandra_syntax__Attributes.cmi"}
+]
