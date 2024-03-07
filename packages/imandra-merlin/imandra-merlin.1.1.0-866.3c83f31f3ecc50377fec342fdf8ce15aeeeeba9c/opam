@@ -1,7 +1,7 @@
 opam-version: "2.0"
-name: "imandra-stdlib"
-version: "1.0.8-46.6522ff45e8cad5755fd2f91d5d7e0279e9abe71e"
-synopsis: "Imandra standard library"
+name: "imandra-merlin"
+version: "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"
+synopsis: "A reader using merlin-extend for Imandra's syntax"
 maintainer: "The Imandra team <tech@imandra.ai>"
 authors: "The Imandra team <tech@imandra.ai>"
 license: "proprietary"
@@ -23,12 +23,10 @@ depends: [
   "conf-gmp" {= "4"}
   "conf-pkg-config" {= "3"}
   "conf-zlib" {= "1"}
-  "conf-zmq" {= "0.1"}
   "containers" {= "3.12"}
   "containers-data" {= "3.12"}
   "cppo" {= "1.6.9"}
   "csexp" {= "1.5.1"}
-  "curly" {= "0.3.0"}
   "dune" {= "2.9.3"}
   "dune-configurator" {= "2.9.3"}
   "easy-format" {= "1.3.3"}
@@ -37,31 +35,22 @@ depends: [
   "fmt" {= "0.9.0"}
   "fpath" {= "0.7.3" & with-doc}
   "imandra-ast" {= "0.1-53.206e729dd3f4b72e12a2cd939055d026be01b086"}
-  "imandra-base" {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
-  "imandra-base-prelude"
-    {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
   "imandra-builtin-data"
     {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
-  "imandra-core-stub"
-    {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
   "imandra-document" {= "1.0.7-33.342a5be75d164d9f1a8f713f14d693a8ee6a205d"}
-  "imandra-extract" {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
   "imandra-fol" {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
   "imandra-job-proto"
     {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
   "imandra-kripke-graph"
     {= "0.0.1-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
-  "imandra-prelude" {= "1.0.7-75.1d613cb06140223a86d76be5ebda237924115c6e"}
   "imandra-reason-parser"
     {= "0.4-ai-1668.1f253b6140f2c9bb86f16d4422fa8a3ae31c7db7"}
-  "imandra-redis" {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
   "imandra-surface" {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
   "imandra-syntax" {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
   "imandra-syntax-reason"
     {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
   "imandra-util" {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
   "iter" {= "1.8"}
-  "linenoise" {= "1.4.0"}
   "logs" {= "0.7.0"}
   "lwt" {= "5.7.0"}
   "menhir" {= "20231231"}
@@ -107,7 +96,6 @@ depends: [
   "uutf" {= "1.0.3"}
   "yojson" {= "1.7.0"}
   "zarith" {= "1.12"}
-  "zmq" {= "5.2.2"}
 ]
 build: [
   ["dune" "subst"] {dev}
@@ -118,10 +106,9 @@ build: [
     name
     "-j"
     jobs
-    "--promote-install-files=false"
     "@install"
     "@runtest" {with-test}
     "@doc" {with-doc}
   ]
-  ["dune" "install" "-p" name "--create-install-files" name]
 ]
+extra-files: ["imandra-merlin.opam" "md5=2f4d5029d2d3bc2dcb16fd3509414709"]

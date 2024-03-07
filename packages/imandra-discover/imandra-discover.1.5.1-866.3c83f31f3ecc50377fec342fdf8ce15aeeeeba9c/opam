@@ -1,14 +1,15 @@
 opam-version: "2.0"
-name: "imandra-stdlib"
-version: "1.0.8-46.6522ff45e8cad5755fd2f91d5d7e0279e9abe71e"
-synopsis: "Imandra standard library"
-maintainer: "The Imandra team <tech@imandra.ai>"
-authors: "The Imandra team <tech@imandra.ai>"
-license: "proprietary"
-homepage: "https://imandra.ai"
-bug-reports: "The Imandra team <tech@imandra.ai>"
+name: "imandra-discover"
+version: "1.5.1-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"
+synopsis:
+  "Automatic theory exploration and lemma generation based on QuickSpec"
+maintainer: "John Hester"
+authors: "John Hester"
+license: "Commercial/Restricted/Confidential"
+homepage: "https://github.com/aestheticintegration/imandra-discover"
+bug-reports:
+  "https://github.com/aestheticintegration/imandra-discover/issues"
 depends: [
-  "astring" {= "0.8.5" & with-doc}
   "base-bigarray" {= "base"}
   "base-bytes" {= "base"}
   "base-threads" {= "base"}
@@ -35,7 +36,6 @@ depends: [
   "either" {= "1.0.0"}
   "fix" {= "20230505"}
   "fmt" {= "0.9.0"}
-  "fpath" {= "0.7.3" & with-doc}
   "imandra-ast" {= "0.1-53.206e729dd3f4b72e12a2cd939055d026be01b086"}
   "imandra-base" {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
   "imandra-base-prelude"
@@ -51,7 +51,6 @@ depends: [
     {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
   "imandra-kripke-graph"
     {= "0.0.1-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
-  "imandra-prelude" {= "1.0.7-75.1d613cb06140223a86d76be5ebda237924115c6e"}
   "imandra-reason-parser"
     {= "0.4-ai-1668.1f253b6140f2c9bb86f16d4422fa8a3ae31c7db7"}
   "imandra-redis" {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
@@ -82,8 +81,6 @@ depends: [
   "ocamlgraph" {= "2.0.0"}
   "ocplib-endian" {= "1.2"}
   "octavius" {= "1.2.2"}
-  "odoc" {= "2.1.1" & with-doc}
-  "odoc-parser" {= "1.0.1" & with-doc}
   "opentelemetry" {= "0.3-114.b08a89da49b1a7887af9b281e74cbc3227bcbd86"}
   "pbrt" {= "2.4"}
   "pp_loc" {= "2.1.0"}
@@ -109,19 +106,8 @@ depends: [
   "zarith" {= "1.12"}
   "zmq" {= "5.2.2"}
 ]
-build: [
-  ["dune" "subst"] {dev}
-  [
-    "dune"
-    "build"
-    "-p"
-    name
-    "-j"
-    jobs
-    "--promote-install-files=false"
-    "@install"
-    "@runtest" {with-test}
-    "@doc" {with-doc}
-  ]
-  ["dune" "install" "-p" name "--create-install-files" name]
+dev-repo: "git+https://github.com/aestheticintegration/imandra-discover.git"
+extra-files: [
+  ["imandra-discover.opam" "md5=cdf4aec93b22fa86d89310d41cf8fbb8"]
+  ["imandra-discover.install" "md5=cf5b8dbb3a66fa180ffbb64c3f0adfc2"]
 ]

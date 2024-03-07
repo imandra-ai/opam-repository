@@ -1,14 +1,15 @@
 opam-version: "2.0"
-name: "imandra-stdlib"
-version: "1.0.8-46.6522ff45e8cad5755fd2f91d5d7e0279e9abe71e"
-synopsis: "Imandra standard library"
+name: "imandra-goals-alcotest"
+version: "1.0.7-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"
+synopsis: "Run Imandra verification goals as unit tests with Alcotest"
 maintainer: "The Imandra team <tech@imandra.ai>"
 authors: "The Imandra team <tech@imandra.ai>"
 license: "proprietary"
 homepage: "https://imandra.ai"
 bug-reports: "The Imandra team <tech@imandra.ai>"
 depends: [
-  "astring" {= "0.8.5" & with-doc}
+  "alcotest" {= "1.6.0"}
+  "astring" {= "0.8.5"}
   "base-bigarray" {= "base"}
   "base-bytes" {= "base"}
   "base-threads" {= "base"}
@@ -29,13 +30,14 @@ depends: [
   "cppo" {= "1.6.9"}
   "csexp" {= "1.5.1"}
   "curly" {= "0.3.0"}
+  "decoders" {= "0.7.0"}
+  "decoders-yojson" {= "0.7.0"}
   "dune" {= "2.9.3"}
   "dune-configurator" {= "2.9.3"}
   "easy-format" {= "1.3.3"}
   "either" {= "1.0.0"}
   "fix" {= "20230505"}
   "fmt" {= "0.9.0"}
-  "fpath" {= "0.7.3" & with-doc}
   "imandra-ast" {= "0.1-53.206e729dd3f4b72e12a2cd939055d026be01b086"}
   "imandra-base" {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
   "imandra-base-prelude"
@@ -47,11 +49,11 @@ depends: [
   "imandra-document" {= "1.0.7-33.342a5be75d164d9f1a8f713f14d693a8ee6a205d"}
   "imandra-extract" {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
   "imandra-fol" {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
+  "imandra-goals" {= "1.0.7-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
   "imandra-job-proto"
     {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
   "imandra-kripke-graph"
     {= "0.0.1-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
-  "imandra-prelude" {= "1.0.7-75.1d613cb06140223a86d76be5ebda237924115c6e"}
   "imandra-reason-parser"
     {= "0.4-ai-1668.1f253b6140f2c9bb86f16d4422fa8a3ae31c7db7"}
   "imandra-redis" {= "1.1.0-866.3c83f31f3ecc50377fec342fdf8ce15aeeeeba9c"}
@@ -77,13 +79,12 @@ depends: [
   "ocaml-migrate-parsetree" {= "2.4.0"}
   "ocaml-options-vanilla" {= "1"}
   "ocaml-protoc" {= "2.4"}
+  "ocaml-syntax-shims" {= "1.0.0"}
   "ocamlbuild" {= "0.14.3"}
   "ocamlfind" {= "1.9.6"}
   "ocamlgraph" {= "2.0.0"}
   "ocplib-endian" {= "1.2"}
   "octavius" {= "1.2.2"}
-  "odoc" {= "2.1.1" & with-doc}
-  "odoc-parser" {= "1.0.1" & with-doc}
   "opentelemetry" {= "0.3-114.b08a89da49b1a7887af9b281e74cbc3227bcbd86"}
   "pbrt" {= "2.4"}
   "pp_loc" {= "2.1.0"}
@@ -110,7 +111,7 @@ depends: [
   "zmq" {= "5.2.2"}
 ]
 build: [
-  ["dune" "subst"] {dev}
+  ["dune" "subst"] {pinned}
   [
     "dune"
     "build"
@@ -118,10 +119,8 @@ build: [
     name
     "-j"
     jobs
-    "--promote-install-files=false"
     "@install"
     "@runtest" {with-test}
     "@doc" {with-doc}
   ]
-  ["dune" "install" "-p" name "--create-install-files" name]
 ]
