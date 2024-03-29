@@ -1,0 +1,51 @@
+opam-version: "2.0"
+name: "cbor-pack"
+version: "1.1.0-867.ca8f7064da2bf67b168e068bae2045d3b82a1b4a"
+synopsis: "Serialization format with sharing on top of CBOR"
+maintainer: "The Imandra team <tech@imandra.ai>"
+authors: "The Imandra team <tech@imandra.ai>"
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "astring" {= "0.8.5" & with-doc}
+  "base-bigarray" {= "base"}
+  "base-bytes" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "camlp-streams" {= "5.0.1" & with-doc}
+  "cbor" {= "0.5"}
+  "cmdliner" {= "1.2.0" & with-doc}
+  "containers" {= "3.12"}
+  "cppo" {= "1.6.9"}
+  "csexp" {= "1.5.1"}
+  "dune" {= "2.9.3"}
+  "dune-configurator" {= "2.9.3"}
+  "either" {= "1.0.0"}
+  "fmt" {= "0.9.0" & with-doc}
+  "fpath" {= "0.7.3" & with-doc}
+  "ocaml" {= "4.12.1"}
+  "ocaml-base-compiler" {= "4.12.1"}
+  "ocaml-compiler-libs" {= "v0.12.4"}
+  "ocaml-config" {= "2"}
+  "ocaml-options-vanilla" {= "1"}
+  "ocamlbuild" {= "0.14.3" & with-doc}
+  "ocamlfind" {= "1.9.6"}
+  "ocplib-endian" {= "1.2"}
+  "odoc" {= "2.1.1" & with-doc}
+  "odoc-parser" {= "1.0.1" & with-doc}
+  "ppx_derivers" {= "1.2.1"}
+  "ppxlib" {= "0.32.0"}
+  "re" {= "1.11.0" & with-doc}
+  "result" {= "1.5"}
+  "seq" {= "base"}
+  "sexplib0" {= "v0.15.1"}
+  "stdlib-shims" {= "0.3.0"}
+  "topkg" {= "1.0.7" & with-doc}
+  "tyxml" {= "4.6.0" & with-doc}
+  "uutf" {= "1.0.3" & with-doc}
+]
+extra-files: [
+  ["cbor-pack.opam" "md5=a82cb39c0124eed5a99130f6dfbbc517"]
+  ["cbor-pack.install" "md5=dffd37e0d2dd27c72d0989c8a4d5bc43"]
+]

@@ -1,0 +1,8 @@
+lib: [
+"lib/imandra-syntax-reason/imandra_reason.cmxa" {"imandra_reason.cmxa"}
+"lib/imandra-syntax-reason/imandra_reason.a" {"imandra_reason.a"}
+"lib/imandra-syntax-reason/imandra_reason.cma" {"imandra_reason.cma"}
+"lib/imandra-syntax-reason/opam" {"opam"}
+"lib/imandra-syntax-reason/META" {"META"}
+"lib/imandra-syntax-reason/imandra_reason.cmi" {"imandra_reason.cmi"}
+]
