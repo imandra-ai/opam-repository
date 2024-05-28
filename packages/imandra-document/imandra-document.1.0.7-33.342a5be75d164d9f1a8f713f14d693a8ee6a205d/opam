@@ -10,7 +10,7 @@ depends: [
   "base-bigarray" {= "base"}
   "base-threads" {= "base"}
   "base-unix" {= "base"}
-  "cmdliner" {= "1.2.0"}
+  "cmdliner" {= "1.3.0"}
   "conf-gmp" {= "4"}
   "containers" {= "3.12"}
   "csexp" {= "1.5.1"}

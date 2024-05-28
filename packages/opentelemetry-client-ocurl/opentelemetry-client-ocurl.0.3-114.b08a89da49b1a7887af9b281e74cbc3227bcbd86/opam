@@ -15,7 +15,7 @@ depends: [
   "base-threads" {= "base"}
   "base-unix" {= "base"}
   "camlp-streams" {= "5.0.1" & with-doc}
-  "cmdliner" {= "1.2.0" & with-doc}
+  "cmdliner" {= "1.3.0" & with-doc}
   "conf-libcurl" {= "2"}
   "cppo" {= "1.6.9"}
   "csexp" {= "1.5.1"}

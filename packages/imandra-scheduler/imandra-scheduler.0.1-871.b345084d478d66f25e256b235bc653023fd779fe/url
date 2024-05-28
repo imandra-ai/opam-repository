@@ -1,0 +1,5 @@
+archive: "https://storage.googleapis.com/imandra-client/imandra_dist_imandra_scheduler_b345084d478d66f25e256b235bc653023fd779fe.tar.gz"
+checksum: [
+  "sha256=16e9eced6d95769206b5b47e0f5ad18cf0f62bf3936fe8fefb38abb9be684e79"
+  "sha512=1813fac78f2d6bafc3ea425c23e7c676c52c5547ca9be4bd09a3cb0c4a1ec3b42d4a814ab766d4639a0e693279b45f5a277820b69faf5f60e2dfe65ae6c198b0"
+]
