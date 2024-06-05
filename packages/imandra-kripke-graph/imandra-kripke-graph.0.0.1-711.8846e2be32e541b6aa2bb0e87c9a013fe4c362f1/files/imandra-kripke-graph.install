@@ -1,8 +1,0 @@
-lib: [
-"lib/imandra-kripke-graph/imandra_kripke_graph.a" {"imandra_kripke_graph.a"}
-"lib/imandra-kripke-graph/opam" {"opam"}
-"lib/imandra-kripke-graph/imandra_kripke_graph.cmi" {"imandra_kripke_graph.cmi"}
-"lib/imandra-kripke-graph/imandra_kripke_graph.cmxa" {"imandra_kripke_graph.cmxa"}
-"lib/imandra-kripke-graph/META" {"META"}
-"lib/imandra-kripke-graph/imandra_kripke_graph.cma" {"imandra_kripke_graph.cma"}
-]

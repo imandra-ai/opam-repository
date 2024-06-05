@@ -1,8 +1,0 @@
-lib: [
-"lib/imandra-base-prelude/opam" {"opam"}
-"lib/imandra-base-prelude/imandra_base_prelude.cma" {"imandra_base_prelude.cma"}
-"lib/imandra-base-prelude/imandra_base_prelude.a" {"imandra_base_prelude.a"}
-"lib/imandra-base-prelude/META" {"META"}
-"lib/imandra-base-prelude/imandra_base_prelude.cmi" {"imandra_base_prelude.cmi"}
-"lib/imandra-base-prelude/imandra_base_prelude.cmxa" {"imandra_base_prelude.cmxa"}
-]

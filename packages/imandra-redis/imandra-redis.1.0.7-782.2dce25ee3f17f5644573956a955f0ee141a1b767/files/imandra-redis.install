@@ -1,8 +1,0 @@
-lib: [
-"lib/imandra-redis/opam" {"opam"}
-"lib/imandra-redis/imandra_redis.a" {"imandra_redis.a"}
-"lib/imandra-redis/imandra_redis.cma" {"imandra_redis.cma"}
-"lib/imandra-redis/imandra_redis.cmi" {"imandra_redis.cmi"}
-"lib/imandra-redis/imandra_redis.cmxa" {"imandra_redis.cmxa"}
-"lib/imandra-redis/META" {"META"}
-]

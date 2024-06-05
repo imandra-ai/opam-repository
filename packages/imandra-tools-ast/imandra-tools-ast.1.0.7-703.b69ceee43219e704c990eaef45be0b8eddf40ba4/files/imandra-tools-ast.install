@@ -1,9 +1,0 @@
-lib: [
-"lib/imandra-tools-ast/imandra_tools_ast__Ast.cmi" {"imandra_tools_ast__Ast.cmi"}
-"lib/imandra-tools-ast/imandra_tools_ast.cmi" {"imandra_tools_ast.cmi"}
-"lib/imandra-tools-ast/opam" {"opam"}
-"lib/imandra-tools-ast/imandra_tools_ast.cma" {"imandra_tools_ast.cma"}
-"lib/imandra-tools-ast/imandra_tools_ast.a" {"imandra_tools_ast.a"}
-"lib/imandra-tools-ast/META" {"META"}
-"lib/imandra-tools-ast/imandra_tools_ast.cmxa" {"imandra_tools_ast.cmxa"}
-]
