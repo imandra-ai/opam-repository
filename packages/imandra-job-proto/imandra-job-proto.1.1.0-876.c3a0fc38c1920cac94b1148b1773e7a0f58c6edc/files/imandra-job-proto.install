@@ -1,0 +1,8 @@
+lib: [
+"lib/imandra-job-proto/imandra_job_proto.cma" {"imandra_job_proto.cma"}
+"lib/imandra-job-proto/imandra_job_proto.cmxa" {"imandra_job_proto.cmxa"}
+"lib/imandra-job-proto/opam" {"opam"}
+"lib/imandra-job-proto/imandra_job_proto.a" {"imandra_job_proto.a"}
+"lib/imandra-job-proto/imandra_job_proto.cmi" {"imandra_job_proto.cmi"}
+"lib/imandra-job-proto/META" {"META"}
+]
