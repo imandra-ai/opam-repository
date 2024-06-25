@@ -1,7 +1,7 @@
 opam-version: "2.0"
-name: "imandra-stdlib"
-version: "1.0.8-47.49212c65a4ab4f92be5d5f70c67ac4fc722a010b"
-synopsis: "Imandra standard library"
+name: "imandra-base-bin"
+version: "1.1.0-877.9e2db248b35a9679a0e6dc5fbcbe0a4ef707480e"
+synopsis: "Imandra base libraries"
 maintainer: "The Imandra team <tech@imandra.ai>"
 authors: "The Imandra team <tech@imandra.ai>"
 license: "proprietary"
@@ -51,7 +51,6 @@ depends: [
     {= "1.1.0-877.9e2db248b35a9679a0e6dc5fbcbe0a4ef707480e"}
   "imandra-kripke-graph"
     {= "0.0.1-877.9e2db248b35a9679a0e6dc5fbcbe0a4ef707480e"}
-  "imandra-prelude" {= "1.0.7-75.1d613cb06140223a86d76be5ebda237924115c6e"}
   "imandra-reason-parser"
     {= "0.4-ai-1668.1f253b6140f2c9bb86f16d4422fa8a3ae31c7db7"}
   "imandra-redis" {= "1.1.0-877.9e2db248b35a9679a0e6dc5fbcbe0a4ef707480e"}
@@ -118,10 +117,9 @@ build: [
     name
     "-j"
     jobs
-    "--promote-install-files=false"
     "@install"
     "@runtest" {with-test}
     "@doc" {with-doc}
   ]
-  ["dune" "install" "-p" name "--create-install-files" name]
 ]
+extra-files: ["imandra-base-bin.opam" "md5=1347ff898a50e41bcff40b81d886ca91"]
