@@ -1,7 +1,7 @@
 opam-version: "2.0"
-name: "imandra-stdlib"
-version: "1.0.8-51.57f05857c240404a553117a38b76ee7b71e3105b"
-synopsis: "Imandra standard library"
+name: "imandra-extract"
+version: "1.1.0-879.fd17917fb0737fdcfb628ebf82e2d5301078dd5a"
+synopsis: "Extraction tool from imandra to OCaml"
 maintainer: "The Imandra team <tech@imandra.ai>"
 authors: "The Imandra team <tech@imandra.ai>"
 license: "proprietary"
@@ -38,13 +38,11 @@ depends: [
   "imandra-builtin-data"
     {= "1.1.0-879.fd17917fb0737fdcfb628ebf82e2d5301078dd5a"}
   "imandra-document" {= "1.0.7-33.342a5be75d164d9f1a8f713f14d693a8ee6a205d"}
-  "imandra-extract" {= "1.1.0-879.fd17917fb0737fdcfb628ebf82e2d5301078dd5a"}
   "imandra-fol" {= "1.1.0-879.fd17917fb0737fdcfb628ebf82e2d5301078dd5a"}
   "imandra-job-proto"
     {= "1.1.0-879.fd17917fb0737fdcfb628ebf82e2d5301078dd5a"}
   "imandra-kripke-graph"
     {= "0.0.1-879.fd17917fb0737fdcfb628ebf82e2d5301078dd5a"}
-  "imandra-prelude" {= "1.0.7-75.1d613cb06140223a86d76be5ebda237924115c6e"}
   "imandra-reason-parser"
     {= "0.4-ai-1668.1f253b6140f2c9bb86f16d4422fa8a3ae31c7db7"}
   "imandra-surface" {= "1.1.0-879.fd17917fb0737fdcfb628ebf82e2d5301078dd5a"}
@@ -108,10 +106,9 @@ build: [
     name
     "-j"
     jobs
-    "--promote-install-files=false"
     "@install"
     "@runtest" {with-test}
     "@doc" {with-doc}
   ]
-  ["dune" "install" "-p" name "--create-install-files" name]
 ]
+extra-files: ["imandra-extract.opam" "md5=e90108e23e7fa68330333aa175ffacd7"]
