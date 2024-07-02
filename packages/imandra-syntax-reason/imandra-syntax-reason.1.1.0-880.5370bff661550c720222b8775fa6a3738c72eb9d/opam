@@ -1,7 +1,7 @@
 opam-version: "2.0"
-name: "imandra-stdlib"
-version: "1.0.8-51.57f05857c240404a553117a38b76ee7b71e3105b"
-synopsis: "Imandra standard library"
+name: "imandra-syntax-reason"
+version: "1.1.0-880.5370bff661550c720222b8775fa6a3738c72eb9d"
+synopsis: "Reason for Imandra syntax"
 maintainer: "The Imandra team <tech@imandra.ai>"
 authors: "The Imandra team <tech@imandra.ai>"
 license: "proprietary"
@@ -38,19 +38,15 @@ depends: [
   "imandra-builtin-data"
     {= "1.1.0-880.5370bff661550c720222b8775fa6a3738c72eb9d"}
   "imandra-document" {= "1.0.7-33.342a5be75d164d9f1a8f713f14d693a8ee6a205d"}
-  "imandra-extract" {= "1.1.0-880.5370bff661550c720222b8775fa6a3738c72eb9d"}
   "imandra-fol" {= "1.1.0-880.5370bff661550c720222b8775fa6a3738c72eb9d"}
   "imandra-job-proto"
     {= "1.1.0-880.5370bff661550c720222b8775fa6a3738c72eb9d"}
   "imandra-kripke-graph"
     {= "0.0.1-880.5370bff661550c720222b8775fa6a3738c72eb9d"}
-  "imandra-prelude" {= "1.0.7-75.1d613cb06140223a86d76be5ebda237924115c6e"}
   "imandra-reason-parser"
     {= "0.4-ai-1668.1f253b6140f2c9bb86f16d4422fa8a3ae31c7db7"}
   "imandra-surface" {= "1.1.0-880.5370bff661550c720222b8775fa6a3738c72eb9d"}
   "imandra-syntax" {= "1.1.0-880.5370bff661550c720222b8775fa6a3738c72eb9d"}
-  "imandra-syntax-reason"
-    {= "1.1.0-880.5370bff661550c720222b8775fa6a3738c72eb9d"}
   "imandra-util" {= "1.1.0-880.5370bff661550c720222b8775fa6a3738c72eb9d"}
   "iter" {= "1.8"}
   "logs" {= "0.7.0"}
@@ -99,19 +95,7 @@ depends: [
   "yojson" {= "1.7.0"}
   "zarith" {= "1.12"}
 ]
-build: [
-  ["dune" "subst"] {dev}
-  [
-    "dune"
-    "build"
-    "-p"
-    name
-    "-j"
-    jobs
-    "--promote-install-files=false"
-    "@install"
-    "@runtest" {with-test}
-    "@doc" {with-doc}
-  ]
-  ["dune" "install" "-p" name "--create-install-files" name]
+extra-files: [
+  ["imandra-syntax-reason.opam" "md5=fe3ae85ca924fdced45bf7dde1438786"]
+  ["imandra-syntax-reason.install" "md5=fa2c53516de155696ddd58060ba7f2f3"]
 ]
