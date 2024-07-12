@@ -1,0 +1,8 @@
+lib: [
+"lib/imandra-builtin-data/imandra_builtin_data.cma" {"imandra_builtin_data.cma"}
+"lib/imandra-builtin-data/META" {"META"}
+"lib/imandra-builtin-data/imandra_builtin_data.cmi" {"imandra_builtin_data.cmi"}
+"lib/imandra-builtin-data/opam" {"opam"}
+"lib/imandra-builtin-data/imandra_builtin_data.a" {"imandra_builtin_data.a"}
+"lib/imandra-builtin-data/imandra_builtin_data.cmxa" {"imandra_builtin_data.cmxa"}
+]

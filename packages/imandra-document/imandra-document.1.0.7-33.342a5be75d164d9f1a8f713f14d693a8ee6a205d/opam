@@ -21,7 +21,7 @@ depends: [
   "ocaml-base-compiler" {= "4.12.1"}
   "ocaml-config" {= "2"}
   "ocaml-options-vanilla" {= "1"}
-  "ocamlbuild" {= "0.14.3"}
+  "ocamlbuild" {= "0.15.0"}
   "ocamlfind" {= "1.9.6"}
   "octavius" {= "1.2.2"}
   "re" {= "1.11.0"}
