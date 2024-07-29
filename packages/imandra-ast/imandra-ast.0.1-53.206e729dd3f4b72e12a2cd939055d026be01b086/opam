@@ -35,7 +35,7 @@ depends: [
   "ppx_derivers" {= "1.2.1"}
   "ppx_deriving" {= "6.0.2"}
   "ppx_deriving_yojson" {= "3.8.0"}
-  "ppxlib" {= "0.32.1"}
+  "ppxlib" {= "0.33.0"}
   "result" {= "1.5"}
   "seq" {= "base"}
   "sexplib0" {= "v0.15.1"}
