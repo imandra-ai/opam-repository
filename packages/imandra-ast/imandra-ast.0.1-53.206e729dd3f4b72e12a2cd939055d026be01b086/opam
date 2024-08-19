@@ -34,7 +34,7 @@ depends: [
   "ocplib-endian" {= "1.2" & with-test}
   "ppx_derivers" {= "1.2.1"}
   "ppx_deriving" {= "6.0.2"}
-  "ppx_deriving_yojson" {= "3.8.0"}
+  "ppx_deriving_yojson" {= "3.9.0"}
   "ppxlib" {= "0.33.0"}
   "result" {= "1.5"}
   "seq" {= "base"}
