@@ -1,0 +1,46 @@
+opam-version: "2.0"
+name: "imandra-kripke-graph"
+version: "0.0.1-892.456212c1cc60d1a3fbfa2cdefa5e00c189bf212c"
+license: "PROPRIETRY"
+homepage: "https://github.com/imandra-ai/imandra-kripke-graph"
+bug-reports: "https://github.com/imandra-ai/imandra-kripke-graph/issues"
+depends: [
+  "astring" {= "0.8.5" & with-doc}
+  "base-bigarray" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "biniou" {= "1.2.1"}
+  "camlp-streams" {= "5.0.1" & with-doc}
+  "cmdliner" {= "1.3.0" & with-doc}
+  "containers" {= "3.12"}
+  "cppo" {= "1.6.9"}
+  "csexp" {= "1.5.1"}
+  "dune" {= "2.9.3"}
+  "dune-configurator" {= "2.9.3"}
+  "easy-format" {= "1.3.3"}
+  "either" {= "1.0.0"}
+  "fmt" {= "0.9.0" & with-doc}
+  "fpath" {= "0.7.3" & with-doc}
+  "ocaml" {= "4.12.1"}
+  "ocaml-base-compiler" {= "4.12.1"}
+  "ocaml-config" {= "2"}
+  "ocaml-options-vanilla" {= "1"}
+  "ocamlbuild" {= "0.15.0" & with-doc}
+  "ocamlfind" {= "1.9.6" & with-doc}
+  "ocamlgraph" {= "2.0.0"}
+  "odoc" {= "2.1.1" & with-doc}
+  "odoc-parser" {= "1.0.1" & with-doc}
+  "re" {= "1.11.0" & with-doc}
+  "result" {= "1.5"}
+  "seq" {= "base"}
+  "stdlib-shims" {= "0.3.0"}
+  "topkg" {= "1.0.7" & with-doc}
+  "tyxml" {= "4.6.0" & with-doc}
+  "uutf" {= "1.0.3" & with-doc}
+  "yojson" {= "1.7.0"}
+]
+dev-repo: "git+https://github.com/imandra-ai/imandra-kripke-graph.git"
+extra-files: [
+  ["imandra-kripke-graph.opam" "md5=531a71c77c1c6b43a65419224c340fea"]
+  ["imandra-kripke-graph.install" "md5=13f25e15e5cae7e1ee1d4fb87c7323e8"]
+]
