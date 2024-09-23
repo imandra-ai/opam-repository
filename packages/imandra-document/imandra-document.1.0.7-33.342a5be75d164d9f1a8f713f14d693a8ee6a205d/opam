@@ -24,7 +24,7 @@ depends: [
   "ocamlbuild" {= "0.15.0"}
   "ocamlfind" {= "1.9.6"}
   "octavius" {= "1.2.2"}
-  "re" {= "1.11.0"}
+  "re" {= "1.12.0"}
   "result" {= "1.5"}
   "seq" {= "base"}
   "topkg" {= "1.0.7"}

@@ -14,11 +14,11 @@ depends: [
   "base-unix" {= "base"}
   "camlp-streams" {= "5.0.1" & with-doc}
   "cmdliner" {= "1.3.0" & with-doc}
-  "cppo" {= "1.6.9" & with-doc}
+  "cppo" {= "1.7.0" & with-doc}
   "dune" {= "2.9.3"}
   "fmt" {= "0.9.0" & with-doc}
   "fpath" {= "0.7.3" & with-doc}
-  "mtime" {= "2.0.0"}
+  "mtime" {= "2.1.0"}
   "ocaml" {= "4.12.1"}
   "ocaml-base-compiler" {= "4.12.1"}
   "ocaml-config" {= "2"}
@@ -27,7 +27,7 @@ depends: [
   "ocamlfind" {= "1.9.6"}
   "odoc" {= "2.1.1" & with-doc}
   "odoc-parser" {= "1.0.1" & with-doc}
-  "re" {= "1.11.0" & with-doc}
+  "re" {= "1.12.0" & with-doc}
   "result" {= "1.5" & with-doc}
   "seq" {= "base" & with-doc}
   "topkg" {= "1.0.7"}

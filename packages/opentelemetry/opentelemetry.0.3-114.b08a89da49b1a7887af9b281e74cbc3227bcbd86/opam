@@ -16,7 +16,7 @@ depends: [
   "base-unix" {= "base"}
   "camlp-streams" {= "5.0.1" & with-doc}
   "cmdliner" {= "1.3.0" & with-doc}
-  "cppo" {= "1.6.9" & with-doc}
+  "cppo" {= "1.7.0" & with-doc}
   "dune" {= "2.9.3"}
   "fmt" {= "0.9.0" & with-doc}
   "fpath" {= "0.7.3" & with-doc}
@@ -30,8 +30,8 @@ depends: [
   "odoc" {= "2.1.1" & with-doc}
   "odoc-parser" {= "1.0.1" & with-doc}
   "pbrt" {= "2.4"}
-  "ptime" {= "1.1.0"}
-  "re" {= "1.11.0" & with-doc}
+  "ptime" {= "1.2.0"}
+  "re" {= "1.12.0" & with-doc}
   "result" {= "1.5" & with-doc}
   "seq" {= "base" & with-doc}
   "stdlib-shims" {= "0.3.0"}
