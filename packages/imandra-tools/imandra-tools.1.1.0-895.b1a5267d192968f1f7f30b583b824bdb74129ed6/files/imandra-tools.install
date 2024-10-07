@@ -1,0 +1,15 @@
+lib: [
+"lib/imandra-tools/imandra_tools.cmi" {"imandra_tools.cmi"}
+"lib/imandra-tools/imandra_tools__Term_utils.cmi" {"imandra_tools__Term_utils.cmi"}
+"lib/imandra-tools/imandra_tools__Region_idx.cmi" {"imandra_tools__Region_idx.cmi"}
+"lib/imandra-tools/META" {"META"}
+"lib/imandra-tools/imandra_tools__Region_pp_intf.cmi" {"imandra_tools__Region_pp_intf.cmi"}
+"lib/imandra-tools/imandra_tools__Region_term_synth.cmi" {"imandra_tools__Region_term_synth.cmi"}
+"lib/imandra-tools/opam" {"opam"}
+"lib/imandra-tools/imandra_tools.cma" {"imandra_tools.cma"}
+"lib/imandra-tools/imandra_tools__Idf.cmi" {"imandra_tools__Idf.cmi"}
+"lib/imandra-tools/imandra_tools__Idf_intf.cmi" {"imandra_tools__Idf_intf.cmi"}
+"lib/imandra-tools/imandra_tools__Region_json.cmi" {"imandra_tools__Region_json.cmi"}
+"lib/imandra-tools/imandra_tools__Region_pp.cmi" {"imandra_tools__Region_pp.cmi"}
+"lib/imandra-tools/imandra_tools__Region_probs.cmi" {"imandra_tools__Region_probs.cmi"}
+]

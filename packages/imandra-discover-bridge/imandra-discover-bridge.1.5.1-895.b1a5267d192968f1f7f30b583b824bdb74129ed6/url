@@ -1,0 +1,5 @@
+archive: "https://storage.googleapis.com/imandra-client/imandra_dist_imandra_discover_bridge_b1a5267d192968f1f7f30b583b824bdb74129ed6.tar.gz"
+checksum: [
+  "sha256=c75105daa81ed843221afd69e099c2a4518ccd034f9cf44950eec369239e10f1"
+  "sha512=8f92ab5adbe3e37ff0bff1339c107b23c8549c1c1cd21ae38739940aa1b31cf74ec539a25c2597f765ce11166a2a21820cb0b7eb371645694db8800b0c9f35fa"
+]
