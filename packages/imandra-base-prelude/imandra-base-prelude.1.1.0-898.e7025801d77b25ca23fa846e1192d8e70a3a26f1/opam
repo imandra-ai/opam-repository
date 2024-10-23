@@ -1,7 +1,7 @@
 opam-version: "2.0"
-name: "imandra-stdlib"
-version: "1.0.8-51.57f05857c240404a553117a38b76ee7b71e3105b"
-synopsis: "Imandra standard library"
+name: "imandra-base-prelude"
+version: "1.1.0-898.e7025801d77b25ca23fa846e1192d8e70a3a26f1"
+synopsis: "Imandra prelude"
 maintainer: "The Imandra team <tech@imandra.ai>"
 authors: "The Imandra team <tech@imandra.ai>"
 license: "proprietary"
@@ -37,6 +37,8 @@ depends: [
   "imandra-ast" {= "0.1-53.206e729dd3f4b72e12a2cd939055d026be01b086"}
   "imandra-builtin-data"
     {= "1.1.0-898.e7025801d77b25ca23fa846e1192d8e70a3a26f1"}
+  "imandra-core-stub"
+    {= "1.1.0-898.e7025801d77b25ca23fa846e1192d8e70a3a26f1"}
   "imandra-document" {= "1.0.7-33.342a5be75d164d9f1a8f713f14d693a8ee6a205d"}
   "imandra-extract" {= "1.1.0-898.e7025801d77b25ca23fa846e1192d8e70a3a26f1"}
   "imandra-fol" {= "1.1.0-898.e7025801d77b25ca23fa846e1192d8e70a3a26f1"}
@@ -44,7 +46,6 @@ depends: [
     {= "1.1.0-898.e7025801d77b25ca23fa846e1192d8e70a3a26f1"}
   "imandra-kripke-graph"
     {= "0.0.1-898.e7025801d77b25ca23fa846e1192d8e70a3a26f1"}
-  "imandra-prelude" {= "1.0.7-75.1d613cb06140223a86d76be5ebda237924115c6e"}
   "imandra-reason-parser"
     {= "0.4-ai-1668.1f253b6140f2c9bb86f16d4422fa8a3ae31c7db7"}
   "imandra-surface" {= "1.1.0-898.e7025801d77b25ca23fa846e1192d8e70a3a26f1"}
@@ -99,19 +100,7 @@ depends: [
   "yojson" {= "1.7.0"}
   "zarith" {= "1.12"}
 ]
-build: [
-  ["dune" "subst"] {dev}
-  [
-    "dune"
-    "build"
-    "-p"
-    name
-    "-j"
-    jobs
-    "--promote-install-files=false"
-    "@install"
-    "@runtest" {with-test}
-    "@doc" {with-doc}
-  ]
-  ["dune" "install" "-p" name "--create-install-files" name]
+extra-files: [
+  ["imandra-base-prelude.opam" "md5=99c251d80f144e117e01c072636d5cee"]
+  ["imandra-base-prelude.install" "md5=cad449fd4c5fb377913aa10a5e00e1fd"]
 ]
