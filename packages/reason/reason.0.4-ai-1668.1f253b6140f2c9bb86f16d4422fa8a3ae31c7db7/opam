@@ -24,7 +24,7 @@ depends: [
   "menhirCST" {= "20240715"}
   "menhirLib" {= "20240715"}
   "menhirSdk" {= "20240715"}
-  "merlin-extend" {= "0.6.1"}
+  "merlin-extend" {= "0.6.2"}
   "ocaml" {= "4.12.1"}
   "ocaml-base-compiler" {= "4.12.1"}
   "ocaml-config" {= "2"}
