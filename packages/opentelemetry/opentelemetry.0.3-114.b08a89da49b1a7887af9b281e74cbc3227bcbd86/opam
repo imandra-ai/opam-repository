@@ -55,3 +55,6 @@ build: [
 ]
 dev-repo:
   "git+https://github.com/aestheticintegration/ocaml-opentelemetry.git"
+url {
+  src: "git+https://github.com/imandra-ai/ocaml-opentelemetry.git#b08a89da49b1a7887af9b281e74cbc3227bcbd86"
+}

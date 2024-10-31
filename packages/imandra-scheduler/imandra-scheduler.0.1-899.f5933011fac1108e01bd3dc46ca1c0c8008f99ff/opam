@@ -1,0 +1,42 @@
+opam-version: "2.0"
+name: "imandra-scheduler"
+version: "0.1-899.f5933011fac1108e01bd3dc46ca1c0c8008f99ff"
+synopsis: "Imandra Scheduler"
+maintainer: "Ewen Maclean <ewen@imandra.ai>"
+authors: "Ewen Maclean <ewen@imandra.ai>"
+homepage: "https://github.com/AestheticIntegration/imandra-scheduler"
+bug-reports:
+  "https://github.com/AestheticIntegration/imandra-scheduler/issues"
+depends: [
+  "base-bigarray" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "conf-gmp" {= "4"}
+  "containers" {= "3.12"}
+  "containers-data" {= "3.12"}
+  "csexp" {= "1.5.1"}
+  "dune" {= "2.9.3"}
+  "dune-configurator" {= "2.9.3"}
+  "either" {= "1.0.0"}
+  "imandra-prelude" {= "1.0.7-75.1d613cb06140223a86d76be5ebda237924115c6e"}
+  "iter" {= "1.8"}
+  "ocaml" {= "4.12.1"}
+  "ocaml-base-compiler" {= "4.12.1"}
+  "ocaml-config" {= "2"}
+  "ocaml-options-vanilla" {= "1"}
+  "ocamlfind" {= "1.9.6"}
+  "result" {= "1.5"}
+  "seq" {= "base"}
+  "zarith" {= "1.12"}
+]
+extra-files: [
+  ["imandra-scheduler.opam" "md5=b3ccfb60209d718acedf25cd12b3f3a2"]
+  ["imandra-scheduler.install" "md5=30ddafc4846bc89caeb75175f3d86bae"]
+]
+url {
+  src: "https://storage.googleapis.com/imandra-client/imandra_dist_imandra_scheduler_f5933011fac1108e01bd3dc46ca1c0c8008f99ff.tar.gz"
+  checksum: [
+    "sha256=0b5d41973bbbce1c2f14fb0a7bcc0e27ebf5d17505d894edd53378b195452499"
+    "sha512=e1a94d65234c94aad81524ab689a55275e9f31d6f5a51d18749c2e59a024a593d9b08f34e7ee042a2ecfd3440af2bb82eb86c577eaa3049a6665c4316b98db25"
+  ]
+}

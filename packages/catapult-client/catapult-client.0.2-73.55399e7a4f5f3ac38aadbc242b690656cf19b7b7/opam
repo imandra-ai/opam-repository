@@ -55,3 +55,6 @@ build: [
   ]
 ]
 dev-repo: "git+https://github.com/AestheticIntegration/catapult.git"
+url {
+  src: "git+https://github.com/imandra-ai/catapult.git#55399e7a4f5f3ac38aadbc242b690656cf19b7b7"
+}

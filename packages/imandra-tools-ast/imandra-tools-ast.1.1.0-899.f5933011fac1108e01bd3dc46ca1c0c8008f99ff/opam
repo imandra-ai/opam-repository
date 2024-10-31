@@ -1,0 +1,48 @@
+opam-version: "2.0"
+name: "imandra-tools-ast"
+version: "1.1.0-899.f5933011fac1108e01bd3dc46ca1c0c8008f99ff"
+synopsis: "AST for imandra-tools"
+maintainer: "The Imandra team <tech@imandra.ai>"
+authors: "The Imandra team <tech@imandra.ai>"
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "astring" {= "0.8.5" & with-doc}
+  "base-bigarray" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "camlp-streams" {= "5.0.1" & with-doc}
+  "cmdliner" {= "1.3.0" & with-doc}
+  "conf-gmp" {= "4"}
+  "cppo" {= "1.7.0" & with-doc}
+  "dune" {= "2.9.3"}
+  "fmt" {= "0.9.0" & with-doc}
+  "fpath" {= "0.7.3" & with-doc}
+  "ocaml" {= "4.12.1"}
+  "ocaml-base-compiler" {= "4.12.1"}
+  "ocaml-config" {= "2"}
+  "ocaml-options-vanilla" {= "1"}
+  "ocamlbuild" {= "0.15.0" & with-doc}
+  "ocamlfind" {= "1.9.6"}
+  "odoc" {= "2.1.1" & with-doc}
+  "odoc-parser" {= "1.0.1" & with-doc}
+  "re" {= "1.12.0" & with-doc}
+  "result" {= "1.5" & with-doc}
+  "seq" {= "base" & with-doc}
+  "topkg" {= "1.0.7" & with-doc}
+  "tyxml" {= "4.6.0" & with-doc}
+  "uutf" {= "1.0.3" & with-doc}
+  "zarith" {= "1.12"}
+]
+extra-files: [
+  ["imandra-tools-ast.opam" "md5=25c2af838522719259932d48a8aa589a"]
+  ["imandra-tools-ast.install" "md5=fbee42b75cf51b07b61c0d09ad9d5bde"]
+]
+url {
+  src: "https://storage.googleapis.com/imandra-client/imandra_dist_imandra_tools_ast_f5933011fac1108e01bd3dc46ca1c0c8008f99ff.tar.gz"
+  checksum: [
+    "sha256=1703a3453d9edade18c954a983ef53bf6bdb649ad1f91acd743f3dc784dc3b2a"
+    "sha512=67baa6cd26a5b40c9c7fc710e6826c0e3eee188dd9f87f427dea694084d0630bdbbebabbfede7d369b8a21e4cb1932f83bff6d84cedf22e2a3f234562ffd8256"
+  ]
+}

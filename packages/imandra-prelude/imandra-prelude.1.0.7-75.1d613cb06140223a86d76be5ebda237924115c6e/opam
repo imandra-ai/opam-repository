@@ -28,3 +28,6 @@ depends: [
 ]
 build: ["dune" "build" "-p" name "-j" jobs]
 dev-repo: "git+https://github.com/AestheticIntegration/imandra-prelude"
+url {
+  src: "git+https://github.com/imandra-ai/imandra-prelude.git#1d613cb06140223a86d76be5ebda237924115c6e"
+}
