@@ -22,7 +22,7 @@ depends: [
   "ocaml-config" {= "2"}
   "ocaml-options-vanilla" {= "1"}
   "ocamlbuild" {= "0.15.0"}
-  "ocamlfind" {= "1.9.6"}
+  "ocamlfind" {= "1.9.8"}
   "octavius" {= "1.2.2"}
   "re" {= "1.12.0"}
   "result" {= "1.5"}

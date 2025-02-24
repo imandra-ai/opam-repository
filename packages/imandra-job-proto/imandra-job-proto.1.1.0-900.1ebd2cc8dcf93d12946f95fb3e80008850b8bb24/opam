@@ -1,0 +1,64 @@
+opam-version: "2.0"
+name: "imandra-job-proto"
+version: "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"
+synopsis: "Protocol for the job queue"
+maintainer: "The Imandra team <tech@imandra.ai>"
+authors: "The Imandra team <tech@imandra.ai>"
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "astring" {= "0.8.5" & with-doc}
+  "base-bigarray" {= "base"}
+  "base-bytes" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "camlp-streams" {= "5.0.1" & with-doc}
+  "cbor" {= "0.5"}
+  "cbor-pack" {= "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"}
+  "cmdliner" {= "1.3.0" & with-doc}
+  "containers" {= "3.12"}
+  "cppo" {= "1.8.0"}
+  "csexp" {= "1.5.1"}
+  "dune" {= "2.9.3"}
+  "dune-configurator" {= "2.9.3"}
+  "either" {= "1.0.0"}
+  "fmt" {= "0.9.0" & with-doc}
+  "fpath" {= "0.7.3" & with-doc}
+  "ocaml" {= "4.12.1"}
+  "ocaml-base-compiler" {= "4.12.1"}
+  "ocaml-compiler-libs" {= "v0.12.4"}
+  "ocaml-config" {= "2"}
+  "ocaml-options-vanilla" {= "1"}
+  "ocaml-protoc" {= "2.4"}
+  "ocamlbuild" {= "0.15.0"}
+  "ocamlfind" {= "1.9.8"}
+  "ocplib-endian" {= "1.2"}
+  "odoc" {= "2.1.1" & with-doc}
+  "odoc-parser" {= "1.0.1" & with-doc}
+  "opentelemetry" {= "0.3-114.b08a89da49b1a7887af9b281e74cbc3227bcbd86"}
+  "pbrt" {= "2.4"}
+  "ppx_derivers" {= "1.2.1"}
+  "ppx_deriving" {= "6.0.3"}
+  "ppxlib" {= "0.33.0"}
+  "ptime" {= "1.2.0"}
+  "re" {= "1.12.0" & with-doc}
+  "result" {= "1.5"}
+  "seq" {= "base"}
+  "sexplib0" {= "v0.15.1"}
+  "stdlib-shims" {= "0.3.0"}
+  "topkg" {= "1.0.7"}
+  "tyxml" {= "4.6.0" & with-doc}
+  "uutf" {= "1.0.3" & with-doc}
+]
+extra-files: [
+  ["imandra-job-proto.opam" "md5=44479c7b722a7c953732d074e9e442e6"]
+  ["imandra-job-proto.install" "md5=e1b96652d4552de92e06ef1c6d8d2062"]
+]
+url {
+  src: "https://storage.googleapis.com/imandra-client/imandra_dist_imandra_job_proto_1ebd2cc8dcf93d12946f95fb3e80008850b8bb24.tar.gz"
+  checksum: [
+    "sha256=fdb27aac99e1e52c4ed46cc8b2fb04a6be29a995c7d2cd952133d3ce51a7f81d"
+    "sha512=5f1a251c78e7b580bffe12a74fba6e72b2e76c03b48aa5151468740b509c48e34f2cdd5741cda64a08dbe01a52340ea109d66f3f47dfd8f01f3346c43aef8c2c"
+  ]
+}

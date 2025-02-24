@@ -1,0 +1,96 @@
+opam-version: "2.0"
+name: "imandra-surface"
+version: "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"
+synopsis: "Imandra surface AST and types (term, types, events)"
+maintainer: "The Imandra team <tech@imandra.ai>"
+authors: "The Imandra team <tech@imandra.ai>"
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "astring" {= "0.8.5" & with-doc}
+  "base-bigarray" {= "base"}
+  "base-bytes" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "biniou" {= "1.2.1"}
+  "camlp-streams" {= "5.0.1"}
+  "camlzip" {= "1.11"}
+  "catapult" {= "0.2-73.55399e7a4f5f3ac38aadbc242b690656cf19b7b7"}
+  "cbor" {= "0.5"}
+  "cbor-pack" {= "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"}
+  "cmdliner" {= "1.3.0"}
+  "conf-gmp" {= "4"}
+  "conf-pkg-config" {= "4"}
+  "conf-zlib" {= "1"}
+  "containers" {= "3.12"}
+  "containers-data" {= "3.12"}
+  "cppo" {= "1.8.0"}
+  "csexp" {= "1.5.1"}
+  "dune" {= "2.9.3"}
+  "dune-configurator" {= "2.9.3"}
+  "easy-format" {= "1.3.3"}
+  "either" {= "1.0.0"}
+  "fmt" {= "0.9.0"}
+  "fpath" {= "0.7.3" & with-doc}
+  "imandra-ast" {= "0.1-53.206e729dd3f4b72e12a2cd939055d026be01b086"}
+  "imandra-builtin-data"
+    {= "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"}
+  "imandra-document" {= "1.0.7-33.342a5be75d164d9f1a8f713f14d693a8ee6a205d"}
+  "imandra-fol" {= "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"}
+  "imandra-job-proto"
+    {= "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"}
+  "imandra-kripke-graph"
+    {= "0.0.1-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"}
+  "imandra-util" {= "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"}
+  "iter" {= "1.9"}
+  "logs" {= "0.7.0"}
+  "lwt" {= "5.9.0"}
+  "mtime" {= "2.1.0"}
+  "ocaml" {= "4.12.1"}
+  "ocaml-base-compiler" {= "4.12.1"}
+  "ocaml-compiler-libs" {= "v0.12.4"}
+  "ocaml-config" {= "2"}
+  "ocaml-options-vanilla" {= "1"}
+  "ocaml-protoc" {= "2.4"}
+  "ocamlbuild" {= "0.15.0"}
+  "ocamlfind" {= "1.9.8"}
+  "ocamlgraph" {= "2.0.0"}
+  "ocplib-endian" {= "1.2"}
+  "octavius" {= "1.2.2"}
+  "odoc" {= "2.1.1" & with-doc}
+  "odoc-parser" {= "1.0.1" & with-doc}
+  "opentelemetry" {= "0.3-114.b08a89da49b1a7887af9b281e74cbc3227bcbd86"}
+  "pbrt" {= "2.4"}
+  "pp_loc" {= "2.1.0"}
+  "ppx_derivers" {= "1.2.1"}
+  "ppx_deriving" {= "6.0.3"}
+  "ppx_deriving_yojson" {= "3.9.1"}
+  "ppxlib" {= "0.33.0"}
+  "ptime" {= "1.2.0"}
+  "re" {= "1.12.0"}
+  "redis" {= "0.7.1"}
+  "redis-sync" {= "0.7.1"}
+  "result" {= "1.5"}
+  "seq" {= "base"}
+  "sexplib0" {= "v0.15.1"}
+  "sha" {= "1.15.4"}
+  "stdlib-shims" {= "0.3.0"}
+  "topkg" {= "1.0.7"}
+  "tyxml" {= "4.6.0"}
+  "uuidm" {= "0.9.8"}
+  "uutf" {= "1.0.3"}
+  "yojson" {= "1.7.0"}
+  "zarith" {= "1.12"}
+]
+extra-files: [
+  ["imandra-surface.opam" "md5=624f3af63d62d9e61f8e4bc92fb63b4a"]
+  ["imandra-surface.install" "md5=662c2429f3c5e26702431a08ab9cc15f"]
+]
+url {
+  src: "https://storage.googleapis.com/imandra-client/imandra_dist_imandra_surface_1ebd2cc8dcf93d12946f95fb3e80008850b8bb24.tar.gz"
+  checksum: [
+    "sha256=e4e1f17f89e21a0b94c3407368921ff5aa8d74022b410f020538dab0f198f073"
+    "sha512=215de53ad484bdfc6a51ed82c0331b57241fddfd39c9d89c1f77ba88527f81f9a0e45ddb603e4a74d27c12732be30fb392b0aafba202d2eee4562619ef004ac0"
+  ]
+}

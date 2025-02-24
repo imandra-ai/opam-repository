@@ -17,7 +17,7 @@ depends: [
   "cmdliner" {= "1.3.0"}
   "conf-gmp" {= "4"}
   "containers" {= "3.12"}
-  "cppo" {= "1.7.0"}
+  "cppo" {= "1.8.0"}
   "csexp" {= "1.5.1"}
   "dune" {= "2.9.3"}
   "dune-configurator" {= "2.9.3"}
@@ -30,11 +30,11 @@ depends: [
   "ocaml-compiler-libs" {= "v0.12.4"}
   "ocaml-config" {= "2"}
   "ocaml-options-vanilla" {= "1"}
-  "ocamlfind" {= "1.9.6"}
+  "ocamlfind" {= "1.9.8"}
   "ocplib-endian" {= "1.2" & with-test}
   "ppx_derivers" {= "1.2.1"}
   "ppx_deriving" {= "6.0.3"}
-  "ppx_deriving_yojson" {= "3.9.0"}
+  "ppx_deriving_yojson" {= "3.9.1"}
   "ppxlib" {= "0.33.0"}
   "result" {= "1.5"}
   "seq" {= "base"}

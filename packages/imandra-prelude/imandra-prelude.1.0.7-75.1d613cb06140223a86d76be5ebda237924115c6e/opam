@@ -21,7 +21,7 @@ depends: [
   "ocaml-base-compiler" {= "4.12.1"}
   "ocaml-config" {= "2"}
   "ocaml-options-vanilla" {= "1"}
-  "ocamlfind" {= "1.9.6"}
+  "ocamlfind" {= "1.9.8"}
   "result" {= "1.5"}
   "seq" {= "base"}
   "zarith" {= "1.12"}

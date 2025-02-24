@@ -1,0 +1,90 @@
+opam-version: "2.0"
+name: "imandra-auth-lib"
+version: "0.2-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"
+synopsis: "Imandra auth library"
+maintainer: "Nicola Mometto <nicola@imandra.ai>"
+authors: "Nicola Mometto <nicola@imandra.ai>"
+homepage: "https://github.com/AestheticIntegration/imandra-auth-lib"
+bug-reports:
+  "https://github.com/AestheticIntegration/imandra-auth-lib/issues"
+depends: [
+  "angstrom" {= "0.16.1"}
+  "astring" {= "0.8.5"}
+  "base" {= "v0.15.1"}
+  "base-bigarray" {= "base"}
+  "base-bytes" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "base64" {= "3.5.1"}
+  "bigstringaf" {= "0.9.0"}
+  "biniou" {= "1.2.1"}
+  "cmdliner" {= "1.3.0"}
+  "cohttp" {= "4.0.0"}
+  "cohttp-lwt" {= "4.0.0"}
+  "cohttp-lwt-unix" {= "4.0.0"}
+  "conduit" {= "2.1.0"}
+  "conduit-lwt" {= "2.1.0"}
+  "conduit-lwt-unix" {= "2.2.2"}
+  "conf-libssl" {= "4"}
+  "conf-pkg-config" {= "4"}
+  "containers" {= "3.12"}
+  "cppo" {= "1.8.0"}
+  "csexp" {= "1.5.1"}
+  "decoders" {= "0.7.0"}
+  "decoders-yojson" {= "0.7.0"}
+  "domain-name" {= "0.4.1"}
+  "dune" {= "2.9.3"}
+  "dune-configurator" {= "2.9.3"}
+  "easy-format" {= "1.3.3"}
+  "either" {= "1.0.0"}
+  "fmt" {= "0.9.0"}
+  "ipaddr" {= "5.6.0"}
+  "ipaddr-sexp" {= "5.6.0"}
+  "jsonm" {= "1.0.2"}
+  "logs" {= "0.7.0"}
+  "lwt" {= "5.9.0"}
+  "lwt_ssl" {= "1.2.0"}
+  "macaddr" {= "5.6.0"}
+  "magic-mime" {= "1.3.1"}
+  "num" {= "1.5-1"}
+  "ocaml" {= "4.12.1"}
+  "ocaml-base-compiler" {= "4.12.1"}
+  "ocaml-compiler-libs" {= "v0.12.4"}
+  "ocaml-config" {= "2"}
+  "ocaml-options-vanilla" {= "1"}
+  "ocaml-syntax-shims" {= "1.0.0"}
+  "ocamlbuild" {= "0.15.0"}
+  "ocamlfind" {= "1.9.8"}
+  "ocplib-endian" {= "1.2"}
+  "parsexp" {= "v0.15.0"}
+  "ppx_derivers" {= "1.2.1"}
+  "ppx_sexp_conv" {= "v0.15.1"}
+  "ppxlib" {= "0.33.0"}
+  "re" {= "1.12.0"}
+  "result" {= "1.5"}
+  "seq" {= "base"}
+  "sexplib" {= "v0.15.1"}
+  "sexplib0" {= "v0.15.1"}
+  "sha" {= "1.15.4"}
+  "ssl" {= "0.7.0"}
+  "stdlib-shims" {= "0.3.0"}
+  "stringext" {= "1.6.0"}
+  "topkg" {= "1.0.7"}
+  "tyxml" {= "4.6.0"}
+  "uri" {= "4.4.0"}
+  "uri-sexp" {= "4.4.0"}
+  "uuidm" {= "0.9.8"}
+  "uutf" {= "1.0.3"}
+  "yojson" {= "1.7.0"}
+]
+extra-files: [
+  ["imandra-auth-lib.opam" "md5=5bf75638b150c077f2c76b23d09f1941"]
+  ["imandra-auth-lib.install" "md5=1a5ecbf668742c52bab1f9672656d1e5"]
+]
+url {
+  src: "https://storage.googleapis.com/imandra-client/imandra_dist_imandra_auth_lib_1ebd2cc8dcf93d12946f95fb3e80008850b8bb24.tar.gz"
+  checksum: [
+    "sha256=6a2fe0862433244d567553a6f5663e5c04c620d8f0b96b3bdf201c399ce765bd"
+    "sha512=4d023fc9d36e5e03b695afbc858879816fb60d127fd7a3406d1ee52051d3fd3d7bdb71dfac43729a6ad6dcb7e73eed0423d95577fba1d8cae04b6a993fcf4902"
+  ]
+}

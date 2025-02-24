@@ -1,0 +1,60 @@
+opam-version: "2.0"
+name: "imandra-builtin-data"
+version: "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"
+synopsis: "Data on builtin symbols"
+maintainer: "The Imandra team <tech@imandra.ai>"
+authors: "The Imandra team <tech@imandra.ai>"
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "astring" {= "0.8.5" & with-doc}
+  "base-bigarray" {= "base"}
+  "base-bytes" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "camlp-streams" {= "5.0.1" & with-doc}
+  "cbor" {= "0.5"}
+  "cbor-pack" {= "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"}
+  "cmdliner" {= "1.3.0" & with-doc}
+  "containers" {= "3.12"}
+  "cppo" {= "1.8.0"}
+  "csexp" {= "1.5.1"}
+  "dune" {= "2.9.3"}
+  "dune-configurator" {= "2.9.3"}
+  "either" {= "1.0.0"}
+  "fmt" {= "0.9.0" & with-doc}
+  "fpath" {= "0.7.3" & with-doc}
+  "ocaml" {= "4.12.1"}
+  "ocaml-base-compiler" {= "4.12.1"}
+  "ocaml-compiler-libs" {= "v0.12.4"}
+  "ocaml-config" {= "2"}
+  "ocaml-options-vanilla" {= "1"}
+  "ocamlbuild" {= "0.15.0" & with-doc}
+  "ocamlfind" {= "1.9.8"}
+  "ocplib-endian" {= "1.2"}
+  "odoc" {= "2.1.1" & with-doc}
+  "odoc-parser" {= "1.0.1" & with-doc}
+  "ppx_derivers" {= "1.2.1"}
+  "ppx_deriving" {= "6.0.3"}
+  "ppxlib" {= "0.33.0"}
+  "re" {= "1.12.0" & with-doc}
+  "result" {= "1.5"}
+  "seq" {= "base"}
+  "sexplib0" {= "v0.15.1"}
+  "stdlib-shims" {= "0.3.0"}
+  "topkg" {= "1.0.7" & with-doc}
+  "tyxml" {= "4.6.0" & with-doc}
+  "uutf" {= "1.0.3" & with-doc}
+]
+extra-files: [
+  ["imandra-builtin-data.opam" "md5=6dca02ddf49fba09fb9637c641ff635a"]
+  ["imandra-builtin-data.install" "md5=67fe5baaf83dccf012ed55f1beddda1c"]
+]
+url {
+  src: "https://storage.googleapis.com/imandra-client/imandra_dist_imandra_builtin_data_1ebd2cc8dcf93d12946f95fb3e80008850b8bb24.tar.gz"
+  checksum: [
+    "sha256=d700263ac2d9738c4907fcba9269b9b4c41941511bd05b9a685195c3869f894f"
+    "sha512=4192716fddb242b32246b5d5084bd6413f28f81f0ba3d9640e4d8fd0c336b4f12f95bd2c0d97a4222807cec80feb9203836c8ef5aac800fa832d3a11276f4aa1"
+  ]
+}

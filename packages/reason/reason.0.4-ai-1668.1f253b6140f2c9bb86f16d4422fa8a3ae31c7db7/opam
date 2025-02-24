@@ -17,7 +17,7 @@ depends: [
   "base-bigarray" {= "base"}
   "base-threads" {= "base"}
   "base-unix" {= "base"}
-  "cppo" {= "1.7.0"}
+  "cppo" {= "1.8.0"}
   "dune" {= "2.9.3"}
   "fix" {= "20230505"}
   "menhir" {= "20240715"}
@@ -29,7 +29,7 @@ depends: [
   "ocaml-base-compiler" {= "4.12.1"}
   "ocaml-config" {= "2"}
   "ocaml-options-vanilla" {= "1"}
-  "ocamlfind" {= "1.9.6"}
+  "ocamlfind" {= "1.9.8"}
   "ppx_derivers" {= "1.2.1"}
   "result" {= "1.5"}
 ]

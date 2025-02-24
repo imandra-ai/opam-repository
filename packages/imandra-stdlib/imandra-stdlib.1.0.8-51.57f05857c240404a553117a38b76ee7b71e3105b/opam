@@ -18,14 +18,14 @@ depends: [
   "camlzip" {= "1.11"}
   "catapult" {= "0.2-73.55399e7a4f5f3ac38aadbc242b690656cf19b7b7"}
   "cbor" {= "0.5"}
-  "cbor-pack" {= "1.1.0-899.f5933011fac1108e01bd3dc46ca1c0c8008f99ff"}
+  "cbor-pack" {= "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"}
   "cmdliner" {= "1.3.0"}
   "conf-gmp" {= "4"}
-  "conf-pkg-config" {= "3"}
+  "conf-pkg-config" {= "4"}
   "conf-zlib" {= "1"}
   "containers" {= "3.12"}
   "containers-data" {= "3.12"}
-  "cppo" {= "1.7.0"}
+  "cppo" {= "1.8.0"}
   "csexp" {= "1.5.1"}
   "dune" {= "2.9.3"}
   "dune-configurator" {= "2.9.3"}
@@ -36,25 +36,25 @@ depends: [
   "fpath" {= "0.7.3" & with-doc}
   "imandra-ast" {= "0.1-53.206e729dd3f4b72e12a2cd939055d026be01b086"}
   "imandra-builtin-data"
-    {= "1.1.0-899.f5933011fac1108e01bd3dc46ca1c0c8008f99ff"}
+    {= "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"}
   "imandra-document" {= "1.0.7-33.342a5be75d164d9f1a8f713f14d693a8ee6a205d"}
-  "imandra-extract" {= "1.1.0-899.f5933011fac1108e01bd3dc46ca1c0c8008f99ff"}
-  "imandra-fol" {= "1.1.0-899.f5933011fac1108e01bd3dc46ca1c0c8008f99ff"}
+  "imandra-extract" {= "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"}
+  "imandra-fol" {= "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"}
   "imandra-job-proto"
-    {= "1.1.0-899.f5933011fac1108e01bd3dc46ca1c0c8008f99ff"}
+    {= "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"}
   "imandra-kripke-graph"
-    {= "0.0.1-899.f5933011fac1108e01bd3dc46ca1c0c8008f99ff"}
+    {= "0.0.1-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"}
   "imandra-prelude" {= "1.0.7-75.1d613cb06140223a86d76be5ebda237924115c6e"}
   "imandra-reason-parser"
     {= "0.4-ai-1668.1f253b6140f2c9bb86f16d4422fa8a3ae31c7db7"}
-  "imandra-surface" {= "1.1.0-899.f5933011fac1108e01bd3dc46ca1c0c8008f99ff"}
-  "imandra-syntax" {= "1.1.0-899.f5933011fac1108e01bd3dc46ca1c0c8008f99ff"}
+  "imandra-surface" {= "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"}
+  "imandra-syntax" {= "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"}
   "imandra-syntax-reason"
-    {= "1.1.0-899.f5933011fac1108e01bd3dc46ca1c0c8008f99ff"}
-  "imandra-util" {= "1.1.0-899.f5933011fac1108e01bd3dc46ca1c0c8008f99ff"}
-  "iter" {= "1.8"}
+    {= "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"}
+  "imandra-util" {= "1.1.0-900.1ebd2cc8dcf93d12946f95fb3e80008850b8bb24"}
+  "iter" {= "1.9"}
   "logs" {= "0.7.0"}
-  "lwt" {= "5.8.0"}
+  "lwt" {= "5.9.0"}
   "menhir" {= "20240715"}
   "menhirCST" {= "20240715"}
   "menhirLib" {= "20240715"}
@@ -69,7 +69,7 @@ depends: [
   "ocaml-options-vanilla" {= "1"}
   "ocaml-protoc" {= "2.4"}
   "ocamlbuild" {= "0.15.0"}
-  "ocamlfind" {= "1.9.6"}
+  "ocamlfind" {= "1.9.8"}
   "ocamlgraph" {= "2.0.0"}
   "ocplib-endian" {= "1.2"}
   "octavius" {= "1.2.2"}
@@ -80,7 +80,7 @@ depends: [
   "pp_loc" {= "2.1.0"}
   "ppx_derivers" {= "1.2.1"}
   "ppx_deriving" {= "6.0.3"}
-  "ppx_deriving_yojson" {= "3.9.0"}
+  "ppx_deriving_yojson" {= "3.9.1"}
   "ppxlib" {= "0.33.0"}
   "ptime" {= "1.2.0"}
   "re" {= "1.12.0"}
