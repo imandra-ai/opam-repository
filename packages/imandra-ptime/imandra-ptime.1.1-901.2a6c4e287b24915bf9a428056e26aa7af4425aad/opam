@@ -1,7 +1,7 @@
 opam-version: "2.0"
-name: "imandra-stdlib"
-version: "1.0.8-51.57f05857c240404a553117a38b76ee7b71e3105b"
-synopsis: "Imandra standard library"
+name: "imandra-ptime"
+version: "1.1-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"
+synopsis: "Imandra IML-compatible, verified version of the Ptime library"
 maintainer: "The Imandra team <tech@imandra.ai>"
 authors: "The Imandra team <tech@imandra.ai>"
 license: "proprietary"
@@ -116,5 +116,5 @@ build: [
   ["dune" "install" "-p" name "--create-install-files" name]
 ]
 url {
-  src: "git+https://github.com/imandra-ai/imandra-stdlib.git#57f05857c240404a553117a38b76ee7b71e3105b"
+  src: "git+https://github.com/imandra-ai/imandra-ptime.git#1da8de5d2f642e9aa29fadc1d9516b3dfd024481"
 }

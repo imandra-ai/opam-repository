@@ -1,0 +1,60 @@
+opam-version: "2.0"
+name: "imandra-builtin-data"
+version: "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"
+synopsis: "Data on builtin symbols"
+maintainer: "The Imandra team <tech@imandra.ai>"
+authors: "The Imandra team <tech@imandra.ai>"
+license: "proprietary"
+homepage: "https://imandra.ai"
+bug-reports: "The Imandra team <tech@imandra.ai>"
+depends: [
+  "astring" {= "0.8.5" & with-doc}
+  "base-bigarray" {= "base"}
+  "base-bytes" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "camlp-streams" {= "5.0.1" & with-doc}
+  "cbor" {= "0.5"}
+  "cbor-pack" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
+  "cmdliner" {= "1.3.0" & with-doc}
+  "containers" {= "3.12"}
+  "cppo" {= "1.8.0"}
+  "csexp" {= "1.5.1"}
+  "dune" {= "2.9.3"}
+  "dune-configurator" {= "2.9.3"}
+  "either" {= "1.0.0"}
+  "fmt" {= "0.10.0" & with-doc}
+  "fpath" {= "0.7.3" & with-doc}
+  "ocaml" {= "4.12.1"}
+  "ocaml-base-compiler" {= "4.12.1"}
+  "ocaml-compiler-libs" {= "v0.12.4"}
+  "ocaml-config" {= "2"}
+  "ocaml-options-vanilla" {= "1"}
+  "ocamlbuild" {= "0.16.1" & with-doc}
+  "ocamlfind" {= "1.9.8"}
+  "ocplib-endian" {= "1.2"}
+  "odoc" {= "2.1.1" & with-doc}
+  "odoc-parser" {= "1.0.1" & with-doc}
+  "ppx_derivers" {= "1.2.1"}
+  "ppx_deriving" {= "6.0.3"}
+  "ppxlib" {= "0.33.0"}
+  "re" {= "1.12.0" & with-doc}
+  "result" {= "1.5"}
+  "seq" {= "base"}
+  "sexplib0" {= "v0.15.1"}
+  "stdlib-shims" {= "0.3.0"}
+  "topkg" {= "1.0.7" & with-doc}
+  "tyxml" {= "4.6.0" & with-doc}
+  "uutf" {= "1.0.3" & with-doc}
+]
+extra-files: [
+  ["imandra-builtin-data.opam" "md5=522f86d4b807ffcce2000a41bb2b24ae"]
+  ["imandra-builtin-data.install" "md5=67fe5baaf83dccf012ed55f1beddda1c"]
+]
+url {
+  src: "https://storage.googleapis.com/imandra-client/imandra_dist_imandra_builtin_data_2a6c4e287b24915bf9a428056e26aa7af4425aad.tar.gz"
+  checksum: [
+    "sha256=30b7c31cb3e63993dd020cc41d1851dfdd1d235dadb9f4a760ba12335ebce26a"
+    "sha512=6101704bf8c00a8a0691adf1e16cae1babe3e5bb22fcf346540d68f7252f8437a641c60fa92d10915cacc5e96c81530e7efd193f58de77e23dda0ef7d0922251"
+  ]
+}

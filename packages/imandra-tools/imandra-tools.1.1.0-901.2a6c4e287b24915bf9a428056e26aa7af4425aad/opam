@@ -1,7 +1,7 @@
 opam-version: "2.0"
-name: "imandra-stdlib"
-version: "1.0.8-51.57f05857c240404a553117a38b76ee7b71e3105b"
-synopsis: "Imandra standard library"
+name: "imandra-tools"
+version: "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"
+synopsis: "Tooling libraries on top of Imandra"
 maintainer: "The Imandra team <tech@imandra.ai>"
 authors: "The Imandra team <tech@imandra.ai>"
 license: "proprietary"
@@ -21,12 +21,18 @@ depends: [
   "cbor-pack" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "cmdliner" {= "1.3.0"}
   "conf-gmp" {= "4"}
+  "conf-gsl" {= "2"}
   "conf-pkg-config" {= "4"}
   "conf-zlib" {= "1"}
+  "conf-zmq" {= "0.1"}
   "containers" {= "3.12"}
   "containers-data" {= "3.12"}
   "cppo" {= "1.8.0"}
   "csexp" {= "1.5.1"}
+  "csv" {= "2.4"}
+  "curly" {= "0.3.0"}
+  "decoders" {= "0.7.0"}
+  "decoders-yojson" {= "0.7.0"}
   "dune" {= "2.9.3"}
   "dune-configurator" {= "2.9.3"}
   "easy-format" {= "1.3.3"}
@@ -34,8 +40,14 @@ depends: [
   "fix" {= "20230505"}
   "fmt" {= "0.10.0"}
   "fpath" {= "0.7.3" & with-doc}
+  "gsl" {= "1.25.1"}
   "imandra-ast" {= "0.1-53.206e729dd3f4b72e12a2cd939055d026be01b086"}
+  "imandra-base" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
+  "imandra-base-prelude"
+    {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-builtin-data"
+    {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
+  "imandra-core-stub"
     {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-document" {= "1.0.7-33.342a5be75d164d9f1a8f713f14d693a8ee6a205d"}
   "imandra-extract" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
@@ -44,15 +56,18 @@ depends: [
     {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-kripke-graph"
     {= "0.0.1-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
-  "imandra-prelude" {= "1.0.7-75.1d613cb06140223a86d76be5ebda237924115c6e"}
   "imandra-reason-parser"
     {= "0.4-ai-1668.1f253b6140f2c9bb86f16d4422fa8a3ae31c7db7"}
+  "imandra-redis" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-surface" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-syntax" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-syntax-reason"
     {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
+  "imandra-tools-ast"
+    {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-util" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "iter" {= "1.9"}
+  "linenoise" {= "1.4.0"}
   "logs" {= "0.7.0"}
   "lwt" {= "5.9.0"}
   "menhir" {= "20240715"}
@@ -98,23 +113,16 @@ depends: [
   "uutf" {= "1.0.3"}
   "yojson" {= "1.7.0"}
   "zarith" {= "1.12"}
+  "zmq" {= "5.3.0"}
 ]
-build: [
-  ["dune" "subst"] {dev}
-  [
-    "dune"
-    "build"
-    "-p"
-    name
-    "-j"
-    jobs
-    "--promote-install-files=false"
-    "@install"
-    "@runtest" {with-test}
-    "@doc" {with-doc}
-  ]
-  ["dune" "install" "-p" name "--create-install-files" name]
+extra-files: [
+  ["imandra-tools.opam" "md5=d6646c2a08352017a384aec37f2b59b7"]
+  ["imandra-tools.install" "md5=4474f3a93518c4bf0a8358fa1771d63d"]
 ]
 url {
-  src: "git+https://github.com/imandra-ai/imandra-stdlib.git#57f05857c240404a553117a38b76ee7b71e3105b"
+  src: "https://storage.googleapis.com/imandra-client/imandra_dist_imandra_tools_2a6c4e287b24915bf9a428056e26aa7af4425aad.tar.gz"
+  checksum: [
+    "sha256=e6ddecae9c787945c2630745a1f584dbffdb116291663b6cbfa13972870dfaa2"
+    "sha512=8dd80d9fed30d5f87d0fe84717b272ed45bdfb76285e2a7aa8c7fcee8ec521d2db5da32f8642ff0fa1ffcec4fd95fb27be1260d34c19257278c679c446544a7d"
+  ]
 }

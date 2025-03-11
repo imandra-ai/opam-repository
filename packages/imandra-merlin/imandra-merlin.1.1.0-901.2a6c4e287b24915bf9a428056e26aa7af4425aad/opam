@@ -1,7 +1,7 @@
 opam-version: "2.0"
-name: "imandra-stdlib"
-version: "1.0.8-51.57f05857c240404a553117a38b76ee7b71e3105b"
-synopsis: "Imandra standard library"
+name: "imandra-merlin"
+version: "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"
+synopsis: "A reader using merlin-extend for Imandra's syntax"
 maintainer: "The Imandra team <tech@imandra.ai>"
 authors: "The Imandra team <tech@imandra.ai>"
 license: "proprietary"
@@ -38,13 +38,11 @@ depends: [
   "imandra-builtin-data"
     {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-document" {= "1.0.7-33.342a5be75d164d9f1a8f713f14d693a8ee6a205d"}
-  "imandra-extract" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-fol" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-job-proto"
     {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-kripke-graph"
     {= "0.0.1-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
-  "imandra-prelude" {= "1.0.7-75.1d613cb06140223a86d76be5ebda237924115c6e"}
   "imandra-reason-parser"
     {= "0.4-ai-1668.1f253b6140f2c9bb86f16d4422fa8a3ae31c7db7"}
   "imandra-surface" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
@@ -108,13 +106,16 @@ build: [
     name
     "-j"
     jobs
-    "--promote-install-files=false"
     "@install"
     "@runtest" {with-test}
     "@doc" {with-doc}
   ]
-  ["dune" "install" "-p" name "--create-install-files" name]
 ]
+extra-files: ["imandra-merlin.opam" "md5=aa602544f026291d4219c2561ab248ae"]
 url {
-  src: "git+https://github.com/imandra-ai/imandra-stdlib.git#57f05857c240404a553117a38b76ee7b71e3105b"
+  src: "https://storage.googleapis.com/imandra-client/imandra_dist_imandra_merlin_2a6c4e287b24915bf9a428056e26aa7af4425aad.tar.gz"
+  checksum: [
+    "sha256=229f6beb989e24482cd6f61d2442740e9803888fcdd0053039e3ed71d8e04286"
+    "sha512=49a8ed18de224be93ff024af53745e6ca14f8b72d2b30166b4a29e08e44b60d9417f0988c59a183fa970508bc6dd5a964f44ab0948f979be477a13ebb5308056"
+  ]
 }

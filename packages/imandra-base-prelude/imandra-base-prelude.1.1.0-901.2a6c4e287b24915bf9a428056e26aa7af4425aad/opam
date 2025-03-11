@@ -1,7 +1,7 @@
 opam-version: "2.0"
-name: "imandra-stdlib"
-version: "1.0.8-51.57f05857c240404a553117a38b76ee7b71e3105b"
-synopsis: "Imandra standard library"
+name: "imandra-base-prelude"
+version: "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"
+synopsis: "Imandra prelude"
 maintainer: "The Imandra team <tech@imandra.ai>"
 authors: "The Imandra team <tech@imandra.ai>"
 license: "proprietary"
@@ -37,6 +37,8 @@ depends: [
   "imandra-ast" {= "0.1-53.206e729dd3f4b72e12a2cd939055d026be01b086"}
   "imandra-builtin-data"
     {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
+  "imandra-core-stub"
+    {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-document" {= "1.0.7-33.342a5be75d164d9f1a8f713f14d693a8ee6a205d"}
   "imandra-extract" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-fol" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
@@ -44,7 +46,6 @@ depends: [
     {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-kripke-graph"
     {= "0.0.1-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
-  "imandra-prelude" {= "1.0.7-75.1d613cb06140223a86d76be5ebda237924115c6e"}
   "imandra-reason-parser"
     {= "0.4-ai-1668.1f253b6140f2c9bb86f16d4422fa8a3ae31c7db7"}
   "imandra-surface" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
@@ -99,22 +100,14 @@ depends: [
   "yojson" {= "1.7.0"}
   "zarith" {= "1.12"}
 ]
-build: [
-  ["dune" "subst"] {dev}
-  [
-    "dune"
-    "build"
-    "-p"
-    name
-    "-j"
-    jobs
-    "--promote-install-files=false"
-    "@install"
-    "@runtest" {with-test}
-    "@doc" {with-doc}
-  ]
-  ["dune" "install" "-p" name "--create-install-files" name]
+extra-files: [
+  ["imandra-base-prelude.opam" "md5=b3bd0fd6997e310c0c59085aa4d769f2"]
+  ["imandra-base-prelude.install" "md5=bf0304b1bb76f70d1805d3ff7b6d0476"]
 ]
 url {
-  src: "git+https://github.com/imandra-ai/imandra-stdlib.git#57f05857c240404a553117a38b76ee7b71e3105b"
+  src: "https://storage.googleapis.com/imandra-client/imandra_dist_imandra_base_prelude_2a6c4e287b24915bf9a428056e26aa7af4425aad.tar.gz"
+  checksum: [
+    "sha256=7d240d505baa3234a7d21e571873f47a7f1757a79a20f9a382caa7e99d8f0624"
+    "sha512=cea70bc2649725177d86318cbb209f58951dd93f738dfdb9911cbb89e261428b6ae5edbc116fd62e8c82c28cb1be7c8f4f684efb34edc702b7217b5f85cd8d58"
+  ]
 }

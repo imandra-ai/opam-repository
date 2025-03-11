@@ -1,7 +1,7 @@
 opam-version: "2.0"
-name: "imandra-stdlib"
-version: "1.0.8-51.57f05857c240404a553117a38b76ee7b71e3105b"
-synopsis: "Imandra standard library"
+name: "imandra-syntax-reason"
+version: "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"
+synopsis: "Reason for Imandra syntax"
 maintainer: "The Imandra team <tech@imandra.ai>"
 authors: "The Imandra team <tech@imandra.ai>"
 license: "proprietary"
@@ -38,19 +38,15 @@ depends: [
   "imandra-builtin-data"
     {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-document" {= "1.0.7-33.342a5be75d164d9f1a8f713f14d693a8ee6a205d"}
-  "imandra-extract" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-fol" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-job-proto"
     {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-kripke-graph"
     {= "0.0.1-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
-  "imandra-prelude" {= "1.0.7-75.1d613cb06140223a86d76be5ebda237924115c6e"}
   "imandra-reason-parser"
     {= "0.4-ai-1668.1f253b6140f2c9bb86f16d4422fa8a3ae31c7db7"}
   "imandra-surface" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-syntax" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
-  "imandra-syntax-reason"
-    {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "imandra-util" {= "1.1.0-901.2a6c4e287b24915bf9a428056e26aa7af4425aad"}
   "iter" {= "1.9"}
   "logs" {= "0.7.0"}
@@ -99,22 +95,14 @@ depends: [
   "yojson" {= "1.7.0"}
   "zarith" {= "1.12"}
 ]
-build: [
-  ["dune" "subst"] {dev}
-  [
-    "dune"
-    "build"
-    "-p"
-    name
-    "-j"
-    jobs
-    "--promote-install-files=false"
-    "@install"
-    "@runtest" {with-test}
-    "@doc" {with-doc}
-  ]
-  ["dune" "install" "-p" name "--create-install-files" name]
+extra-files: [
+  ["imandra-syntax-reason.opam" "md5=1dde97ee6527b79bcf42688c973b5e11"]
+  ["imandra-syntax-reason.install" "md5=5b7f318c2fda8b1055e13c96e44cd6fd"]
 ]
 url {
-  src: "git+https://github.com/imandra-ai/imandra-stdlib.git#57f05857c240404a553117a38b76ee7b71e3105b"
+  src: "https://storage.googleapis.com/imandra-client/imandra_dist_imandra_syntax_reason_2a6c4e287b24915bf9a428056e26aa7af4425aad.tar.gz"
+  checksum: [
+    "sha256=e1336782e71b42629ff4c7fc71eb93ac647d00eb2772f5961869ee48c600e25d"
+    "sha512=e89f296ebf8af1119453686903cda34c43fda981fd249e332748ef1959d75bc3059138e2be4ce446927bafbbf0c91982e2f9b633e737da0f9b179557565d25cd"
+  ]
 }
