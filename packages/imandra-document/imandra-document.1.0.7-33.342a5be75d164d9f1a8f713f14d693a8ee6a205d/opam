@@ -14,7 +14,7 @@ depends: [
   "conf-gmp" {= "4"}
   "containers" {= "3.12"}
   "csexp" {= "1.5.1"}
-  "dune" {= "2.9.3"}
+  "dune" {= "3.20.2"}
   "dune-configurator" {= "2.9.3"}
   "either" {= "1.0.0"}
   "ocaml" {= "4.12.1"}

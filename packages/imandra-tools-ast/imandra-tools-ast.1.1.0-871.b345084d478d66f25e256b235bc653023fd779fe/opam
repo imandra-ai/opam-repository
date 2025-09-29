@@ -16,7 +16,7 @@ depends: [
   "cmdliner" {= "1.3.0" & with-doc}
   "conf-gmp" {= "4"}
   "cppo" {= "1.6.9" & with-doc}
-  "dune" {= "2.9.3"}
+  "dune" {= "3.20.2"}
   "fmt" {= "0.9.0" & with-doc}
   "fpath" {= "0.7.3" & with-doc}
   "ocaml" {= "4.12.1"}

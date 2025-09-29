@@ -56,7 +56,7 @@ depends: [
   "digestif" {= "1.1.4"}
   "domain-name" {= "0.4.0"}
   "dot-merlin-reader" {= "4.5"}
-  "dune" {= "2.9.3"}
+  "dune" {= "3.20.2"}
   "dune-configurator" {= "2.9.3"}
   "duration" {= "0.2.1"}
   "easy-format" {= "1.3.3"}

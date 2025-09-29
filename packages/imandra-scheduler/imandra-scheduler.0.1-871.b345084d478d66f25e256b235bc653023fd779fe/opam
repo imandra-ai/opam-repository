@@ -15,7 +15,7 @@ depends: [
   "containers" {= "3.12"}
   "containers-data" {= "3.12"}
   "csexp" {= "1.5.1"}
-  "dune" {= "2.9.3"}
+  "dune" {= "3.20.2"}
   "dune-configurator" {= "2.9.3"}
   "either" {= "1.0.0"}
   "imandra-prelude" {= "1.0.7-75.1d613cb06140223a86d76be5ebda237924115c6e"}
